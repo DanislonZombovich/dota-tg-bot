@@ -21,11 +21,8 @@ def get_dota_stats():
     now = datetime.datetime.now()
     yesterday = now - datetime.timedelta(days=1)
     
-    recent_24h = []
-    for m in matches:
-        match_time = datetime.datetime.fromtimestamp(m.get('start_time', 0))
-        if match_time >= yesterday:
-            recent_24h.append(m)
+    yesterday_ts = yesterday.timestamp()
+    recent_24h = [m for m in matches if m.get("start_time", 0) >= yesterday_ts]
             
     if not recent_24h:
         return "NO_GAMES"
