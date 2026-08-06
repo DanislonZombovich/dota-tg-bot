@@ -3,6 +3,7 @@ import requests
 import google.generativeai as genai
 import datetime
 import time
+from heroes_data import HEROES_DICT
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
 TG_CHANNEL_ID = os.environ.get("TG_CHANNEL_ID")
@@ -35,13 +36,8 @@ def get_dota_stats():
     wl_resp = requests.get(wl_url)
     wl_data = wl_resp.json() if wl_resp.status_code == 200 else {}
     
-    # 4. Heroes mapping
-    heroes_url = "https://api.opendota.com/api/heroes"
-    heroes_resp = requests.get(heroes_url)
-    heroes_dict = {}
-    if heroes_resp.status_code == 200:
-        for h in heroes_resp.json():
-            heroes_dict[h['id']] = h['localized_name']
+    # 4. Heroes mapping (Optimized: using static dictionary)
+    heroes_dict = HEROES_DICT
 
     # Compile data for AI
     total_wins = wl_data.get('win', 0)
