@@ -73,13 +73,15 @@ def get_dota_stats():
 
     return stats_text
 
-def analyze_with_ai(stats_text, retries=3):
+def analyze_with_ai(stats_text, retries=2):
     genai.configure(api_key=GOOGLE_API_KEY)
     
+    # Лесенка моделей по убыванию качества
     models_to_try = [
-        'antigravity-preview-05-2026', 
         'gemini-3.5-flash', 
-        'gemini-flash-lite-latest',
+        'gemini-3.5-flash-lite',
+        'gemini-3.1-flash-lite',
+        'gemini-2.5-flash',
         'gemini-1.5-flash'
     ]
 
@@ -107,7 +109,8 @@ def analyze_with_ai(stats_text, retries=3):
                 print(f"Trying model {model_name} (attempt {attempt + 1})...")
                 model = genai.GenerativeModel(model_name)
                 response = model.generate_content(prompt)
-                return response.text
+                if response and response.text:
+                    return response.text
             except Exception as e:
                 print(f"Failed with {model_name}: {e}")
         
