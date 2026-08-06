@@ -2,6 +2,7 @@ import os
 import requests
 import google.generativeai as genai
 import datetime
+import time
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
 TG_CHANNEL_ID = os.environ.get("TG_CHANNEL_ID")
@@ -72,15 +73,10 @@ def get_dota_stats():
 
     return stats_text
 
-def analyze_with_ai(stats_text):
+def analyze_with_ai(stats_text, retries=3):
     genai.configure(api_key=GOOGLE_API_KEY)
     
-    # gemini-1.5-flash since gemini-3.5-flash-lite doesn't exist yet (1.5 is the latest gen for flash, wait 2.0 flash is also out, we'll use 1.5 flash to be safe and available)
-    # Actually let's try gemini-2.0-flash-lite if available, fallback to 1.5-flash
-    try:
-         model = genai.GenerativeModel('gemini-2.0-flash-lite')
-    except Exception:
-         model = genai.GenerativeModel('gemini-1.5-flash')
+    models_to_try = ['gemini-flash-lite-latest', 'gemini-1.5-flash', 'gemini-pro']
 
     system_prompt = (
         "Ты - киберспортивный аналитик, который пишет пост для Telegram-канала. "
@@ -98,11 +94,21 @@ def analyze_with_ai(stats_text):
 
     prompt = f"{system_prompt}\n\nДанные для анализа:\n{stats_text}"
     
-    try:
-        response = model.generate_content(prompt)
-        return response.text
-    except Exception as e:
-        return f"Не удалось сгенерировать текст нейросетью. Ошибка: {e}"
+    for attempt in range(retries):
+        for model_name in models_to_try:
+            try:
+                print(f"Trying model {model_name} (attempt {attempt + 1})...")
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(prompt)
+                return response.text
+            except Exception as e:
+                print(f"Failed with {model_name}: {e}")
+        
+        if attempt < retries - 1:
+            print("Rate limited or error on all models, sleeping for 15 seconds before retry...")
+            time.sleep(15)
+
+    return "Не удалось сгенерировать текст нейросетью из-за лимитов API. Попробуйте позже."
 
 def send_to_telegram(text):
     url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/sendMessage"
@@ -119,7 +125,7 @@ def send_to_telegram(text):
 
 def main():
     if not all([TG_BOT_TOKEN, TG_CHANNEL_ID, GOOGLE_API_KEY, DOTA_ACCOUNT_ID]):
-        print("Missing environment variables. Make sure secrets are set in GitHub Actions.")
+        print("Missing environment variables. Make sure variables are set in GitHub Actions.")
         return
         
     print("Fetching Dota 2 stats...")
