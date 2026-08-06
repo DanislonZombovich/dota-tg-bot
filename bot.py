@@ -28,7 +28,7 @@ def get_dota_stats():
             recent_24h.append(m)
             
     if not recent_24h:
-        return "За последние 24 часа Данислон Зомбович-Ликвидонов не сыграл ни одной игры. Можно расслабиться!"
+        return "NO_GAMES"
 
     # 3. Overall stats (win/loss)
     wl_url = f"https://api.opendota.com/api/players/{DOTA_ACCOUNT_ID}/wl"
@@ -130,13 +130,17 @@ def main():
         
     print("Fetching Dota 2 stats...")
     stats_text = get_dota_stats()
+    
+    if stats_text == "NO_GAMES":
+        print("No games played today. Exiting without posting.")
+        return
+        
+    if "Не удалось получить" in stats_text:
+        print(stats_text)
+        return
+
     print("Stats fetched:")
     print(stats_text)
-    
-    if "не сыграл ни одной игры" in stats_text:
-        print("No games played today. Sending short message.")
-        send_to_telegram(stats_text)
-        return
 
     print("Analyzing with AI...")
     ai_text = analyze_with_ai(stats_text)
