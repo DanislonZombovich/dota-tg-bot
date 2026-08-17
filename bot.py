@@ -53,23 +53,72 @@ def get_dota_stats():
     stats_text += f"Игры за последние 24 часа ({len(recent_24h)} шт):\n"
     
     for i, m in enumerate(recent_24h, 1):
+        match_id = m.get('match_id')
         hero_id = m.get('hero_id')
         hero_name = heroes_dict.get(hero_id, f"Hero_ID_{hero_id}")
-        kills = m.get('kills', 0)
-        deaths = m.get('deaths', 0)
-        assists = m.get('assists', 0)
-        gpm = m.get('gold_per_min', 0)
-        xpm = m.get('xp_per_min', 0)
         
-        # Player is radiant if player_slot < 128. Radiant wins if radiant_win is True.
-        player_slot = m.get('player_slot', 0)
-        is_radiant = player_slot < 128
-        radiant_win = m.get('radiant_win', False)
-        
-        won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
+        # Fetch deep match data
+        deep_match_url = f"https://api.opendota.com/api/matches/{match_id}"
+        try:
+            deep_resp = requests.get(deep_match_url)
+            deep_data = deep_resp.json()
+
+            # Find the specific player in the match
+            player_data = next((p for p in deep_data.get('players', []) if str(p.get('account_id')) == str(DOTA_ACCOUNT_ID)), None)
+
+            if player_data:
+                kills = player_data.get('kills', 0)
+                deaths = player_data.get('deaths', 0)
+                assists = player_data.get('assists', 0)
+                gpm = player_data.get('gold_per_min', 0)
+                xpm = player_data.get('xp_per_min', 0)
+                hero_damage = player_data.get('hero_damage', 0)
+                tower_damage = player_data.get('tower_damage', 0)
+                net_worth = player_data.get('net_worth', 0)
+                apm = player_data.get('actions_per_min', 0)
+
+                is_radiant = player_data.get('isRadiant', False)
+                radiant_win = deep_data.get('radiant_win', False)
+                won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
+
+            else:
+                # Fallback to basic data if player not found in deep match data for some reason
+                kills = m.get('kills', 0)
+                deaths = m.get('deaths', 0)
+                assists = m.get('assists', 0)
+                gpm = m.get('gold_per_min', 0)
+                xpm = m.get('xp_per_min', 0)
+                hero_damage = "N/A"
+                tower_damage = "N/A"
+                net_worth = "N/A"
+                apm = "N/A"
+
+                player_slot = m.get('player_slot', 0)
+                is_radiant = player_slot < 128
+                radiant_win = m.get('radiant_win', False)
+                won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
+
+        except Exception as e:
+            print(f"Error fetching deep match data for {match_id}: {e}")
+            kills = m.get('kills', 0)
+            deaths = m.get('deaths', 0)
+            assists = m.get('assists', 0)
+            gpm = m.get('gold_per_min', 0)
+            xpm = m.get('xp_per_min', 0)
+            hero_damage = "Error"
+            tower_damage = "Error"
+            net_worth = "Error"
+            apm = "Error"
+
+            player_slot = m.get('player_slot', 0)
+            is_radiant = player_slot < 128
+            radiant_win = m.get('radiant_win', False)
+            won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
+
         result = "Победа" if won else "Поражение"
         
         stats_text += f"Игра {i}: {result}, Герой: {hero_name}, KDA: {kills}/{deaths}/{assists}, GPM: {gpm}, XPM: {xpm}\n"
+        stats_text += f"      Урон по героям: {hero_damage}, Урон по вышкам: {tower_damage}, Нетворс: {net_worth}, APM: {apm}\n"
 
     return stats_text
 
@@ -90,13 +139,14 @@ def analyze_with_ai(stats_text, retries=2):
         "Пользователя зовут Данислон Зомбович-Ликвидонов. "
         "Твой стиль: глубокая аналитика, приправленная постиронией и метаиронией. "
         "Используй свои продвинутые способности для максимально глубокого анализа: "
-        "делай выводы о его макро и микро игре на основе цифр KDA, GPM и XPM. "
+        "делай выводы о его макро и микро игре на основе расширенных логов матча, включая KDA, GPM, XPM, а также Урон по героям, Урон по вышкам, Нетворс и APM (Actions Per Minute). "
+        "Тщательно анализируй эти глубокие данные, чтобы понять его реальный импакт в игре. "
         "Когда Данислон делает крутые вещи, ты его безумно уважаешь, называешь гением, "
         "сравниваешь с победителями The International. "
-        "Когда он фидит, умирает или проигрывает, ты стебешься над ним, "
+        "Когда он фидит, умирает или проигрывает (или имеет низкий APM и урон), ты стебешься над ним, "
         "но делаешь это уважительно, тонко и смешно, как любящий, но строгий тренер. "
         "Твоя задача — сделать глубокий, интересный и забавный анализ его игр за сегодня "
-        "на основе предоставленных данных и упомянуть общую статистику (винрейт). "
+        "на основе предоставленных подробных данных и упомянуть общую статистику (винрейт). "
         "Пиши текст, готовый для публикации в Telegram, с эмодзи. "
         "Не используй слишком длинные вступления, переходи сразу к сути (к Данислону)."
     )
