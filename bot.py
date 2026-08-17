@@ -56,7 +56,26 @@ def get_dota_stats():
         match_id = m.get('match_id')
         hero_id = m.get('hero_id')
         hero_name = heroes_dict.get(hero_id, f"Hero_ID_{hero_id}")
+
+        # Default variables
+        kills = m.get('kills', 0)
+        deaths = m.get('deaths', 0)
+        assists = m.get('assists', 0)
+        gpm = m.get('gold_per_min', 0)
+        xpm = m.get('xp_per_min', 0)
+        hero_damage = "N/A"
+        tower_damage = "N/A"
+        net_worth = "N/A"
+        apm = "N/A"
+        ability_str = ""
+        items_str = ""
+        killed_by_str = ""
         
+        player_slot = m.get('player_slot', 0)
+        is_radiant = player_slot < 128
+        radiant_win = m.get('radiant_win', False)
+        won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
+
         # Fetch deep match data
         deep_match_url = f"https://api.opendota.com/api/matches/{match_id}"
         try:
@@ -77,48 +96,41 @@ def get_dota_stats():
                 net_worth = player_data.get('net_worth', 0)
                 apm = player_data.get('actions_per_min', 0)
 
+                # Deeper logs parsing
+                ability_uses = player_data.get('ability_uses', {})
+                if ability_uses:
+                    # Keep top 5 abilities used to not overflow token limits
+                    sorted_abilities = sorted(ability_uses.items(), key=lambda x: x[1], reverse=True)[:5]
+                    ability_str = " | ".join([f"{k}: {v} раз" for k, v in sorted_abilities])
+
+                purchase_log = player_data.get('purchase_log', [])
+                if purchase_log:
+                    # Extract last 5 major purchases (filtering out cheap items like tango/tpscroll if possible, but let's just get the last few)
+                    purchases = [p.get('key') for p in purchase_log[-5:] if 'key' in p]
+                    items_str = ", ".join(purchases)
+
+                killed_by = player_data.get('killed_by', {})
+                if killed_by:
+                    sorted_killers = sorted(killed_by.items(), key=lambda x: x[1], reverse=True)[:3]
+                    killed_by_str = " | ".join([f"{k} убил {v} раз" for k, v in sorted_killers])
+
                 is_radiant = player_data.get('isRadiant', False)
                 radiant_win = deep_data.get('radiant_win', False)
                 won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
 
-            else:
-                # Fallback to basic data if player not found in deep match data for some reason
-                kills = m.get('kills', 0)
-                deaths = m.get('deaths', 0)
-                assists = m.get('assists', 0)
-                gpm = m.get('gold_per_min', 0)
-                xpm = m.get('xp_per_min', 0)
-                hero_damage = "N/A"
-                tower_damage = "N/A"
-                net_worth = "N/A"
-                apm = "N/A"
-
-                player_slot = m.get('player_slot', 0)
-                is_radiant = player_slot < 128
-                radiant_win = m.get('radiant_win', False)
-                won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
-
         except Exception as e:
             print(f"Error fetching deep match data for {match_id}: {e}")
-            kills = m.get('kills', 0)
-            deaths = m.get('deaths', 0)
-            assists = m.get('assists', 0)
-            gpm = m.get('gold_per_min', 0)
-            xpm = m.get('xp_per_min', 0)
-            hero_damage = "Error"
-            tower_damage = "Error"
-            net_worth = "Error"
-            apm = "Error"
-
-            player_slot = m.get('player_slot', 0)
-            is_radiant = player_slot < 128
-            radiant_win = m.get('radiant_win', False)
-            won = (is_radiant and radiant_win) or (not is_radiant and not radiant_win)
 
         result = "Победа" if won else "Поражение"
         
         stats_text += f"Игра {i}: {result}, Герой: {hero_name}, KDA: {kills}/{deaths}/{assists}, GPM: {gpm}, XPM: {xpm}\n"
         stats_text += f"      Урон по героям: {hero_damage}, Урон по вышкам: {tower_damage}, Нетворс: {net_worth}, APM: {apm}\n"
+        if ability_str:
+            stats_text += f"      Нажатия скиллов (топ-5): {ability_str}\n"
+        if items_str:
+            stats_text += f"      Последние купленные предметы: {items_str}\n"
+        if killed_by_str:
+            stats_text += f"      Чаще всего умирал от: {killed_by_str}\n"
 
     return stats_text
 
@@ -139,14 +151,15 @@ def analyze_with_ai(stats_text, retries=2):
         "Пользователя зовут Данислон Зомбович-Ликвидонов. "
         "Твой стиль: глубокая аналитика, приправленная постиронией и метаиронией. "
         "Используй свои продвинутые способности для максимально глубокого анализа: "
-        "делай выводы о его макро и микро игре на основе расширенных логов матча, включая KDA, GPM, XPM, а также Урон по героям, Урон по вышкам, Нетворс и APM (Actions Per Minute). "
-        "Тщательно анализируй эти глубокие данные, чтобы понять его реальный импакт в игре. "
-        "Когда Данислон делает крутые вещи, ты его безумно уважаешь, называешь гением, "
+        "делай выводы о его макро и микро игре на основе расширенных логов матча, включая KDA, GPM, XPM, а также Урон по героям, Урон по вышкам, Нетворс, APM (Actions Per Minute). "
+        "Самое главное: анализируй логи использования способностей (нажимал ли он ульту?), последние купленные предметы (собирал ли он странные вещи?) и от кого он умирал (фидил ли одному и тому же герою?). "
+        "Выявляй конкретные игровые ошибки и микромоменты из этих логов. "
+        "Когда Данислон делает крутые вещи или имеет идеальную статистику, ты его безумно уважаешь, называешь гением, "
         "сравниваешь с победителями The International. "
-        "Когда он фидит, умирает или проигрывает (или имеет низкий APM и урон), ты стебешься над ним, "
+        "Когда он фидит, умирает, проигрывает (или имеет плохой закуп, низкий APM, не нажимает ульту, фидит саппортам), ты стебешься над ним, "
         "но делаешь это уважительно, тонко и смешно, как любящий, но строгий тренер. "
         "Твоя задача — сделать глубокий, интересный и забавный анализ его игр за сегодня "
-        "на основе предоставленных подробных данных и упомянуть общую статистику (винрейт). "
+        "на основе предоставленных подробных данных и логов. Упомяни общую статистику (винрейт). "
         "Пиши текст, готовый для публикации в Telegram, с эмодзи. "
         "Не используй слишком длинные вступления, переходи сразу к сути (к Данислону)."
     )
