@@ -25,9 +25,9 @@ jobs:
 
     - name: Run Bot
       env:
-        TG_BOT_TOKEN: ${{ vars.TG_BOT_TOKEN }}
-        TG_CHANNEL_ID: ${{ vars.TG_CHANNEL_ID }}
-        GOOGLE_API_KEY: ${{ vars.GOOGLE_API_KEY }}
-        DOTA_ACCOUNT_ID: ${{ vars.DOTA_ACCOUNT_ID }}
+        TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        TG_CHANNEL_ID: ${{ secrets.TG_CHANNEL_ID }}
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        DOTA_ACCOUNT_ID: ${{ secrets.DOTA_ACCOUNT_ID }}
       run: |
         python bot.py
