@@ -1,7 +1,7 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-04T15:17:22.524786+00:00",
+  "last_updated": "2026-10-04T19:56:44.815124+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
     "total_games": 1673,
@@ -27,8 +27,8 @@
       "net_worth": 73781,
       "hero_damage": 96174,
       "tower_damage": 101,
-      "apm": "N/A",
-      "lane_role": "Flex / Roam",
+      "apm": 269,
+      "lane_role": "Mid Lane",
       "lane_outcome": "Завершен",
       "final_items": [
         "travel_boots_2",
@@ -39,7 +39,404 @@
         "yasha_and_kaya"
       ],
       "neutral_item": "harmonizer",
-      "purchase_timeline": [],
+      "purchase_timeline": [
+        {
+          "minute": 0,
+          "time": "-00:59",
+          "item": "magic_stick",
+          "name": "Magic Stick"
+        },
+        {
+          "minute": 0,
+          "time": "-00:59",
+          "item": "circlet",
+          "name": "Circlet"
+        },
+        {
+          "minute": 0,
+          "time": "-00:59",
+          "item": "branches",
+          "name": "Branches"
+        },
+        {
+          "minute": 0,
+          "time": "-00:59",
+          "item": "branches",
+          "name": "Branches"
+        },
+        {
+          "minute": 0,
+          "time": "00:10",
+          "item": "mantle",
+          "name": "Mantle"
+        },
+        {
+          "minute": 0,
+          "time": "00:19",
+          "item": "null_talisman",
+          "name": "Null Talisman"
+        },
+        {
+          "minute": 1,
+          "time": "01:46",
+          "item": "boots",
+          "name": "Boots"
+        },
+        {
+          "minute": 2,
+          "time": "02:46",
+          "item": "gloves",
+          "name": "Gloves"
+        },
+        {
+          "minute": 2,
+          "time": "02:47",
+          "item": "robe",
+          "name": "Robe"
+        },
+        {
+          "minute": 3,
+          "time": "03:08",
+          "item": "power_treads",
+          "name": "Power Treads"
+        },
+        {
+          "minute": 5,
+          "time": "05:23",
+          "item": "blink",
+          "name": "Blink"
+        },
+        {
+          "minute": 6,
+          "time": "06:16",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        },
+        {
+          "minute": 7,
+          "time": "07:27",
+          "item": "point_booster",
+          "name": "Point Booster"
+        },
+        {
+          "minute": 8,
+          "time": "08:32",
+          "item": "ogre_axe",
+          "name": "Ogre Axe"
+        },
+        {
+          "minute": 9,
+          "time": "09:55",
+          "item": "staff_of_wizardry",
+          "name": "Staff Of Wizardry"
+        },
+        {
+          "minute": 9,
+          "time": "09:55",
+          "item": "blade_of_alacrity",
+          "name": "Blade Of Alacrity"
+        },
+        {
+          "minute": 10,
+          "time": "10:06",
+          "item": "ultimate_scepter",
+          "name": "Ultimate Scepter"
+        },
+        {
+          "minute": 11,
+          "time": "11:35",
+          "item": "staff_of_wizardry",
+          "name": "Staff Of Wizardry"
+        },
+        {
+          "minute": 11,
+          "time": "11:36",
+          "item": "robe",
+          "name": "Robe"
+        },
+        {
+          "minute": 11,
+          "time": "11:36",
+          "item": "kaya",
+          "name": "Kaya"
+        },
+        {
+          "minute": 12,
+          "time": "12:19",
+          "item": "blade_of_alacrity",
+          "name": "Blade Of Alacrity"
+        },
+        {
+          "minute": 12,
+          "time": "12:27",
+          "item": "boots_of_elves",
+          "name": "Boots Of Elves"
+        },
+        {
+          "minute": 12,
+          "time": "12:44",
+          "item": "yasha",
+          "name": "Yasha"
+        },
+        {
+          "minute": 12,
+          "time": "12:44",
+          "item": "yasha_and_kaya",
+          "name": "Yasha And Kaya"
+        },
+        {
+          "minute": 12,
+          "time": "12:51",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        },
+        {
+          "minute": 13,
+          "time": "13:54",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        },
+        {
+          "minute": 14,
+          "time": "14:20",
+          "item": "claymore",
+          "name": "Claymore"
+        },
+        {
+          "minute": 14,
+          "time": "14:20",
+          "item": "blades_of_attack",
+          "name": "Blades Of Attack"
+        },
+        {
+          "minute": 14,
+          "time": "14:20",
+          "item": "lesser_crit",
+          "name": "Lesser Crit"
+        },
+        {
+          "minute": 15,
+          "time": "15:03",
+          "item": "demon_edge",
+          "name": "Demon Edge"
+        },
+        {
+          "minute": 16,
+          "time": "16:30",
+          "item": "greater_crit",
+          "name": "Greater Crit"
+        },
+        {
+          "minute": 16,
+          "time": "16:55",
+          "item": "mithril_hammer",
+          "name": "Mithril Hammer"
+        },
+        {
+          "minute": 16,
+          "time": "16:56",
+          "item": "ogre_axe",
+          "name": "Ogre Axe"
+        },
+        {
+          "minute": 17,
+          "time": "17:07",
+          "item": "black_king_bar",
+          "name": "Black King Bar"
+        },
+        {
+          "minute": 18,
+          "time": "18:29",
+          "item": "aghanims_shard",
+          "name": "Aghanims Shard"
+        },
+        {
+          "minute": 18,
+          "time": "18:52",
+          "item": "claymore",
+          "name": "Claymore"
+        },
+        {
+          "minute": 18,
+          "time": "18:52",
+          "item": "blitz_knuckles",
+          "name": "Blitz Knuckles"
+        },
+        {
+          "minute": 18,
+          "time": "18:52",
+          "item": "invis_sword",
+          "name": "Invis Sword"
+        },
+        {
+          "minute": 18,
+          "time": "18:52",
+          "item": "shadow_amulet",
+          "name": "Shadow Amulet"
+        },
+        {
+          "minute": 18,
+          "time": "18:52",
+          "item": "demon_edge",
+          "name": "Demon Edge"
+        },
+        {
+          "minute": 18,
+          "time": "18:53",
+          "item": "silver_edge",
+          "name": "Silver Edge"
+        },
+        {
+          "minute": 19,
+          "time": "19:49",
+          "item": "ultimate_scepter_2",
+          "name": "Ultimate Scepter 2"
+        },
+        {
+          "minute": 23,
+          "time": "23:19",
+          "item": "boots",
+          "name": "Boots"
+        },
+        {
+          "minute": 23,
+          "time": "23:19",
+          "item": "travel_boots",
+          "name": "Travel Boots"
+        },
+        {
+          "minute": 23,
+          "time": "23:19",
+          "item": "travel_boots_2",
+          "name": "Travel Boots 2"
+        },
+        {
+          "minute": 23,
+          "time": "23:47",
+          "item": "mystic_staff",
+          "name": "Mystic Staff"
+        },
+        {
+          "minute": 24,
+          "time": "24:03",
+          "item": "arcane_blink",
+          "name": "Arcane Blink"
+        },
+        {
+          "minute": 25,
+          "time": "25:23",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        },
+        {
+          "minute": 25,
+          "time": "25:23",
+          "item": "moon_shard",
+          "name": "Moon Shard"
+        },
+        {
+          "minute": 25,
+          "time": "25:23",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        },
+        {
+          "minute": 27,
+          "time": "27:30",
+          "item": "reaver",
+          "name": "Reaver"
+        },
+        {
+          "minute": 28,
+          "time": "28:21",
+          "item": "demon_edge",
+          "name": "Demon Edge"
+        },
+        {
+          "minute": 28,
+          "time": "28:21",
+          "item": "blitz_knuckles",
+          "name": "Blitz Knuckles"
+        },
+        {
+          "minute": 28,
+          "time": "28:21",
+          "item": "javelin",
+          "name": "Javelin"
+        },
+        {
+          "minute": 28,
+          "time": "28:21",
+          "item": "monkey_king_bar",
+          "name": "Monkey King Bar"
+        },
+        {
+          "minute": 30,
+          "time": "30:26",
+          "item": "helm_of_iron_will",
+          "name": "Helm Of Iron Will"
+        },
+        {
+          "minute": 30,
+          "time": "30:26",
+          "item": "crown",
+          "name": "Crown"
+        },
+        {
+          "minute": 30,
+          "time": "30:26",
+          "item": "helm_of_the_dominator",
+          "name": "Helm Of The Dominator"
+        },
+        {
+          "minute": 30,
+          "time": "30:26",
+          "item": "ultimate_orb",
+          "name": "Ultimate Orb"
+        },
+        {
+          "minute": 30,
+          "time": "30:26",
+          "item": "helm_of_the_overlord",
+          "name": "Helm Of The Overlord"
+        },
+        {
+          "minute": 31,
+          "time": "31:28",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        },
+        {
+          "minute": 31,
+          "time": "31:28",
+          "item": "moon_shard",
+          "name": "Moon Shard"
+        },
+        {
+          "minute": 31,
+          "time": "31:28",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        },
+        {
+          "minute": 31,
+          "time": "31:28",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        },
+        {
+          "minute": 31,
+          "time": "31:28",
+          "item": "moon_shard",
+          "name": "Moon Shard"
+        },
+        {
+          "minute": 31,
+          "time": "31:28",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        }
+      ],
       "skill_build": [
         {
           "level": 1,
@@ -157,21 +554,203 @@
           "name": "Special Bonus Unique Lion 4"
         }
       ],
-      "chat_log": [],
-      "deaths_log": [],
+      "chat_log": [
+        {
+          "time": "-00:35",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34001]"
+        },
+        {
+          "time": "-00:32",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34003]"
+        },
+        {
+          "time": "-00:29",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11002]"
+        },
+        {
+          "time": "-00:24",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34004]"
+        },
+        {
+          "time": "-00:20",
+          "sender": "Necrophos",
+          "hero": "necrolyte",
+          "channel": "All",
+          "text": "[Колесо чата: 76]"
+        },
+        {
+          "time": "-00:14",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11001]"
+        },
+        {
+          "time": "-00:13",
+          "sender": "Windranger",
+          "hero": "windrunner",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "-00:13",
+          "sender": "Windranger",
+          "hero": "windrunner",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "11:45",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34001]"
+        },
+        {
+          "time": "11:47",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11001]"
+        },
+        {
+          "time": "11:48",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11001]"
+        },
+        {
+          "time": "11:49",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34001]"
+        },
+        {
+          "time": "11:51",
+          "sender": "Necrophos",
+          "hero": "necrolyte",
+          "channel": "All",
+          "text": "[Колесо чата: 76]"
+        },
+        {
+          "time": "22:09",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34001]"
+        },
+        {
+          "time": "22:11",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11001]"
+        },
+        {
+          "time": "22:13",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11001]"
+        },
+        {
+          "time": "22:25",
+          "sender": "Necrophos",
+          "hero": "necrolyte",
+          "channel": "All",
+          "text": "[Колесо чата: 76]"
+        },
+        {
+          "time": "22:42",
+          "sender": "Shadow Fiend",
+          "hero": "nevermore",
+          "channel": "All",
+          "text": "[Колесо чата: 11001]"
+        },
+        {
+          "time": "24:23",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 34004]"
+        },
+        {
+          "time": "25:42",
+          "sender": "Tinker",
+          "hero": "tinker",
+          "channel": "All",
+          "text": "[Колесо чата: 821]"
+        }
+      ],
+      "deaths_log": [
+        {
+          "time": "08:17",
+          "killer": "Necrolyte",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Necrolyte"
+        },
+        {
+          "time": "15:19",
+          "killer": "Tinker",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Tinker"
+        },
+        {
+          "time": "19:41",
+          "killer": "Nevermore",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Nevermore"
+        },
+        {
+          "time": "32:35",
+          "killer": "Windrunner",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Windrunner"
+        }
+      ],
       "ai_analysis": {
-        "diagnosis": "Уолл-стритский маньяк на Лионе с синдромом дефицита внимания к строениям.",
-        "clown_rating": "150 / 1000 TI God",
-        "coach_verdict": "Данислон, объясни мне, старому тренеру, как при GPM 2249 и 32 киллах можно нанести ВСЕГО 101 урона по вышкам? Ты бегал вокруг Т3 соперников, кастуя Finger of Death в кусты, пока твоя команда сносила трон? 73 тысячи нетворса на Lion — это не Dota 2, это симулятор налогового инспектора в Люберцах. Да, микро-игра великолепна, 11 KDA стирает любые вопросы к твоим кнопкам, но макро-понимание на уровне 'вижу героя — жму палец'. Ты выиграл игру в соло, но сделал это максимально извращенным способом.",
+        "diagnosis": "Хронический синдром керри-Лиона в терминальной стадии: 96к урона по героям и 101 урон по строениям.",
+        "clown_rating": "922 / 1000 (Клоун высшей гильдии)",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов показал эталонную игру берсерка с Папуа — Новой Гвинеи. 32 фрага, 2249 GPM и 73 тысячи золота говорят о тотальном геноциде лобби, однако 101 урон по строениям за 38 минут наглядно демонстрирует приоритеты: ломать лица — да, ломать трон — пусть этим занимаются рабы. В макро Данислон играл в кастомный шутер от третьего лица, напрочь забыв, что Dota 2 — игра про снос базы.",
         "key_mistakes": [
-          "Абсолютный пацифизм по отношению к зданиям: 101 урон по таверам при нетворсе 73к — это экономическое преступление.",
-          "Покупка Helm of the Overlord. Зачем Лиону древний гранитный голем? Чтобы водить его на поводке по вражескому лесу в качестве питомца?",
-          "Monkey King Bar в финальном закупке. Ты явно планировал перестрелять вражеского керри автоатаками, забыв, что ты маг."
+          "101 Tower Damage при нетворсе в 74 тысячи — полное игнорирование пуша и победных условий игры.",
+          "Финансовая шизофрения: покупка Daedalus (Greater Crit) и Silver Edge на 16–18 минутах с последующим их распылением ради Overlord и MKB.",
+          "Закупка Helm of the Overlord на 30-й минуте на мидовом Лионе чисто ради того, чтобы ультавать по врагам в компании подчиненной древней гидры."
         ],
-        "positioning_review": "С Arcane Blink, BKB и Travel Boots 2 твоя позиционка описывалась фразой: 'Я лечу куда хочу, вы все равно умрете'. 4 смерти при 32 убийствах говорят о том, что враги боялись выходить с фонтана. Ты инициировал драки лицом и выходил из них победителем просто за счет колоссального перефарма.",
-        "build_review": "Твоя сборка — это манифест постмодернизма. Yasha and Kaya дает скорость бега, Arcane Blink — каст-рейндж. Но MKB и Helm of the Overlord на Лионе? Ты собрал кастомный гибрид зоопарка и физического ДПС. Прокачка скиллов стандартная (через макс Impale), но закуп предметов намекает на тяжелую форму игровой скуки.",
-        "chat_review": "Лог чата пуст. И это пугает больше всего. Тихий психопат, который молча выносит карту с 2249 GPM, собирает Доминатор на Лиона и ни разу не пишет в общий чат '?' после очередного Finger of Death. Враги, скорее всего, плакали в подушку прямо во время матча.",
-        "advice": "В следующем матче собери Battle Fury и Daedalus, раз уж ты так отчаянно хочешь бить с руки. А если серьезно — нажми хотя бы пару раз правой кнопкой мыши по вражескому трону, он тоже хочет твоего внимания."
+        "positioning_review": "4 смерти для игры с 32 фрагами — результат достойный, но каждая смерть происходила исключительно из-за чрезмерной наглости. Данислон с грацией парового катка влетал впятерых с Arcane Blink, полагая, что BKB и бесконечные Moon Shard сделают его бессмертным. Смерти от Тинкера и Некрофоса показывают, что позиционка на задней линии для саппортов — не барское дело Ликвидонова.",
+        "build_review": "Билд вызывает нервный тик у любого тренера из верхнего дивизиона DPC. Начав как адекватный прокастер через Блинк, Аганим и Кайю-Яшу, к 25-й минуте Данислон окончательно сошел с ума и превратился в пулемет: сожранные Moon Shard, MKB, а под занавес — Helm of the Overlord. Прокачка скиллов адекватная (макс Impale и Hex), но зачем магу столько скорости атаки, знает только внутренний голос Зомбовича.",
+        "chat_review": "Пока вражеские Тинкер, Невермор и Некрофос непрерывно спамили колесо чата от ужаса и бессилия, Данислон не проронил ни слова. Это поведение хладнокровного мясника: полное радиомолчание в чате при тотальном деклассировании оппонентов на карте.",
+        "advice": "В следующей игре найди на клавиатуре кнопку атаки по вышкам, а вместо Доминатора купи Рапиру — если уж косплеить керри на Лионе, то идти до самого конца."
       }
     },
     {
@@ -191,8 +770,8 @@
       "net_worth": 23065,
       "hero_damage": 41922,
       "tower_damage": 9563,
-      "apm": "N/A",
-      "lane_role": "Flex / Roam",
+      "apm": 346,
+      "lane_role": "Offlane",
       "lane_outcome": "Завершен",
       "final_items": [
         "mjollnir",
@@ -203,7 +782,188 @@
         "bracer"
       ],
       "neutral_item": "gunpowder_gauntlets",
-      "purchase_timeline": [],
+      "purchase_timeline": [
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "magic_stick",
+          "name": "Magic Stick"
+        },
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "gauntlets",
+          "name": "Gauntlets"
+        },
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "gauntlets",
+          "name": "Gauntlets"
+        },
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "branches",
+          "name": "Branches"
+        },
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "branches",
+          "name": "Branches"
+        },
+        {
+          "minute": 0,
+          "time": "-00:05",
+          "item": "ring_of_protection",
+          "name": "Ring Of Protection"
+        },
+        {
+          "minute": 1,
+          "time": "01:34",
+          "item": "circlet",
+          "name": "Circlet"
+        },
+        {
+          "minute": 2,
+          "time": "02:00",
+          "item": "soul_ring",
+          "name": "Soul Ring"
+        },
+        {
+          "minute": 2,
+          "time": "02:40",
+          "item": "gauntlets",
+          "name": "Gauntlets"
+        },
+        {
+          "minute": 4,
+          "time": "04:37",
+          "item": "bracer",
+          "name": "Bracer"
+        },
+        {
+          "minute": 4,
+          "time": "04:37",
+          "item": "magic_wand",
+          "name": "Magic Wand"
+        },
+        {
+          "minute": 7,
+          "time": "07:38",
+          "item": "point_booster",
+          "name": "Point Booster"
+        },
+        {
+          "minute": 8,
+          "time": "08:45",
+          "item": "staff_of_wizardry",
+          "name": "Staff Of Wizardry"
+        },
+        {
+          "minute": 12,
+          "time": "12:08",
+          "item": "ogre_axe",
+          "name": "Ogre Axe"
+        },
+        {
+          "minute": 13,
+          "time": "13:19",
+          "item": "blade_of_alacrity",
+          "name": "Blade Of Alacrity"
+        },
+        {
+          "minute": 13,
+          "time": "13:58",
+          "item": "ultimate_scepter",
+          "name": "Ultimate Scepter"
+        },
+        {
+          "minute": 15,
+          "time": "15:59",
+          "item": "mithril_hammer",
+          "name": "Mithril Hammer"
+        },
+        {
+          "minute": 17,
+          "time": "17:30",
+          "item": "javelin",
+          "name": "Javelin"
+        },
+        {
+          "minute": 17,
+          "time": "17:45",
+          "item": "maelstrom",
+          "name": "Maelstrom"
+        },
+        {
+          "minute": 17,
+          "time": "17:45",
+          "item": "gloves",
+          "name": "Gloves"
+        },
+        {
+          "minute": 20,
+          "time": "20:03",
+          "item": "aghanims_shard",
+          "name": "Aghanims Shard"
+        },
+        {
+          "minute": 23,
+          "time": "23:38",
+          "item": "ogre_axe",
+          "name": "Ogre Axe"
+        },
+        {
+          "minute": 25,
+          "time": "25:48",
+          "item": "hyperstone",
+          "name": "Hyperstone"
+        },
+        {
+          "minute": 25,
+          "time": "25:54",
+          "item": "great_famango",
+          "name": "Great Famango"
+        },
+        {
+          "minute": 26,
+          "time": "26:30",
+          "item": "mjollnir",
+          "name": "Mjollnir"
+        },
+        {
+          "minute": 27,
+          "time": "27:31",
+          "item": "claymore",
+          "name": "Claymore"
+        },
+        {
+          "minute": 27,
+          "time": "27:32",
+          "item": "blades_of_attack",
+          "name": "Blades Of Attack"
+        },
+        {
+          "minute": 27,
+          "time": "27:32",
+          "item": "lesser_crit",
+          "name": "Lesser Crit"
+        },
+        {
+          "minute": 30,
+          "time": "30:30",
+          "item": "demon_edge",
+          "name": "Demon Edge"
+        },
+        {
+          "minute": 31,
+          "time": "31:11",
+          "item": "greater_crit",
+          "name": "Greater Crit"
+        }
+      ],
       "skill_build": [
         {
           "level": 1,
@@ -301,21 +1061,282 @@
           "name": "Special Bonus Unique Wisp Relocate Delay"
         }
       ],
-      "chat_log": [],
-      "deaths_log": [],
+      "chat_log": [
+        {
+          "time": "-00:07",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 63]"
+        },
+        {
+          "time": "-00:04",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 23001]"
+        },
+        {
+          "time": "06:14",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "06:22",
+          "sender": "Queen of Pain",
+          "hero": "queenofpain",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "07:16",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "07:41",
+          "sender": "Queen of Pain",
+          "hero": "queenofpain",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "07:41",
+          "sender": "Queen of Pain",
+          "hero": "queenofpain",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "09:26",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "11:03",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 7]"
+        },
+        {
+          "time": "12:24",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "12:24",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "12:25",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "13:25",
+          "sender": "Troll Warlord",
+          "hero": "troll_warlord",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "14:58",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "14:58",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "16:57",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 62]"
+        },
+        {
+          "time": "19:19",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 7]"
+        },
+        {
+          "time": "20:35",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 62]"
+        },
+        {
+          "time": "21:00",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 7]"
+        },
+        {
+          "time": "26:54",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 23001]"
+        },
+        {
+          "time": "27:05",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 62]"
+        },
+        {
+          "time": "27:07",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 7]"
+        },
+        {
+          "time": "27:13",
+          "sender": "Kunkka",
+          "hero": "kunkka",
+          "channel": "All",
+          "text": "[Колесо чата: 7]"
+        },
+        {
+          "time": "27:43",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 40003]"
+        },
+        {
+          "time": "27:48",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 40006]"
+        },
+        {
+          "time": "30:11",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 40001]"
+        },
+        {
+          "time": "30:59",
+          "sender": "Venomancer",
+          "hero": "venomancer",
+          "channel": "All",
+          "text": "[Колесо чата: 55]"
+        }
+      ],
+      "deaths_log": [
+        {
+          "time": "02:10",
+          "killer": "Troll Warlord",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Troll Warlord"
+        },
+        {
+          "time": "09:32",
+          "killer": "Queenofpain",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Queenofpain"
+        },
+        {
+          "time": "11:17",
+          "killer": "Troll Warlord",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Troll Warlord"
+        },
+        {
+          "time": "14:39",
+          "killer": "Undying",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Undying"
+        },
+        {
+          "time": "17:28",
+          "killer": "Queenofpain",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Queenofpain"
+        },
+        {
+          "time": "22:54",
+          "killer": "Troll Warlord",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Troll Warlord"
+        },
+        {
+          "time": "33:11",
+          "killer": "Venomancer",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Venomancer"
+        }
+      ],
       "ai_analysis": {
-        "diagnosis": "Ана на минималках с пивным уклоном",
-        "clown_rating": "322 / 1000 TI God Wannabe",
-        "coach_verdict": "Данислон, сыграно феноменально грязно и эгоистично. 18 киллов на Виспе и 777 GPM — это либо скрытый пул, либо ты зашел поиграть против ботов. Ты отказался от роли саппорта, решил стать главным героем этого аниме и, черт возьми, у тебя получилось. Твой урон по строениям (9.5k) намекает, что пока твоя команда плакала в таверну, ты просто сносил трон с помощью духов и молний. Но будем честны: в нормальном лобби тебя бы стерли за первый же стан.",
+        "diagnosis": "Светящийся шар смерти на стероидах с тремя семерками GPM — когда зашел в оффлейн показать, кто тут настоящий керри.",
+        "clown_rating": "880 / 1000 Жесткий ДПС-Колобок",
+        "coach_verdict": "Данислон, твой перформанс на Io в оффлейне — это абсолютное торжество безумия над здравым смыслом. Оставить Tether на первом уровне до 12-го левела — это гениальный психологический прием, показывающий твоим тиммейтам, что они грязь под твоими парящими ногами и баффать ты их, конечно же, не будешь. Ты набил 18 фрагов, нанес 41к урона и засноуболлил лобби с Aghanim's Scepter и Mjollnir, выдав космические 777 GPM (казино одобрило). Ты выиграл, но моя вера в адекватность комьюнити Dota 2 окончательно мертва.",
         "key_mistakes": [
-          "Полный игнор защитных артефактов при наличии 23k нетворса — БКБ для слабых, да?",
-          "Хранение Брейсера и Соул Ринга на 33-й минуте при свободном слоте под Тревела или нормальный сейв",
-          "Покупка Ogre Axe без дальнейшего быстрого грейда в БКБ или Алебарду (просто лежал мертвым грузом ради 200 ХП)"
+          "Полный игнор прокачки Tether на ранних стадиях — ты буквально играл в соло-РПГ, пока твоя четверка плакала на лайне.",
+          "Фид Троллю на линии (смерти на 02:10 и 11:17) — пытался драться в упор с героем, который буквально создан для того, чтобы нарезать тебя в салат в ближнем бою.",
+          "Забытый в кармане Ogre Axe на 33-й минуте — БКБ или Сатаник так и остались в твоих мечтах, пока Веномансер заплевывал тебя ядом перед сносом трона."
         ],
-        "positioning_review": "7 смертей для Виспа-керри с молниями — это классическое 'я полетел на Релокейте убивать один на один и забыл, что у меня 0 брони'. Очевидно, позиционка строилась по принципу 'я центр галактики, крутитесь вокруг меня'. Судя по отсутствию сейв-слотов, твой Тизер использовался исключительно как халявный бафф на скорость атаки для себя любимого, а не для спасения тиммейтов.",
-        "build_review": "Сборка — чистое безумие. Aghanim's Scepter вместе с Mjollnir и Daedalus превращают светящийся шарик в микроволновку на стероидах. Прокачка Спиритов в салат на первых уровнях оправдала себя, но то, что ты игнорировал защитные артефакты в пользу Greater Crit — это жесткий флекс. Нейтралка Gunpowder Gauntlets на силу и урон от способностей идеально вписалась в этот цирк.",
-        "chat_review": "В чате пусто, и это лучшее решение. Скорее всего, твои союзники сначала спамили репорты на стадии пика, а к 20-й минуте начали молча целовать твои светящиеся пятки, когда ты оформлял очередной трипл-килл под Т2.",
-        "advice": "В следующем матче, если решишь повторить этот перформанс, хотя бы купи БКБ или Сатаник после Мьёльнира. Не всегда против тебя будут играть противники, забывшие купить Nullifier или Алебарду."
+        "positioning_review": "Твои 7 смертей показывают, что концепт позиционки для тебя — это 'лететь лицом вперед и надеяться на проки молний'. Смерть от Андаинга на 14:39 — это отдельный вид искусства, где ты, видимо, решил проверить, насколько сильно бьет зомби-миньон. В остальном, вражеская Квопа и Тролль ловили тебя на твоей же наглости, карая за отсутствие элементарного эскейпа.",
+        "build_review": "Сборка выглядит так, будто ты нажал 'Случайный предмет' в лавке, но выиграл в лотерею. Aghanim's Scepter на 13-й минуте — моё почтение, фарм-потенциал раскрыт. Но играть без единого сапога на 33-й минуте — это преступление против человечности. Твои тиммейты бежали, а ты лениво парил со скоростью раненой улитки. Daedalus (greater_crit) на Io — это плевок в лицо киберспорту, но цифры урона не врут.",
+        "chat_review": "Вражеский Кункка и Веномансер спамили колесо чата всю игру (сплошной флуд кодами 71 и 7), пытаясь затроллить твой пик. Очень жаль, что ты им ничего не ответил — твои 18 убийств должны были сопровождаться смачными типами в лицо каждому, кто сомневался в твоем величии.",
+        "advice": "В следующей игре, Данислон, если снова решишь играть на Io-керри, купи хотя бы Сапог Скорости. Твои текстуры парят над землей, но законы физики Доты никто не отменял. И собери уже БКБ вместо Ogre Axe, иначе в следующий раз тебя просто затыкают палками."
       }
     },
     {
@@ -335,8 +1356,8 @@
       "net_worth": 24825,
       "hero_damage": 40773,
       "tower_damage": 323,
-      "apm": "N/A",
-      "lane_role": "Flex / Roam",
+      "apm": 275,
+      "lane_role": "Offlane",
       "lane_outcome": "Завершен",
       "final_items": [
         "phase_boots",
@@ -347,7 +1368,224 @@
         "ultimate_scepter"
       ],
       "neutral_item": "prophets_pendulum",
-      "purchase_timeline": [],
+      "purchase_timeline": [
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "branches",
+          "name": "Branches"
+        },
+        {
+          "minute": 0,
+          "time": "-01:29",
+          "item": "branches",
+          "name": "Branches"
+        },
+        {
+          "minute": 0,
+          "time": "-01:17",
+          "item": "gauntlets",
+          "name": "Gauntlets"
+        },
+        {
+          "minute": 0,
+          "time": "-01:17",
+          "item": "gauntlets",
+          "name": "Gauntlets"
+        },
+        {
+          "minute": 0,
+          "time": "-01:13",
+          "item": "magic_stick",
+          "name": "Magic Stick"
+        },
+        {
+          "minute": 0,
+          "time": "00:45",
+          "item": "circlet",
+          "name": "Circlet"
+        },
+        {
+          "minute": 1,
+          "time": "01:02",
+          "item": "ward_sentry",
+          "name": "Ward Sentry"
+        },
+        {
+          "minute": 2,
+          "time": "02:28",
+          "item": "circlet",
+          "name": "Circlet"
+        },
+        {
+          "minute": 2,
+          "time": "02:34",
+          "item": "bracer",
+          "name": "Bracer"
+        },
+        {
+          "minute": 3,
+          "time": "03:07",
+          "item": "boots",
+          "name": "Boots"
+        },
+        {
+          "minute": 3,
+          "time": "03:51",
+          "item": "bracer",
+          "name": "Bracer"
+        },
+        {
+          "minute": 3,
+          "time": "03:51",
+          "item": "magic_wand",
+          "name": "Magic Wand"
+        },
+        {
+          "minute": 5,
+          "time": "05:05",
+          "item": "chainmail",
+          "name": "Chainmail"
+        },
+        {
+          "minute": 6,
+          "time": "06:37",
+          "item": "blades_of_attack",
+          "name": "Blades Of Attack"
+        },
+        {
+          "minute": 7,
+          "time": "07:10",
+          "item": "phase_boots",
+          "name": "Phase Boots"
+        },
+        {
+          "minute": 8,
+          "time": "08:21",
+          "item": "ogre_axe",
+          "name": "Ogre Axe"
+        },
+        {
+          "minute": 9,
+          "time": "09:03",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        },
+        {
+          "minute": 10,
+          "time": "10:39",
+          "item": "point_booster",
+          "name": "Point Booster"
+        },
+        {
+          "minute": 12,
+          "time": "12:19",
+          "item": "staff_of_wizardry",
+          "name": "Staff Of Wizardry"
+        },
+        {
+          "minute": 13,
+          "time": "13:00",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        },
+        {
+          "minute": 15,
+          "time": "15:39",
+          "item": "blade_of_alacrity",
+          "name": "Blade Of Alacrity"
+        },
+        {
+          "minute": 16,
+          "time": "16:04",
+          "item": "ultimate_scepter",
+          "name": "Ultimate Scepter"
+        },
+        {
+          "minute": 17,
+          "time": "17:32",
+          "item": "shawl",
+          "name": "Shawl"
+        },
+        {
+          "minute": 17,
+          "time": "17:33",
+          "item": "crown",
+          "name": "Crown"
+        },
+        {
+          "minute": 18,
+          "time": "18:30",
+          "item": "vitality_booster",
+          "name": "Vitality Booster"
+        },
+        {
+          "minute": 19,
+          "time": "19:12",
+          "item": "consecrated_wraps",
+          "name": "Consecrated Wraps"
+        },
+        {
+          "minute": 24,
+          "time": "24:09",
+          "item": "blink",
+          "name": "Blink"
+        },
+        {
+          "minute": 26,
+          "time": "26:38",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        },
+        {
+          "minute": 28,
+          "time": "28:26",
+          "item": "ghost",
+          "name": "Ghost"
+        },
+        {
+          "minute": 30,
+          "time": "30:31",
+          "item": "aghanims_shard",
+          "name": "Aghanims Shard"
+        },
+        {
+          "minute": 34,
+          "time": "34:33",
+          "item": "reaver",
+          "name": "Reaver"
+        },
+        {
+          "minute": 36,
+          "time": "36:47",
+          "item": "overwhelming_blink",
+          "name": "Overwhelming Blink"
+        },
+        {
+          "minute": 40,
+          "time": "40:22",
+          "item": "reaver",
+          "name": "Reaver"
+        },
+        {
+          "minute": 42,
+          "time": "42:08",
+          "item": "ring_of_tarrasque",
+          "name": "Ring Of Tarrasque"
+        },
+        {
+          "minute": 42,
+          "time": "42:34",
+          "item": "heart",
+          "name": "Heart"
+        },
+        {
+          "minute": 42,
+          "time": "42:53",
+          "item": "tpscroll",
+          "name": "Tpscroll"
+        }
+      ],
       "skill_build": [
         {
           "level": 1,
@@ -450,21 +1688,177 @@
           "name": "Special Bonus Unique Pudge 4"
         }
       ],
-      "chat_log": [],
-      "deaths_log": [],
+      "chat_log": [
+        {
+          "time": "05:23",
+          "sender": "Skywrath Mage",
+          "hero": "skywrath_mage",
+          "channel": "All",
+          "text": "[Колесо чата: 71]"
+        },
+        {
+          "time": "07:36",
+          "sender": "Phantom Assassin",
+          "hero": "phantom_assassin",
+          "channel": "All",
+          "text": " ты не ахуел"
+        },
+        {
+          "time": "07:38",
+          "sender": "Phantom Assassin",
+          "hero": "phantom_assassin",
+          "channel": "All",
+          "text": "случаем"
+        },
+        {
+          "time": "07:44",
+          "sender": "Phantom Assassin",
+          "hero": "phantom_assassin",
+          "channel": "All",
+          "text": "так нагло играты"
+        },
+        {
+          "time": "22:14",
+          "sender": "Tidehunter",
+          "hero": "tidehunter",
+          "channel": "All",
+          "text": "а че"
+        },
+        {
+          "time": "22:34",
+          "sender": "Enchantress",
+          "hero": "enchantress",
+          "channel": "All",
+          "text": "ганг отряд"
+        },
+        {
+          "time": "30:36",
+          "sender": "Wraith King",
+          "hero": "skeleton_king",
+          "channel": "All",
+          "text": "какой рейтинг?"
+        },
+        {
+          "time": "30:46",
+          "sender": "Phantom Assassin",
+          "hero": "phantom_assassin",
+          "channel": "All",
+          "text": "100"
+        },
+        {
+          "time": "30:56",
+          "sender": "Tidehunter",
+          "hero": "tidehunter",
+          "channel": "All",
+          "text": "10"
+        },
+        {
+          "time": "31:04",
+          "sender": "Enchantress",
+          "hero": "enchantress",
+          "channel": "All",
+          "text": "топ 7 мира"
+        },
+        {
+          "time": "46:03",
+          "sender": "Skywrath Mage",
+          "hero": "skywrath_mage",
+          "channel": "All",
+          "text": "хахах"
+        },
+        {
+          "time": "46:11",
+          "sender": "Skywrath Mage",
+          "hero": "skywrath_mage",
+          "channel": "All",
+          "text": "найс блэк хол"
+        }
+      ],
+      "deaths_log": [
+        {
+          "time": "13:12",
+          "killer": "Enchantress",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Enchantress"
+        },
+        {
+          "time": "19:25",
+          "killer": "Skywrath Mage",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Skywrath Mage"
+        },
+        {
+          "time": "21:16",
+          "killer": "Skywrath Mage",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Skywrath Mage"
+        },
+        {
+          "time": "24:03",
+          "killer": "Skywrath Mage",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Skywrath Mage"
+        },
+        {
+          "time": "25:48",
+          "killer": "Enchantress",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Enchantress"
+        },
+        {
+          "time": "33:19",
+          "killer": "Enchantress",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Enchantress"
+        },
+        {
+          "time": "44:44",
+          "killer": "Enchantress",
+          "location": "Линия / Лес",
+          "coordinates": {
+            "x": 128,
+            "y": 128
+          },
+          "reason": "Убит героем Enchantress"
+        }
+      ],
       "ai_analysis": {
-        "diagnosis": "Синдром ЧСВ-пауэрлифтера с ампутированным хуком.",
-        "clown_rating": "720 / 1000",
-        "coach_verdict": "Данислон Зомбович-Ликвидонов отыграл классического 'жирного толстяка', который считает, что Dota 2 — это симулятор бега с включенной газовой конфоркой. Имея запредельный XPM (992) и приличный KDA, Данислон напрочь забыл, что трон противника не ломается от пассивного урона Rot. При уроне по строениям в 323 единицы за 46 минут, наш герой, видимо, обходил вышки стороной, боясь испачкать новые Phase Boots.",
+        "diagnosis": "Классический «мясной штурм» с нулевым уроном по зданиям и покупкой Госта против магического прокаста.",
+        "clown_rating": "650 / 1000",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, ты выдал базу типичного оффлейн-Пуджа. Начал как тигр, задушил Phantom Assassin на линии так, что она плакала в общий чат, набил 14 фрагов... а потом вспомнил, что играешь в Доту, а не в симулятор бойни, и благополучно залил катку. Имея 594 GPM и 24к нетворса к 46-й минуте, ты умудрился нанести целых 323 урона по строениям. Твой катапульта-крип за игру сделал больше работы по зданиям, чем ты. Ты бегал, фармил героев, пока вражеский трон стоял невредимым, а в это время Энча и Скайвраг методично стирали тебя с карты.",
         "key_mistakes": [
-          "Отказ от прокачки Meat Hook выше 1-го уровня до 12-го левела. Данислон, крюк — это не просто украшение на поясе.",
-          "323 урона по зданиям за 46 минут игры. Вышки врага буквально стояли и смеялись тебе в лицо.",
-          "Raw Ghost Scepter в финальном закупке на 46-й минуте при 24k нетвордса. Сверхбюджетный косплей неуязвимости вместо покупки BKB или апгрейда в нормальный айтем."
+          "Полное игнорирование защитных артефактов против магии (BKB, Pipe of Insight или Eternal Shroud) при наличии раскормленных Skywrath Mage и Enchantress.",
+          "Покупка Ghost Scepter на 28-й минуте против магов, что буквально увеличило входящий по тебе урон от Скайврага и закрепило твой статус корма.",
+          "Абсолютный пацифизм по отношению к вражеским вышкам (323 урона по строениям за 46 минут игры)."
         ],
-        "positioning_review": "Смертей всего 7, что для Pudge в проигранной игре на 46 минут неплохо. Однако с Overwhelming Blink и Heart of Tarrasque позиционка Данислона сводилась к 'впрыгнуть в толпу, нажать Rot и надеяться на чудо'. Без БКБ под конец игры любой контроль превращал нашего пухлого гладиатора в грушу для битья, а Ghost Scepter лишь продлевал агонию от магического раскаста противника.",
-        "build_review": "Скиллбилд выглядит как мем: максить Rot и Flesh Heap, оставляя Hook на единичке до 12 уровня — это лишение себя главного инструмента создания спейса. По предметам: Aghanim's Scepter и Heart — отлично, но оставлять Ghost Scepter и Phase Boots на 46-й минуте при таком нетвордсе — это экономическое преступление против собственной команды.",
-        "chat_review": "В чат-логе абсолютная пустота. Данислон, видимо, играл в режиме полного дзена (или скрытого пула), молча наблюдая за тем, как кабина его трона медленно, но верно разваливается, пока он бегает с включенной вонючкой.",
-        "advice": "Данислон, в следующем матче вспомни, что у Pudge есть кнопка 'Q', и она наносит чистый урон. Прокачай хук вовремя, продай свой копеечный Ghost Scepter, купи нормальный Black King Bar и начни хотя бы иногда бить вышки, а не только лесных крипов и героев."
+        "positioning_review": "Твои смерти — это трагикомедия в семи актах. Скайвраг наказал тебя 3 раза подряд в мидгейме (с 19 по 24 минуту), ловя тебя на перетяжках без вижена. Остальные 4 смерти оформила Энча, расстреливая твою тушку с дистанции, пока ты пытался в блинке доползти до нее без БКБ. Твоя позиционка кричала: «Я толстый, я бессмертный», но реальность в лице чистого урона Импетусов быстро вернула тебя на фонтан.",
+        "build_review": "Скиллбилд через ранний макс Rot и Flesh Heap на линии — отличный, ПА действительно страдала. Но итембилд — это манифест безумия. Быстрый Апаним на 16-й минуте — лайк. Но Blink только на 24-й минуте? До этого ты пешком ходил? Апофеоз сборки — Ghost Scepter при живом Скайвраге. Ты так боялся критов ПА, что решил гарантированно умирать от любого магического дуновения. Овервелминг Блинк и Тараска на 42-й минуте появились тогда, когда игра уже была проиграна.",
+        "chat_review": "Психологическое доминирование в начале матча было на высоте — ты заставил вражескую PA тильтовать и писать «ты не ахуел так нагло играты» уже на 7-й минуте. Однако во второй половине игры, когда начался флуд про «100 MMR» и «топ 7 мира», ты потерял фокус. Пока вражеский Скайвраг глумился над вашим Энигмой за «найс блэк хол» на 46-й минуте, ты молча досматривал падение своего трона.",
+        "advice": "Данислон, в следующий раз, когда играешь против кастеров и пулеметчиков типа Энчи, забудь про существование Ghost Scepter. Купи БКБ или Eternal Shroud, нажми кнопку и иди ломать лица (и вышки!). Твоя задача как тройки — не просто красиво хукать из кустов, а впитывать урон и забирать пространство на карте."
       }
     },
     {
