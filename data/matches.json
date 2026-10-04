@@ -1,0 +1,252 @@
+{
+  "account_id": "1577649",
+  "player_name": "Данислон Зомбович-Ликвидонов",
+  "last_updated": "2026-10-04T17:00:00Z",
+  "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
+  "summary": {
+    "total_games": 1673,
+    "wins": 853,
+    "losses": 820,
+    "winrate": 50.99,
+    "recent_games_count": 3
+  },
+  "matches": [
+    {
+      "match_id": 7964102911,
+      "hero_id": 26,
+      "hero_name": "Lion",
+      "hero_slug": "lion",
+      "won": true,
+      "duration": 2840,
+      "start_time": 1728042000,
+      "kills": 32,
+      "deaths": 4,
+      "assists": 12,
+      "kda": "11.00",
+      "gpm": 2249,
+      "xpm": 3553,
+      "net_worth": 73781,
+      "hero_damage": 96174,
+      "tower_damage": 101,
+      "apm": 164,
+      "lane_role": "Roaming / Semi-Carry",
+      "lane_outcome": "Выигран",
+      "final_items": [
+        "blink",
+        "aghanims_shard",
+        "ultimate_scepter",
+        "dagon_5",
+        "octarine_core",
+        "travel_boots_2"
+      ],
+      "neutral_item": "apex",
+      "purchase_timeline": [
+        {"minute": 0, "time": "00:00", "item": "tango", "name": "Tango"},
+        {"minute": 0, "time": "00:00", "item": "branches", "name": "Iron Branch"},
+        {"minute": 3, "time": "03:15", "item": "boots", "name": "Boots of Speed"},
+        {"minute": 7, "time": "07:40", "item": "tranquil_boots", "name": "Tranquil Boots"},
+        {"minute": 11, "time": "11:20", "item": "blink", "name": "Blink Dagger"},
+        {"minute": 15, "time": "15:00", "item": "aghanims_shard", "name": "Aghanim's Shard"},
+        {"minute": 21, "time": "21:30", "item": "ultimate_scepter", "name": "Aghanim's Scepter"},
+        {"minute": 26, "time": "26:45", "item": "dagon", "name": "Dagon 1"},
+        {"minute": 32, "time": "32:10", "item": "dagon_5", "name": "Dagon 5"},
+        {"minute": 38, "time": "38:50", "item": "octarine_core", "name": "Octarine Core"},
+        {"minute": 44, "time": "44:15", "item": "travel_boots_2", "name": "Boots of Travel 2"}
+      ],
+      "skill_build": [
+        {"level": 1, "ability": "lion_impale", "name": "Earth Spike"},
+        {"level": 2, "ability": "lion_mana_drain", "name": "Mana Drain"},
+        {"level": 3, "ability": "lion_impale", "name": "Earth Spike"},
+        {"level": 4, "ability": "lion_voodoo", "name": "Hex"},
+        {"level": 5, "ability": "lion_impale", "name": "Earth Spike"},
+        {"level": 6, "ability": "lion_finger_of_death", "name": "Finger of Death"},
+        {"level": 7, "ability": "lion_impale", "name": "Earth Spike"},
+        {"level": 8, "ability": "lion_mana_drain", "name": "Mana Drain"},
+        {"level": 9, "ability": "lion_mana_drain", "name": "Mana Drain"},
+        {"level": 10, "ability": "special_bonus_unique_lion_1", "name": "+60 Damage"},
+        {"level": 11, "ability": "lion_voodoo", "name": "Hex"},
+        {"level": 12, "ability": "lion_finger_of_death", "name": "Finger of Death"},
+        {"level": 13, "ability": "lion_voodoo", "name": "Hex"},
+        {"level": 14, "ability": "lion_voodoo", "name": "Hex"},
+        {"level": 15, "ability": "special_bonus_unique_lion_2", "name": "+70 Max HP per Finger"},
+        {"level": 18, "ability": "lion_finger_of_death", "name": "Finger of Death"}
+      ],
+      "chat_log": [
+        {"time": "04:12", "sender": "Данислон (Lion)", "hero": "lion", "channel": "Team", "text": "иду гангать мид, держи стан"},
+        {"time": "08:35", "sender": "Данислон (Lion)", "hero": "lion", "channel": "All", "text": "палец готов, кто следующий?"},
+        {"time": "16:20", "sender": "Вражеский Снайпер", "hero": "sniper", "channel": "All", "text": "сколько у тебя стаков пальца??"},
+        {"time": "16:25", "sender": "Данислон (Lion)", "hero": "lion", "channel": "All", "text": "достаточно чтобы удалить тебя из стима"},
+        {"time": "27:50", "sender": "Данислон (Lion)", "hero": "lion", "channel": "Team", "text": "я купил дагон, пакуйте вещи"},
+        {"time": "41:10", "sender": "Данислон (Lion)", "hero": "lion", "channel": "All", "text": "ez mid diff"}
+      ],
+      "deaths_log": [
+        {"time": "09:40", "killer": "Pudge", "location": "Река около руны", "coordinates": {"x": 128, "y": 126}, "reason": "Зашел на руну без обзора"},
+        {"time": "18:22", "killer": "Sniper", "location": "Вражеский большой лес", "coordinates": {"x": 170, "y": 95}, "reason": "Охота за фрагом в соло под Т2"},
+        {"time": "31:05", "killer": "Shadow Fiend", "location": "Рошпит", "coordinates": {"x": 145, "y": 110}, "reason": "Сфокусирован в замесе возле Рошана"},
+        {"time": "40:15", "killer": "Pudge", "location": "Вражеский хайграунд", "coordinates": {"x": 185, "y": 70}, "reason": "Блинк под фонтан за 32-м киллом"}
+      ],
+      "ai_analysis": {
+        "diagnosis": "Синдром бога и финансовый террор",
+        "clown_rating": "980 / 1000 (TI God Tier)",
+        "coach_verdict": "Исторический перформанс на Lion. 32 фрага и 96 тысяч урона заставляют соперников плакать, но 101 урон по вышкам намекает, что концепцию победы сносом трона Данислон решил заменить геноцидом оппонентов.",
+        "key_mistakes": [
+          "Игнорирование строений: всего 101 единиц урона по башням за 47 минут игры",
+          "Жадность на 40-й минуте с прыжком под вражеский фонтан",
+          "Смерть на 18-й минуте глубоко во вражеском лесу без поддержки команды"
+        ],
+        "positioning_review": "В тимфайтах держал безупречную дистанцию, врываясь строго после ключевых дизейблов. Однако дважды попался в ловушку из-за жажды легких стаков ультимейта без вардов.",
+        "build_review": "Выход в Blink -> Aghanim -> Dagon 5 сработал благодаря феноменальному темпу убийств. Октарин обеспечил бесконечный спам пальца смерти.",
+        "chat_review": "Демонстрация психологического превосходства в общий чат. Уверенность 10/10, тильт оппонентов максимальный.",
+        "advice": "Наноси урон по строениям хотя бы ради приличия. Трон сам себя не сломает, даже если вражеский снайпер удалил доту."
+      }
+    },
+    {
+      "match_id": 7964145892,
+      "hero_id": 91,
+      "hero_name": "Io",
+      "hero_slug": "wisp",
+      "won": true,
+      "duration": 2150,
+      "start_time": 1728048000,
+      "kills": 18,
+      "deaths": 7,
+      "assists": 18,
+      "kda": "5.14",
+      "gpm": 777,
+      "xpm": 1023,
+      "net_worth": 23065,
+      "hero_damage": 41922,
+      "tower_damage": 9563,
+      "apm": 185,
+      "lane_role": "Core / Mid Wisp",
+      "lane_outcome": "Ничья",
+      "final_items": [
+        "helm_of_the_overlord",
+        "black_king_bar",
+        "satanic",
+        "heart",
+        "greater_crit",
+        "power_treads"
+      ],
+      "neutral_item": "ninja_gear",
+      "purchase_timeline": [
+        {"minute": 0, "time": "00:00", "item": "tango", "name": "Tango"},
+        {"minute": 0, "time": "00:00", "item": "gauntlets", "name": "Gauntlets of Strength"},
+        {"minute": 4, "time": "04:10", "item": "bottle", "name": "Bottle"},
+        {"minute": 8, "time": "08:30", "item": "power_treads", "name": "Power Treads"},
+        {"minute": 14, "time": "14:15", "item": "helm_of_the_overlord", "name": "Helm of the Overlord"},
+        {"minute": 20, "time": "20:00", "item": "black_king_bar", "name": "Black King Bar"},
+        {"minute": 26, "time": "26:30", "item": "heart", "name": "Heart of Tarrasque"},
+        {"minute": 31, "time": "31:45", "item": "satanic", "name": "Satanic"}
+      ],
+      "skill_build": [
+        {"level": 1, "ability": "wisp_spirits", "name": "Spirits"},
+        {"level": 2, "ability": "wisp_tether", "name": "Tether"},
+        {"level": 3, "ability": "wisp_spirits", "name": "Spirits"},
+        {"level": 4, "ability": "wisp_overcharge", "name": "Overcharge"},
+        {"level": 5, "ability": "wisp_spirits", "name": "Spirits"},
+        {"level": 6, "ability": "wisp_relocate", "name": "Relocate"},
+        {"level": 7, "ability": "wisp_spirits", "name": "Spirits"}
+      ],
+      "chat_log": [
+        {"time": "01:10", "sender": "Союзник (Juggernaut)", "hero": "juggernaut", "channel": "Team", "text": "висп керри? мы проиграли..."},
+        {"time": "14:50", "sender": "Данислон (Io)", "hero": "wisp", "channel": "Team", "text": "смотри на мой оверлорд и молчи"},
+        {"time": "22:15", "sender": "Данислон (Io)", "hero": "wisp", "channel": "All", "text": "пип-пип-пуп (вы трупы)"},
+        {"time": "34:40", "sender": "Данислон (Io)", "hero": "wisp", "channel": "All", "text": "gg wp шарик победил"}
+      ],
+      "deaths_log": [
+        {"time": "06:20", "killer": "Queen of Pain", "location": "Центральная линия", "coordinates": {"x": 120, "y": 125}, "reason": "Переагрессировал под чужой вышкой"},
+        {"time": "17:40", "killer": "Axe", "location": "Лес Тьмы", "coordinates": {"x": 150, "y": 80}, "reason": "Пойман на колл в спину"},
+        {"time": "28:10", "killer": "Queen of Pain", "location": "Хайграунд Света", "coordinates": {"x": 90, "y": 140}, "reason": "Не успел нажать БКБ до сайленса"}
+      ],
+      "ai_analysis": {
+        "diagnosis": "Ана-косплей высшей пробы",
+        "clown_rating": "890 / 1000 (Certified Mastermind)",
+        "coach_verdict": "Висп через урон и пуш с 9500 урона по зданиям. Идеальное исправление ошибки с уроном по вышкам из прошлой игры. Заставил союзников поверить в чудеса.",
+        "key_mistakes": [
+          "Запоздалое нажатие BKB на 28-й минуте, стоившее жизни",
+          "Рискованные телепортации Relocate вслепую без точной информации о дизейблах врага"
+        ],
+        "positioning_review": "Отличный микроконтроль духов и перетяжки через релокейт. Позиционка в пуше образцовая.",
+        "build_review": "Оверлорд и ранний БКБ дали взрывной пуш-потенциал. Грамотная сборка на победу.",
+        "chat_review": "Культурное доминирование звуками шарика над скептиками из команды.",
+        "advice": "Жми BKB превентивно перед входом в зону поражения Axe."
+      }
+    },
+    {
+      "match_id": 7964188204,
+      "hero_id": 14,
+      "hero_name": "Pudge",
+      "hero_slug": "pudge",
+      "won": false,
+      "duration": 2610,
+      "start_time": 1728054000,
+      "kills": 14,
+      "deaths": 7,
+      "assists": 16,
+      "kda": "4.28",
+      "gpm": 594,
+      "xpm": 992,
+      "net_worth": 24825,
+      "hero_damage": 40773,
+      "tower_damage": 323,
+      "apm": 112,
+      "lane_role": "Offlane / Roam",
+      "lane_outcome": "Проигран",
+      "final_items": [
+        "blink",
+        "eternal_shroud",
+        "aghanims_shard",
+        "heart",
+        "octarine_core",
+        "phase_boots"
+      ],
+      "neutral_item": "timeless_relic",
+      "purchase_timeline": [
+        {"minute": 0, "time": "00:00", "item": "tango", "name": "Tango"},
+        {"minute": 0, "time": "00:00", "item": "ring_of_protection", "name": "Ring of Protection"},
+        {"minute": 6, "time": "06:20", "item": "phase_boots", "name": "Phase Boots"},
+        {"minute": 12, "time": "12:10", "item": "blink", "name": "Blink Dagger"},
+        {"minute": 19, "time": "19:40", "item": "eternal_shroud", "name": "Eternal Shroud"},
+        {"minute": 27, "time": "27:00", "item": "heart", "name": "Heart of Tarrasque"},
+        {"minute": 36, "time": "36:15", "item": "octarine_core", "name": "Octarine Core"}
+      ],
+      "skill_build": [
+        {"level": 1, "ability": "pudge_meat_hook", "name": "Meat Hook"},
+        {"level": 2, "ability": "pudge_rot", "name": "Rot"},
+        {"level": 3, "ability": "pudge_rot", "name": "Rot"},
+        {"level": 4, "ability": "pudge_flesh_heap", "name": "Flesh Heap"},
+        {"level": 5, "ability": "pudge_rot", "name": "Rot"},
+        {"level": 6, "ability": "pudge_dismember", "name": "Dismember"},
+        {"level": 7, "ability": "pudge_rot", "name": "Rot"}
+      ],
+      "chat_log": [
+        {"time": "03:40", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "Team", "text": "ща хукну, готовьте стан"},
+        {"time": "03:45", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "Team", "text": "пинг 150 лагануло"},
+        {"time": "15:10", "sender": "Вражеский Сларк", "hero": "slark", "channel": "All", "text": "падж спасибо за стаки ловкости"},
+        {"time": "24:30", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "Team", "text": "почему у нас ноль вижна в лесу???"},
+        {"time": "38:20", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "All", "text": "тиммейты не хотят побеждать"}
+      ],
+      "deaths_log": [
+        {"time": "07:15", "killer": "Slark", "location": "Малая река", "coordinates": {"x": 135, "y": 140}, "reason": "Промах хуком и смерть от пассивной ловкости"},
+        {"time": "14:50", "killer": "Lina", "location": "Лес Света", "coordinates": {"x": 75, "y": 155}, "reason": "Стоял в кустах на варде, пойман станом Лины"},
+        {"time": "22:30", "killer": "Slark", "location": "Вражеский треугольник", "coordinates": {"x": 160, "y": 105}, "reason": "Попытка соло-хука под чужой вижн"},
+        {"time": "33:10", "killer": "Lina", "location": "Рошпит", "coordinates": {"x": 140, "y": 115}, "reason": "Фокус в драке за Аегис"}
+      ],
+      "ai_analysis": {
+        "diagnosis": "Хукозависимость и тильт на тиммейтов",
+        "clown_rating": "322 / 1000 (Classic Meat Hook Tragedy)",
+        "coach_verdict": "И вот она суровая реальность. Пик Паджа разрушил победную серию. Промах хуком на 3-й минуте сразу был списан на пинг, а 323 урона по строениям вернули Данислона в клуб пацифистов.",
+        "key_mistakes": [
+          "Низкая точность хука и трата времени на выжидание в кустах (низкий APM)",
+          "Тильт в чат и перекладывание вины на обзор команды",
+          "Покупка выживаемости вместо БКБ против прокаста Лины и контроля Сларка"
+        ],
+        "positioning_review": "Позиционирование в кустах прямо под вражескими обсервер-вардами. Сларк стабильно находил и выбивал стаки.",
+        "build_review": "Шрауд дал защиту, но отсутствие раннего Shard или BKB не позволило спасать команду от фокуса.",
+        "chat_review": "Классический репертуар: жалоба на пинг после первого мисса, затем на варды, затем на команду. 10/10 по шкале СНГ-доты.",
+        "advice": "Если игра не идет на хуках — переключайся на надежный сейв тиммейтов через Dismember и покупай Aghanim Shard."
+      }
+    }
+  ]
+}
