@@ -1,16 +1,472 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-04T17:00:00Z",
+  "last_updated": "2026-10-04T15:17:22.524786+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
     "total_games": 1673,
     "wins": 853,
     "losses": 820,
-    "winrate": 50.99,
-    "recent_games_count": 3
+    "winrate": 50.99
   },
   "matches": [
+    {
+      "match_id": 9028244609,
+      "hero_id": 26,
+      "hero_name": "Lion",
+      "hero_slug": "lion",
+      "won": true,
+      "duration": 2279,
+      "start_time": 1791064319,
+      "kills": 32,
+      "deaths": 4,
+      "assists": 12,
+      "kda": "11.00",
+      "gpm": 2249,
+      "xpm": 3553,
+      "net_worth": 73781,
+      "hero_damage": 96174,
+      "tower_damage": 101,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_outcome": "Завершен",
+      "final_items": [
+        "travel_boots_2",
+        "arcane_blink",
+        "black_king_bar",
+        "monkey_king_bar",
+        "helm_of_the_overlord",
+        "yasha_and_kaya"
+      ],
+      "neutral_item": "harmonizer",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 2,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 3,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 4,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 5,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 6,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 7,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 8,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 9,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_movement_speed_20",
+          "name": "Special Bonus Movement Speed 20"
+        },
+        {
+          "level": 11,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 12,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 13,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 14,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 15,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_lion_5",
+          "name": "Special Bonus Unique Lion 5"
+        },
+        {
+          "level": 17,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_lion_10",
+          "name": "Special Bonus Unique Lion 10"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_lion_2",
+          "name": "Special Bonus Unique Lion 2"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_lion_6",
+          "name": "Special Bonus Unique Lion 6"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_lion_11",
+          "name": "Special Bonus Unique Lion 11"
+        },
+        {
+          "level": 22,
+          "ability": "special_bonus_unique_lion_8",
+          "name": "Special Bonus Unique Lion 8"
+        },
+        {
+          "level": 23,
+          "ability": "special_bonus_unique_lion_4",
+          "name": "Special Bonus Unique Lion 4"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "ai_analysis": {
+        "diagnosis": "Уолл-стритский маньяк на Лионе с синдромом дефицита внимания к строениям.",
+        "clown_rating": "150 / 1000 TI God",
+        "coach_verdict": "Данислон, объясни мне, старому тренеру, как при GPM 2249 и 32 киллах можно нанести ВСЕГО 101 урона по вышкам? Ты бегал вокруг Т3 соперников, кастуя Finger of Death в кусты, пока твоя команда сносила трон? 73 тысячи нетворса на Lion — это не Dota 2, это симулятор налогового инспектора в Люберцах. Да, микро-игра великолепна, 11 KDA стирает любые вопросы к твоим кнопкам, но макро-понимание на уровне 'вижу героя — жму палец'. Ты выиграл игру в соло, но сделал это максимально извращенным способом.",
+        "key_mistakes": [
+          "Абсолютный пацифизм по отношению к зданиям: 101 урон по таверам при нетворсе 73к — это экономическое преступление.",
+          "Покупка Helm of the Overlord. Зачем Лиону древний гранитный голем? Чтобы водить его на поводке по вражескому лесу в качестве питомца?",
+          "Monkey King Bar в финальном закупке. Ты явно планировал перестрелять вражеского керри автоатаками, забыв, что ты маг."
+        ],
+        "positioning_review": "С Arcane Blink, BKB и Travel Boots 2 твоя позиционка описывалась фразой: 'Я лечу куда хочу, вы все равно умрете'. 4 смерти при 32 убийствах говорят о том, что враги боялись выходить с фонтана. Ты инициировал драки лицом и выходил из них победителем просто за счет колоссального перефарма.",
+        "build_review": "Твоя сборка — это манифест постмодернизма. Yasha and Kaya дает скорость бега, Arcane Blink — каст-рейндж. Но MKB и Helm of the Overlord на Лионе? Ты собрал кастомный гибрид зоопарка и физического ДПС. Прокачка скиллов стандартная (через макс Impale), но закуп предметов намекает на тяжелую форму игровой скуки.",
+        "chat_review": "Лог чата пуст. И это пугает больше всего. Тихий психопат, который молча выносит карту с 2249 GPM, собирает Доминатор на Лиона и ни разу не пишет в общий чат '?' после очередного Finger of Death. Враги, скорее всего, плакали в подушку прямо во время матча.",
+        "advice": "В следующем матче собери Battle Fury и Daedalus, раз уж ты так отчаянно хочешь бить с руки. А если серьезно — нажми хотя бы пару раз правой кнопкой мыши по вражескому трону, он тоже хочет твоего внимания."
+      }
+    },
+    {
+      "match_id": 9028196651,
+      "hero_id": 91,
+      "hero_name": "Io",
+      "hero_slug": "wisp",
+      "won": true,
+      "duration": 2019,
+      "start_time": 1791061728,
+      "kills": 18,
+      "deaths": 7,
+      "assists": 18,
+      "kda": "5.14",
+      "gpm": 777,
+      "xpm": 1023,
+      "net_worth": 23065,
+      "hero_damage": 41922,
+      "tower_damage": 9563,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_outcome": "Завершен",
+      "final_items": [
+        "mjollnir",
+        "ultimate_scepter",
+        "greater_crit",
+        "ogre_axe",
+        "soul_ring",
+        "bracer"
+      ],
+      "neutral_item": "gunpowder_gauntlets",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "wisp_spirits",
+          "name": "Wisp Spirits"
+        },
+        {
+          "level": 2,
+          "ability": "wisp_tether",
+          "name": "Wisp Tether"
+        },
+        {
+          "level": 3,
+          "ability": "wisp_overcharge",
+          "name": "Wisp Overcharge"
+        },
+        {
+          "level": 4,
+          "ability": "wisp_spirits",
+          "name": "Wisp Spirits"
+        },
+        {
+          "level": 5,
+          "ability": "wisp_spirits",
+          "name": "Wisp Spirits"
+        },
+        {
+          "level": 6,
+          "ability": "wisp_relocate",
+          "name": "Wisp Relocate"
+        },
+        {
+          "level": 7,
+          "ability": "wisp_spirits",
+          "name": "Wisp Spirits"
+        },
+        {
+          "level": 8,
+          "ability": "wisp_overcharge",
+          "name": "Wisp Overcharge"
+        },
+        {
+          "level": 9,
+          "ability": "wisp_overcharge",
+          "name": "Wisp Overcharge"
+        },
+        {
+          "level": 10,
+          "ability": "wisp_overcharge",
+          "name": "Wisp Overcharge"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_strength_8",
+          "name": "Special Bonus Strength 8"
+        },
+        {
+          "level": 12,
+          "ability": "wisp_tether",
+          "name": "Wisp Tether"
+        },
+        {
+          "level": 13,
+          "ability": "wisp_relocate",
+          "name": "Wisp Relocate"
+        },
+        {
+          "level": 14,
+          "ability": "wisp_tether_break",
+          "name": "Wisp Tether Break"
+        },
+        {
+          "level": 15,
+          "ability": "wisp_tether",
+          "name": "Wisp Tether"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_wisp",
+          "name": "Special Bonus Unique Wisp"
+        },
+        {
+          "level": 17,
+          "ability": "wisp_relocate",
+          "name": "Wisp Relocate"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_wisp_10",
+          "name": "Special Bonus Unique Wisp 10"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_wisp_relocate_delay",
+          "name": "Special Bonus Unique Wisp Relocate Delay"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "ai_analysis": {
+        "diagnosis": "Ана на минималках с пивным уклоном",
+        "clown_rating": "322 / 1000 TI God Wannabe",
+        "coach_verdict": "Данислон, сыграно феноменально грязно и эгоистично. 18 киллов на Виспе и 777 GPM — это либо скрытый пул, либо ты зашел поиграть против ботов. Ты отказался от роли саппорта, решил стать главным героем этого аниме и, черт возьми, у тебя получилось. Твой урон по строениям (9.5k) намекает, что пока твоя команда плакала в таверну, ты просто сносил трон с помощью духов и молний. Но будем честны: в нормальном лобби тебя бы стерли за первый же стан.",
+        "key_mistakes": [
+          "Полный игнор защитных артефактов при наличии 23k нетворса — БКБ для слабых, да?",
+          "Хранение Брейсера и Соул Ринга на 33-й минуте при свободном слоте под Тревела или нормальный сейв",
+          "Покупка Ogre Axe без дальнейшего быстрого грейда в БКБ или Алебарду (просто лежал мертвым грузом ради 200 ХП)"
+        ],
+        "positioning_review": "7 смертей для Виспа-керри с молниями — это классическое 'я полетел на Релокейте убивать один на один и забыл, что у меня 0 брони'. Очевидно, позиционка строилась по принципу 'я центр галактики, крутитесь вокруг меня'. Судя по отсутствию сейв-слотов, твой Тизер использовался исключительно как халявный бафф на скорость атаки для себя любимого, а не для спасения тиммейтов.",
+        "build_review": "Сборка — чистое безумие. Aghanim's Scepter вместе с Mjollnir и Daedalus превращают светящийся шарик в микроволновку на стероидах. Прокачка Спиритов в салат на первых уровнях оправдала себя, но то, что ты игнорировал защитные артефакты в пользу Greater Crit — это жесткий флекс. Нейтралка Gunpowder Gauntlets на силу и урон от способностей идеально вписалась в этот цирк.",
+        "chat_review": "В чате пусто, и это лучшее решение. Скорее всего, твои союзники сначала спамили репорты на стадии пика, а к 20-й минуте начали молча целовать твои светящиеся пятки, когда ты оформлял очередной трипл-килл под Т2.",
+        "advice": "В следующем матче, если решишь повторить этот перформанс, хотя бы купи БКБ или Сатаник после Мьёльнира. Не всегда против тебя будут играть противники, забывшие купить Nullifier или Алебарду."
+      }
+    },
+    {
+      "match_id": 9028123886,
+      "hero_id": 14,
+      "hero_name": "Pudge",
+      "hero_slug": "pudge",
+      "won": false,
+      "duration": 2761,
+      "start_time": 1791058450,
+      "kills": 14,
+      "deaths": 7,
+      "assists": 16,
+      "kda": "4.29",
+      "gpm": 594,
+      "xpm": 992,
+      "net_worth": 24825,
+      "hero_damage": 40773,
+      "tower_damage": 323,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_outcome": "Завершен",
+      "final_items": [
+        "phase_boots",
+        "overwhelming_blink",
+        "heart",
+        "consecrated_wraps",
+        "ghost",
+        "ultimate_scepter"
+      ],
+      "neutral_item": "prophets_pendulum",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "pudge_meat_hook",
+          "name": "Pudge Meat Hook"
+        },
+        {
+          "level": 2,
+          "ability": "pudge_rot",
+          "name": "Pudge Rot"
+        },
+        {
+          "level": 3,
+          "ability": "pudge_rot",
+          "name": "Pudge Rot"
+        },
+        {
+          "level": 4,
+          "ability": "pudge_flesh_heap",
+          "name": "Pudge Flesh Heap"
+        },
+        {
+          "level": 5,
+          "ability": "pudge_rot",
+          "name": "Pudge Rot"
+        },
+        {
+          "level": 6,
+          "ability": "pudge_dismember",
+          "name": "Pudge Dismember"
+        },
+        {
+          "level": 7,
+          "ability": "pudge_rot",
+          "name": "Pudge Rot"
+        },
+        {
+          "level": 8,
+          "ability": "pudge_flesh_heap",
+          "name": "Pudge Flesh Heap"
+        },
+        {
+          "level": 9,
+          "ability": "pudge_flesh_heap",
+          "name": "Pudge Flesh Heap"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_armor_5",
+          "name": "Special Bonus Armor 5"
+        },
+        {
+          "level": 11,
+          "ability": "pudge_flesh_heap",
+          "name": "Pudge Flesh Heap"
+        },
+        {
+          "level": 12,
+          "ability": "pudge_meat_hook",
+          "name": "Pudge Meat Hook"
+        },
+        {
+          "level": 13,
+          "ability": "pudge_dismember",
+          "name": "Pudge Dismember"
+        },
+        {
+          "level": 14,
+          "ability": "pudge_meat_hook",
+          "name": "Pudge Meat Hook"
+        },
+        {
+          "level": 15,
+          "ability": "pudge_meat_hook",
+          "name": "Pudge Meat Hook"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_pudge_7",
+          "name": "Special Bonus Unique Pudge 7"
+        },
+        {
+          "level": 17,
+          "ability": "pudge_dismember",
+          "name": "Pudge Dismember"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_pudge_6",
+          "name": "Special Bonus Unique Pudge 6"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_pudge_3",
+          "name": "Special Bonus Unique Pudge 3"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_pudge_4",
+          "name": "Special Bonus Unique Pudge 4"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "ai_analysis": {
+        "diagnosis": "Синдром ЧСВ-пауэрлифтера с ампутированным хуком.",
+        "clown_rating": "720 / 1000",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов отыграл классического 'жирного толстяка', который считает, что Dota 2 — это симулятор бега с включенной газовой конфоркой. Имея запредельный XPM (992) и приличный KDA, Данислон напрочь забыл, что трон противника не ломается от пассивного урона Rot. При уроне по строениям в 323 единицы за 46 минут, наш герой, видимо, обходил вышки стороной, боясь испачкать новые Phase Boots.",
+        "key_mistakes": [
+          "Отказ от прокачки Meat Hook выше 1-го уровня до 12-го левела. Данислон, крюк — это не просто украшение на поясе.",
+          "323 урона по зданиям за 46 минут игры. Вышки врага буквально стояли и смеялись тебе в лицо.",
+          "Raw Ghost Scepter в финальном закупке на 46-й минуте при 24k нетвордса. Сверхбюджетный косплей неуязвимости вместо покупки BKB или апгрейда в нормальный айтем."
+        ],
+        "positioning_review": "Смертей всего 7, что для Pudge в проигранной игре на 46 минут неплохо. Однако с Overwhelming Blink и Heart of Tarrasque позиционка Данислона сводилась к 'впрыгнуть в толпу, нажать Rot и надеяться на чудо'. Без БКБ под конец игры любой контроль превращал нашего пухлого гладиатора в грушу для битья, а Ghost Scepter лишь продлевал агонию от магического раскаста противника.",
+        "build_review": "Скиллбилд выглядит как мем: максить Rot и Flesh Heap, оставляя Hook на единичке до 12 уровня — это лишение себя главного инструмента создания спейса. По предметам: Aghanim's Scepter и Heart — отлично, но оставлять Ghost Scepter и Phase Boots на 46-й минуте при таком нетвордсе — это экономическое преступление против собственной команды.",
+        "chat_review": "В чат-логе абсолютная пустота. Данислон, видимо, играл в режиме полного дзена (или скрытого пула), молча наблюдая за тем, как кабина его трона медленно, но верно разваливается, пока он бегает с включенной вонючкой.",
+        "advice": "Данислон, в следующем матче вспомни, что у Pudge есть кнопка 'Q', и она наносит чистый урон. Прокачай хук вовремя, продай свой копеечный Ghost Scepter, купи нормальный Black King Bar и начни хотя бы иногда бить вышки, а не только лесных крипов и героев."
+      }
+    },
     {
       "match_id": 7964102911,
       "hero_id": 26,
@@ -41,49 +497,240 @@
       ],
       "neutral_item": "apex",
       "purchase_timeline": [
-        {"minute": 0, "time": "00:00", "item": "tango", "name": "Tango"},
-        {"minute": 0, "time": "00:00", "item": "branches", "name": "Iron Branch"},
-        {"minute": 3, "time": "03:15", "item": "boots", "name": "Boots of Speed"},
-        {"minute": 7, "time": "07:40", "item": "tranquil_boots", "name": "Tranquil Boots"},
-        {"minute": 11, "time": "11:20", "item": "blink", "name": "Blink Dagger"},
-        {"minute": 15, "time": "15:00", "item": "aghanims_shard", "name": "Aghanim's Shard"},
-        {"minute": 21, "time": "21:30", "item": "ultimate_scepter", "name": "Aghanim's Scepter"},
-        {"minute": 26, "time": "26:45", "item": "dagon", "name": "Dagon 1"},
-        {"minute": 32, "time": "32:10", "item": "dagon_5", "name": "Dagon 5"},
-        {"minute": 38, "time": "38:50", "item": "octarine_core", "name": "Octarine Core"},
-        {"minute": 44, "time": "44:15", "item": "travel_boots_2", "name": "Boots of Travel 2"}
+        {
+          "minute": 0,
+          "time": "00:00",
+          "item": "tango",
+          "name": "Tango"
+        },
+        {
+          "minute": 0,
+          "time": "00:00",
+          "item": "branches",
+          "name": "Iron Branch"
+        },
+        {
+          "minute": 3,
+          "time": "03:15",
+          "item": "boots",
+          "name": "Boots of Speed"
+        },
+        {
+          "minute": 7,
+          "time": "07:40",
+          "item": "tranquil_boots",
+          "name": "Tranquil Boots"
+        },
+        {
+          "minute": 11,
+          "time": "11:20",
+          "item": "blink",
+          "name": "Blink Dagger"
+        },
+        {
+          "minute": 15,
+          "time": "15:00",
+          "item": "aghanims_shard",
+          "name": "Aghanim's Shard"
+        },
+        {
+          "minute": 21,
+          "time": "21:30",
+          "item": "ultimate_scepter",
+          "name": "Aghanim's Scepter"
+        },
+        {
+          "minute": 26,
+          "time": "26:45",
+          "item": "dagon",
+          "name": "Dagon 1"
+        },
+        {
+          "minute": 32,
+          "time": "32:10",
+          "item": "dagon_5",
+          "name": "Dagon 5"
+        },
+        {
+          "minute": 38,
+          "time": "38:50",
+          "item": "octarine_core",
+          "name": "Octarine Core"
+        },
+        {
+          "minute": 44,
+          "time": "44:15",
+          "item": "travel_boots_2",
+          "name": "Boots of Travel 2"
+        }
       ],
       "skill_build": [
-        {"level": 1, "ability": "lion_impale", "name": "Earth Spike"},
-        {"level": 2, "ability": "lion_mana_drain", "name": "Mana Drain"},
-        {"level": 3, "ability": "lion_impale", "name": "Earth Spike"},
-        {"level": 4, "ability": "lion_voodoo", "name": "Hex"},
-        {"level": 5, "ability": "lion_impale", "name": "Earth Spike"},
-        {"level": 6, "ability": "lion_finger_of_death", "name": "Finger of Death"},
-        {"level": 7, "ability": "lion_impale", "name": "Earth Spike"},
-        {"level": 8, "ability": "lion_mana_drain", "name": "Mana Drain"},
-        {"level": 9, "ability": "lion_mana_drain", "name": "Mana Drain"},
-        {"level": 10, "ability": "special_bonus_unique_lion_1", "name": "+60 Damage"},
-        {"level": 11, "ability": "lion_voodoo", "name": "Hex"},
-        {"level": 12, "ability": "lion_finger_of_death", "name": "Finger of Death"},
-        {"level": 13, "ability": "lion_voodoo", "name": "Hex"},
-        {"level": 14, "ability": "lion_voodoo", "name": "Hex"},
-        {"level": 15, "ability": "special_bonus_unique_lion_2", "name": "+70 Max HP per Finger"},
-        {"level": 18, "ability": "lion_finger_of_death", "name": "Finger of Death"}
+        {
+          "level": 1,
+          "ability": "lion_impale",
+          "name": "Earth Spike"
+        },
+        {
+          "level": 2,
+          "ability": "lion_mana_drain",
+          "name": "Mana Drain"
+        },
+        {
+          "level": 3,
+          "ability": "lion_impale",
+          "name": "Earth Spike"
+        },
+        {
+          "level": 4,
+          "ability": "lion_voodoo",
+          "name": "Hex"
+        },
+        {
+          "level": 5,
+          "ability": "lion_impale",
+          "name": "Earth Spike"
+        },
+        {
+          "level": 6,
+          "ability": "lion_finger_of_death",
+          "name": "Finger of Death"
+        },
+        {
+          "level": 7,
+          "ability": "lion_impale",
+          "name": "Earth Spike"
+        },
+        {
+          "level": 8,
+          "ability": "lion_mana_drain",
+          "name": "Mana Drain"
+        },
+        {
+          "level": 9,
+          "ability": "lion_mana_drain",
+          "name": "Mana Drain"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_unique_lion_1",
+          "name": "+60 Damage"
+        },
+        {
+          "level": 11,
+          "ability": "lion_voodoo",
+          "name": "Hex"
+        },
+        {
+          "level": 12,
+          "ability": "lion_finger_of_death",
+          "name": "Finger of Death"
+        },
+        {
+          "level": 13,
+          "ability": "lion_voodoo",
+          "name": "Hex"
+        },
+        {
+          "level": 14,
+          "ability": "lion_voodoo",
+          "name": "Hex"
+        },
+        {
+          "level": 15,
+          "ability": "special_bonus_unique_lion_2",
+          "name": "+70 Max HP per Finger"
+        },
+        {
+          "level": 18,
+          "ability": "lion_finger_of_death",
+          "name": "Finger of Death"
+        }
       ],
       "chat_log": [
-        {"time": "04:12", "sender": "Данислон (Lion)", "hero": "lion", "channel": "Team", "text": "иду гангать мид, держи стан"},
-        {"time": "08:35", "sender": "Данислон (Lion)", "hero": "lion", "channel": "All", "text": "палец готов, кто следующий?"},
-        {"time": "16:20", "sender": "Вражеский Снайпер", "hero": "sniper", "channel": "All", "text": "сколько у тебя стаков пальца??"},
-        {"time": "16:25", "sender": "Данислон (Lion)", "hero": "lion", "channel": "All", "text": "достаточно чтобы удалить тебя из стима"},
-        {"time": "27:50", "sender": "Данислон (Lion)", "hero": "lion", "channel": "Team", "text": "я купил дагон, пакуйте вещи"},
-        {"time": "41:10", "sender": "Данислон (Lion)", "hero": "lion", "channel": "All", "text": "ez mid diff"}
+        {
+          "time": "04:12",
+          "sender": "Данислон (Lion)",
+          "hero": "lion",
+          "channel": "Team",
+          "text": "иду гангать мид, держи стан"
+        },
+        {
+          "time": "08:35",
+          "sender": "Данислон (Lion)",
+          "hero": "lion",
+          "channel": "All",
+          "text": "палец готов, кто следующий?"
+        },
+        {
+          "time": "16:20",
+          "sender": "Вражеский Снайпер",
+          "hero": "sniper",
+          "channel": "All",
+          "text": "сколько у тебя стаков пальца??"
+        },
+        {
+          "time": "16:25",
+          "sender": "Данислон (Lion)",
+          "hero": "lion",
+          "channel": "All",
+          "text": "достаточно чтобы удалить тебя из стима"
+        },
+        {
+          "time": "27:50",
+          "sender": "Данислон (Lion)",
+          "hero": "lion",
+          "channel": "Team",
+          "text": "я купил дагон, пакуйте вещи"
+        },
+        {
+          "time": "41:10",
+          "sender": "Данислон (Lion)",
+          "hero": "lion",
+          "channel": "All",
+          "text": "ez mid diff"
+        }
       ],
       "deaths_log": [
-        {"time": "09:40", "killer": "Pudge", "location": "Река около руны", "coordinates": {"x": 128, "y": 126}, "reason": "Зашел на руну без обзора"},
-        {"time": "18:22", "killer": "Sniper", "location": "Вражеский большой лес", "coordinates": {"x": 170, "y": 95}, "reason": "Охота за фрагом в соло под Т2"},
-        {"time": "31:05", "killer": "Shadow Fiend", "location": "Рошпит", "coordinates": {"x": 145, "y": 110}, "reason": "Сфокусирован в замесе возле Рошана"},
-        {"time": "40:15", "killer": "Pudge", "location": "Вражеский хайграунд", "coordinates": {"x": 185, "y": 70}, "reason": "Блинк под фонтан за 32-м киллом"}
+        {
+          "time": "09:40",
+          "killer": "Pudge",
+          "location": "Река около руны",
+          "coordinates": {
+            "x": 128,
+            "y": 126
+          },
+          "reason": "Зашел на руну без обзора"
+        },
+        {
+          "time": "18:22",
+          "killer": "Sniper",
+          "location": "Вражеский большой лес",
+          "coordinates": {
+            "x": 170,
+            "y": 95
+          },
+          "reason": "Охота за фрагом в соло под Т2"
+        },
+        {
+          "time": "31:05",
+          "killer": "Shadow Fiend",
+          "location": "Рошпит",
+          "coordinates": {
+            "x": 145,
+            "y": 110
+          },
+          "reason": "Сфокусирован в замесе возле Рошана"
+        },
+        {
+          "time": "40:15",
+          "killer": "Pudge",
+          "location": "Вражеский хайграунд",
+          "coordinates": {
+            "x": 185,
+            "y": 70
+          },
+          "reason": "Блинк под фонтан за 32-м киллом"
+        }
       ],
       "ai_analysis": {
         "diagnosis": "Синдром бога и финансовый террор",
@@ -130,34 +777,153 @@
       ],
       "neutral_item": "ninja_gear",
       "purchase_timeline": [
-        {"minute": 0, "time": "00:00", "item": "tango", "name": "Tango"},
-        {"minute": 0, "time": "00:00", "item": "gauntlets", "name": "Gauntlets of Strength"},
-        {"minute": 4, "time": "04:10", "item": "bottle", "name": "Bottle"},
-        {"minute": 8, "time": "08:30", "item": "power_treads", "name": "Power Treads"},
-        {"minute": 14, "time": "14:15", "item": "helm_of_the_overlord", "name": "Helm of the Overlord"},
-        {"minute": 20, "time": "20:00", "item": "black_king_bar", "name": "Black King Bar"},
-        {"minute": 26, "time": "26:30", "item": "heart", "name": "Heart of Tarrasque"},
-        {"minute": 31, "time": "31:45", "item": "satanic", "name": "Satanic"}
+        {
+          "minute": 0,
+          "time": "00:00",
+          "item": "tango",
+          "name": "Tango"
+        },
+        {
+          "minute": 0,
+          "time": "00:00",
+          "item": "gauntlets",
+          "name": "Gauntlets of Strength"
+        },
+        {
+          "minute": 4,
+          "time": "04:10",
+          "item": "bottle",
+          "name": "Bottle"
+        },
+        {
+          "minute": 8,
+          "time": "08:30",
+          "item": "power_treads",
+          "name": "Power Treads"
+        },
+        {
+          "minute": 14,
+          "time": "14:15",
+          "item": "helm_of_the_overlord",
+          "name": "Helm of the Overlord"
+        },
+        {
+          "minute": 20,
+          "time": "20:00",
+          "item": "black_king_bar",
+          "name": "Black King Bar"
+        },
+        {
+          "minute": 26,
+          "time": "26:30",
+          "item": "heart",
+          "name": "Heart of Tarrasque"
+        },
+        {
+          "minute": 31,
+          "time": "31:45",
+          "item": "satanic",
+          "name": "Satanic"
+        }
       ],
       "skill_build": [
-        {"level": 1, "ability": "wisp_spirits", "name": "Spirits"},
-        {"level": 2, "ability": "wisp_tether", "name": "Tether"},
-        {"level": 3, "ability": "wisp_spirits", "name": "Spirits"},
-        {"level": 4, "ability": "wisp_overcharge", "name": "Overcharge"},
-        {"level": 5, "ability": "wisp_spirits", "name": "Spirits"},
-        {"level": 6, "ability": "wisp_relocate", "name": "Relocate"},
-        {"level": 7, "ability": "wisp_spirits", "name": "Spirits"}
+        {
+          "level": 1,
+          "ability": "wisp_spirits",
+          "name": "Spirits"
+        },
+        {
+          "level": 2,
+          "ability": "wisp_tether",
+          "name": "Tether"
+        },
+        {
+          "level": 3,
+          "ability": "wisp_spirits",
+          "name": "Spirits"
+        },
+        {
+          "level": 4,
+          "ability": "wisp_overcharge",
+          "name": "Overcharge"
+        },
+        {
+          "level": 5,
+          "ability": "wisp_spirits",
+          "name": "Spirits"
+        },
+        {
+          "level": 6,
+          "ability": "wisp_relocate",
+          "name": "Relocate"
+        },
+        {
+          "level": 7,
+          "ability": "wisp_spirits",
+          "name": "Spirits"
+        }
       ],
       "chat_log": [
-        {"time": "01:10", "sender": "Союзник (Juggernaut)", "hero": "juggernaut", "channel": "Team", "text": "висп керри? мы проиграли..."},
-        {"time": "14:50", "sender": "Данислон (Io)", "hero": "wisp", "channel": "Team", "text": "смотри на мой оверлорд и молчи"},
-        {"time": "22:15", "sender": "Данислон (Io)", "hero": "wisp", "channel": "All", "text": "пип-пип-пуп (вы трупы)"},
-        {"time": "34:40", "sender": "Данислон (Io)", "hero": "wisp", "channel": "All", "text": "gg wp шарик победил"}
+        {
+          "time": "01:10",
+          "sender": "Союзник (Juggernaut)",
+          "hero": "juggernaut",
+          "channel": "Team",
+          "text": "висп керри? мы проиграли..."
+        },
+        {
+          "time": "14:50",
+          "sender": "Данислон (Io)",
+          "hero": "wisp",
+          "channel": "Team",
+          "text": "смотри на мой оверлорд и молчи"
+        },
+        {
+          "time": "22:15",
+          "sender": "Данислон (Io)",
+          "hero": "wisp",
+          "channel": "All",
+          "text": "пип-пип-пуп (вы трупы)"
+        },
+        {
+          "time": "34:40",
+          "sender": "Данислон (Io)",
+          "hero": "wisp",
+          "channel": "All",
+          "text": "gg wp шарик победил"
+        }
       ],
       "deaths_log": [
-        {"time": "06:20", "killer": "Queen of Pain", "location": "Центральная линия", "coordinates": {"x": 120, "y": 125}, "reason": "Переагрессировал под чужой вышкой"},
-        {"time": "17:40", "killer": "Axe", "location": "Лес Тьмы", "coordinates": {"x": 150, "y": 80}, "reason": "Пойман на колл в спину"},
-        {"time": "28:10", "killer": "Queen of Pain", "location": "Хайграунд Света", "coordinates": {"x": 90, "y": 140}, "reason": "Не успел нажать БКБ до сайленса"}
+        {
+          "time": "06:20",
+          "killer": "Queen of Pain",
+          "location": "Центральная линия",
+          "coordinates": {
+            "x": 120,
+            "y": 125
+          },
+          "reason": "Переагрессировал под чужой вышкой"
+        },
+        {
+          "time": "17:40",
+          "killer": "Axe",
+          "location": "Лес Тьмы",
+          "coordinates": {
+            "x": 150,
+            "y": 80
+          },
+          "reason": "Пойман на колл в спину"
+        },
+        {
+          "time": "28:10",
+          "killer": "Queen of Pain",
+          "location": "Хайграунд Света",
+          "coordinates": {
+            "x": 90,
+            "y": 140
+          },
+          "reason": "Не успел нажать БКБ до сайленса"
+        }
       ],
       "ai_analysis": {
         "diagnosis": "Ана-косплей высшей пробы",
@@ -203,35 +969,164 @@
       ],
       "neutral_item": "timeless_relic",
       "purchase_timeline": [
-        {"minute": 0, "time": "00:00", "item": "tango", "name": "Tango"},
-        {"minute": 0, "time": "00:00", "item": "ring_of_protection", "name": "Ring of Protection"},
-        {"minute": 6, "time": "06:20", "item": "phase_boots", "name": "Phase Boots"},
-        {"minute": 12, "time": "12:10", "item": "blink", "name": "Blink Dagger"},
-        {"minute": 19, "time": "19:40", "item": "eternal_shroud", "name": "Eternal Shroud"},
-        {"minute": 27, "time": "27:00", "item": "heart", "name": "Heart of Tarrasque"},
-        {"minute": 36, "time": "36:15", "item": "octarine_core", "name": "Octarine Core"}
+        {
+          "minute": 0,
+          "time": "00:00",
+          "item": "tango",
+          "name": "Tango"
+        },
+        {
+          "minute": 0,
+          "time": "00:00",
+          "item": "ring_of_protection",
+          "name": "Ring of Protection"
+        },
+        {
+          "minute": 6,
+          "time": "06:20",
+          "item": "phase_boots",
+          "name": "Phase Boots"
+        },
+        {
+          "minute": 12,
+          "time": "12:10",
+          "item": "blink",
+          "name": "Blink Dagger"
+        },
+        {
+          "minute": 19,
+          "time": "19:40",
+          "item": "eternal_shroud",
+          "name": "Eternal Shroud"
+        },
+        {
+          "minute": 27,
+          "time": "27:00",
+          "item": "heart",
+          "name": "Heart of Tarrasque"
+        },
+        {
+          "minute": 36,
+          "time": "36:15",
+          "item": "octarine_core",
+          "name": "Octarine Core"
+        }
       ],
       "skill_build": [
-        {"level": 1, "ability": "pudge_meat_hook", "name": "Meat Hook"},
-        {"level": 2, "ability": "pudge_rot", "name": "Rot"},
-        {"level": 3, "ability": "pudge_rot", "name": "Rot"},
-        {"level": 4, "ability": "pudge_flesh_heap", "name": "Flesh Heap"},
-        {"level": 5, "ability": "pudge_rot", "name": "Rot"},
-        {"level": 6, "ability": "pudge_dismember", "name": "Dismember"},
-        {"level": 7, "ability": "pudge_rot", "name": "Rot"}
+        {
+          "level": 1,
+          "ability": "pudge_meat_hook",
+          "name": "Meat Hook"
+        },
+        {
+          "level": 2,
+          "ability": "pudge_rot",
+          "name": "Rot"
+        },
+        {
+          "level": 3,
+          "ability": "pudge_rot",
+          "name": "Rot"
+        },
+        {
+          "level": 4,
+          "ability": "pudge_flesh_heap",
+          "name": "Flesh Heap"
+        },
+        {
+          "level": 5,
+          "ability": "pudge_rot",
+          "name": "Rot"
+        },
+        {
+          "level": 6,
+          "ability": "pudge_dismember",
+          "name": "Dismember"
+        },
+        {
+          "level": 7,
+          "ability": "pudge_rot",
+          "name": "Rot"
+        }
       ],
       "chat_log": [
-        {"time": "03:40", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "Team", "text": "ща хукну, готовьте стан"},
-        {"time": "03:45", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "Team", "text": "пинг 150 лагануло"},
-        {"time": "15:10", "sender": "Вражеский Сларк", "hero": "slark", "channel": "All", "text": "падж спасибо за стаки ловкости"},
-        {"time": "24:30", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "Team", "text": "почему у нас ноль вижна в лесу???"},
-        {"time": "38:20", "sender": "Данислон (Pudge)", "hero": "pudge", "channel": "All", "text": "тиммейты не хотят побеждать"}
+        {
+          "time": "03:40",
+          "sender": "Данислон (Pudge)",
+          "hero": "pudge",
+          "channel": "Team",
+          "text": "ща хукну, готовьте стан"
+        },
+        {
+          "time": "03:45",
+          "sender": "Данислон (Pudge)",
+          "hero": "pudge",
+          "channel": "Team",
+          "text": "пинг 150 лагануло"
+        },
+        {
+          "time": "15:10",
+          "sender": "Вражеский Сларк",
+          "hero": "slark",
+          "channel": "All",
+          "text": "падж спасибо за стаки ловкости"
+        },
+        {
+          "time": "24:30",
+          "sender": "Данислон (Pudge)",
+          "hero": "pudge",
+          "channel": "Team",
+          "text": "почему у нас ноль вижна в лесу???"
+        },
+        {
+          "time": "38:20",
+          "sender": "Данислон (Pudge)",
+          "hero": "pudge",
+          "channel": "All",
+          "text": "тиммейты не хотят побеждать"
+        }
       ],
       "deaths_log": [
-        {"time": "07:15", "killer": "Slark", "location": "Малая река", "coordinates": {"x": 135, "y": 140}, "reason": "Промах хуком и смерть от пассивной ловкости"},
-        {"time": "14:50", "killer": "Lina", "location": "Лес Света", "coordinates": {"x": 75, "y": 155}, "reason": "Стоял в кустах на варде, пойман станом Лины"},
-        {"time": "22:30", "killer": "Slark", "location": "Вражеский треугольник", "coordinates": {"x": 160, "y": 105}, "reason": "Попытка соло-хука под чужой вижн"},
-        {"time": "33:10", "killer": "Lina", "location": "Рошпит", "coordinates": {"x": 140, "y": 115}, "reason": "Фокус в драке за Аегис"}
+        {
+          "time": "07:15",
+          "killer": "Slark",
+          "location": "Малая река",
+          "coordinates": {
+            "x": 135,
+            "y": 140
+          },
+          "reason": "Промах хуком и смерть от пассивной ловкости"
+        },
+        {
+          "time": "14:50",
+          "killer": "Lina",
+          "location": "Лес Света",
+          "coordinates": {
+            "x": 75,
+            "y": 155
+          },
+          "reason": "Стоял в кустах на варде, пойман станом Лины"
+        },
+        {
+          "time": "22:30",
+          "killer": "Slark",
+          "location": "Вражеский треугольник",
+          "coordinates": {
+            "x": 160,
+            "y": 105
+          },
+          "reason": "Попытка соло-хука под чужой вижн"
+        },
+        {
+          "time": "33:10",
+          "killer": "Lina",
+          "location": "Рошпит",
+          "coordinates": {
+            "x": 140,
+            "y": 115
+          },
+          "reason": "Фокус в драке за Аегис"
+        }
       ],
       "ai_analysis": {
         "diagnosis": "Хукозависимость и тильт на тиммейтов",
