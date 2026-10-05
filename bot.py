@@ -261,6 +261,52 @@ def parse_deep_match(match_id, constants):
             "user_died": user_died
         })
 
+    user_lane = player.get("lane")
+    lane_opponents = []
+    for op in players:
+        if op.get("isRadiant") != is_radiant and op.get("lane") == user_lane:
+            op_h_id = op.get("hero_id")
+            op_h_info = heroes_map.get(str(op_h_id), {})
+            op_lh_t = op.get("lh_t") or []
+            op_dn_t = op.get("dn_t") or []
+            op_gold_t = op.get("gold_t") or []
+            lane_opponents.append({
+                "hero_id": op_h_id,
+                "hero_name": op_h_info.get("localized_name", f"Hero_{op_h_id}"),
+                "hero_slug": op_h_info.get("name", "hero"),
+                "lh_at_10": op_lh_t[10] if len(op_lh_t) > 10 else (op_lh_t[-1] if op_lh_t else 0),
+                "dn_at_10": op_dn_t[10] if len(op_dn_t) > 10 else (op_dn_t[-1] if op_dn_t else 0),
+                "gold_at_10": op_gold_t[10] if len(op_gold_t) > 10 else (op_gold_t[-1] if op_gold_t else 0)
+            })
+
+    user_lh_t = player.get("lh_t") or []
+    user_dn_t = player.get("dn_t") or []
+    user_gold_t = player.get("gold_t") or []
+    user_lh_10 = user_lh_t[10] if len(user_lh_t) > 10 else (user_lh_t[-1] if user_lh_t else 0)
+    user_dn_10 = user_dn_t[10] if len(user_dn_t) > 10 else (user_dn_t[-1] if user_dn_t else 0)
+    user_gold_10 = user_gold_t[10] if len(user_gold_t) > 10 else (user_gold_t[-1] if user_gold_t else 0)
+
+    opp_gold_10 = max([o["gold_at_10"] for o in lane_opponents], default=0)
+    gold_diff_10 = user_gold_10 - opp_gold_10
+    if lane_opponents:
+        if gold_diff_10 > 500:
+            lane_outcome = f"Победа на линии (+{gold_diff_10}g к 10 мин)"
+        elif gold_diff_10 < -500:
+            lane_outcome = f"Проигрыш линии ({gold_diff_10}g к 10 мин)"
+        else:
+            lane_outcome = "Равная линия"
+    else:
+        lane_outcome = "Завершен"
+
+    lane_stats = {
+        "user_lh_at_10": user_lh_10,
+        "user_dn_at_10": user_dn_10,
+        "user_gold_at_10": user_gold_10,
+        "opponents": lane_opponents,
+        "gold_diff_at_10": gold_diff_10,
+        "outcome": lane_outcome
+    }
+
     return {
         "match_id": match_id,
         "hero_id": hero_id,
@@ -281,7 +327,10 @@ def parse_deep_match(match_id, constants):
         "apm": apm,
         "lane_role": lane_role,
         "lane_efficiency_pct": lane_efficiency_pct,
-        "lane_outcome": "Завершен",
+        "lane_outcome": lane_outcome,
+        "lane_stats": lane_stats,
+        "radiant_gold_adv": data.get("radiant_gold_adv") or [],
+        "radiant_xp_adv": data.get("radiant_xp_adv") or [],
         "final_items": final_items,
         "neutral_item": neutral_item,
         "purchase_timeline": purchase_timeline,
@@ -298,12 +347,12 @@ def analyze_match_with_ai(match_info, client):
     system_instruction = (
         "Ты - элитный киберспортивный аналитик и постироничный тренер Dota 2. "
         "Игрока зовут Данислон Зомбович-Ликвидонов. "
-        "Проведи глубокий разбор конкретного матча на основе статистики, предметов, скиллбилда, логов смертей, вардов, тимфайтов и чата. "
+        "Проведи глубокий разбор конкретного матча на основе статистики, лейнинга против врага на линии, предметов, скиллбилда, логов смертей, вардов, тимфайтов, графика преимущества по золоту и чата. "
         "Формат вывода: СТРОГО валидный JSON со следующими полями: "
         "{"
         "\"diagnosis\": \"краткий язвительный диагноз игры\","
         "\"clown_rating\": \"оценка из 1000 (например: 322 / 1000 или 980 / 1000 TI God)\","
-        "\"coach_verdict\": \"развернутый анализ микро и макро игры\","
+        "\"coach_verdict\": \"развернутый анализ микро и макро игры с учетом противостояния на линии и камбэков\","
         "\"key_mistakes\": [\"ошибка 1\", \"ошибка 2\", \"ошибка 3\"],"
         "\"positioning_review\": \"анализ смертей, позиционки и обзора\","
         "\"build_review\": \"критика сборки предметов и порядка прокачки скиллов\","

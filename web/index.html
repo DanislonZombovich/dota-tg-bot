@@ -77,7 +77,10 @@
           <div class="inspector-hero-data">
             <img src="" alt="" class="inspector-hero-portrait" id="inspect-hero-img">
             <div>
-              <h2 id="inspect-hero-name" style="font-family: var(--font-headline);">Выберите матч</h2>
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <h2 id="inspect-hero-name" style="font-family: var(--font-headline);">Выберите матч</h2>
+                <button class="btn-share-match" id="btn-share-match" title="Скопировать ссылку на матч">📋 Поделиться</button>
+              </div>
               <p id="inspect-meta" style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);"></p>
             </div>
           </div>
@@ -86,6 +89,8 @@
 
         <nav class="tab-nav">
           <button class="tab-trigger active" data-tab="ai-coach">AI-Тренер Gemini 3.8</button>
+          <button class="tab-trigger" data-tab="swing-graph">График преимущества</button>
+          <button class="tab-trigger" data-tab="lane-matchup">Анализ линии</button>
           <button class="tab-trigger" data-tab="benchmarks">Бенчмарки vs Мир</button>
           <button class="tab-trigger" data-tab="minimap">Карта и варды</button>
           <button class="tab-trigger" data-tab="teamfights">Тимфайты</button>
@@ -131,11 +136,40 @@
           <div class="coach-chat-box">
             <div class="panel-title" style="color: var(--neon-cyan);">Спросить тренера Gemini 3.8 Flash</div>
             <p style="font-size: 0.8rem; color: var(--text-muted);">Задай любой вопрос по этому матчу или сборке</p>
+            <div class="coach-quick-pills">
+              <button class="coach-pill" data-prompt="Как надо было собираться против вражеского контроля и BKB?">🛡️ Контра BKB</button>
+              <button class="coach-pill" data-prompt="Разбери мои смерти и ошибки позиционки в драках">💀 Позиционка и смерти</button>
+              <button class="coach-pill" data-prompt="Оцени тайминги ключевых артефактов и порядок скиллов">⚡ Тайминги слотов</button>
+              <button class="coach-pill" data-prompt="Сравни этот билд с топовыми сборками на DotaProTracker">📊 Сравнить с DPT</button>
+            </div>
             <form class="coach-chat-form" id="coach-ask-form">
-              <input type="text" class="coach-chat-input" id="coach-user-prompt" placeholder="Например: как надо было собрать Лиона против БКБ?">
+              <input type="text" class="coach-chat-input" id="coach-user-prompt" placeholder="Например: как надо было сыграть на линии?">
               <button type="submit" class="coach-chat-submit">Спросить</button>
             </form>
             <div class="coach-chat-reply" id="coach-chat-reply"></div>
+          </div>
+        </div>
+
+        <div class="tab-pane" id="pane-swing-graph">
+          <div class="hud-panel">
+            <div class="swing-header">
+              <div class="panel-title">График преимущества (Radiant vs Dire)</div>
+              <div class="swing-badge" id="swing-lead-badge">Загрузка...</div>
+            </div>
+            <div class="swing-chart-box">
+              <svg class="swing-chart-svg" id="swing-chart-svg" viewBox="0 0 740 240"></svg>
+              <div class="swing-legend">
+                <span class="legend-unit"><span class="legend-swatch" style="background: var(--neon-green);"></span> Золото (Net Worth)</span>
+                <span class="legend-unit"><span class="legend-swatch" style="background: var(--neon-cyan);"></span> Опыт (XP)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane" id="pane-lane-matchup">
+          <div class="hud-panel">
+            <div class="panel-title">Противостояние на линии (00:00 — 10:00)</div>
+            <div class="lane-matchup-box" id="lane-matchup-container"></div>
           </div>
         </div>
 
@@ -209,6 +243,7 @@
     </div>
   </main>
 
+  <div id="toast-notify" class="toast-notify"></div>
   <script src="app.js"></script>
 </body>
 </html>
