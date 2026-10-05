@@ -7,11 +7,19 @@ import requests
 from google import genai
 from google.genai import types
 
+try:
+    import psycopg2
+    from psycopg2.extras import Json
+except ImportError:
+    psycopg2 = None
+    Json = None
+
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
 TG_CHANNEL_ID = os.environ.get("TG_CHANNEL_ID")
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 DOTA_ACCOUNT_ID = os.environ.get("DOTA_ACCOUNT_ID")
-SITE_URL = os.environ.get("SITE_URL", "https://danislonzombovich.github.io/dota-tg-bot/")
+DATABASE_URL = os.environ.get("DATABASE_URL")
+SITE_URL = os.environ.get("SITE_URL", "https://dota-tg-bot.vercel.app")
 
 REQ_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -126,6 +134,7 @@ def parse_deep_match(match_id, constants):
     lane_role_id = player.get("lane_role")
     lane_map = {1: "Safe Lane", 2: "Mid Lane", 3: "Offlane", 4: "Jungle"}
     lane_role = lane_map.get(lane_role_id, "Flex / Roam")
+    lane_efficiency_pct = player.get("lane_efficiency_pct", 0)
 
     final_items = []
     for slot_idx in range(6):
@@ -160,8 +169,6 @@ def parse_deep_match(match_id, constants):
             "name": ab_name
         })
 
-    chat_log = []
-    raw_chat = data.get("chat", [])
     slot_to_hero = {}
     for p in players:
         p_slot = p.get("player_slot")
@@ -172,6 +179,8 @@ def parse_deep_match(match_id, constants):
             "slug": p_h_info.get("name", "hero")
         }
 
+    chat_log = []
+    raw_chat = data.get("chat", [])
     for c in raw_chat:
         c_type = c.get("type", "chat")
         c_time = format_time(c.get("time", 0))
@@ -209,6 +218,49 @@ def parse_deep_match(match_id, constants):
             "reason": f"Убит героем {killer_clean}"
         })
 
+    benchmarks_raw = player.get("benchmarks", {})
+    benchmarks = {}
+    for b_key in ["gold_per_min", "xp_per_min", "kills_per_min", "hero_damage_per_min", "tower_damage"]:
+        b_val = benchmarks_raw.get(b_key, {})
+        pct = b_val.get("pct")
+        if pct is not None:
+            benchmarks[b_key] = round(pct * 100)
+
+    wards_log = []
+    for obs in player.get("obs_log", []):
+        wards_log.append({
+            "type": "observer",
+            "time": format_time(obs.get("time", 0)),
+            "x": obs.get("x", 128),
+            "y": obs.get("y", 128)
+        })
+    for sen in player.get("sen_log", []):
+        wards_log.append({
+            "type": "sentry",
+            "time": format_time(sen.get("time", 0)),
+            "x": sen.get("x", 128),
+            "y": sen.get("y", 128)
+        })
+
+    teamfights = []
+    raw_tf = data.get("teamfights", [])
+    for tf in raw_tf:
+        start_sec = tf.get("start", 0)
+        end_sec = tf.get("end", 0)
+        deaths_in_tf = len(tf.get("deaths", []))
+        user_tf_player = next((p for p in tf.get("players", []) if str(p.get("account_id")) == str(DOTA_ACCOUNT_ID)), None)
+        user_dmg = user_tf_player.get("damage", 0) if user_tf_player else 0
+        user_died = user_tf_player.get("deaths", 0) > 0 if user_tf_player else False
+
+        teamfights.append({
+            "minute": start_sec // 60,
+            "start_time": format_time(start_sec),
+            "duration": end_sec - start_sec,
+            "deaths_count": deaths_in_tf,
+            "user_damage": user_dmg,
+            "user_died": user_died
+        })
+
     return {
         "match_id": match_id,
         "hero_id": hero_id,
@@ -228,13 +280,17 @@ def parse_deep_match(match_id, constants):
         "tower_damage": tower_damage,
         "apm": apm,
         "lane_role": lane_role,
+        "lane_efficiency_pct": lane_efficiency_pct,
         "lane_outcome": "Завершен",
         "final_items": final_items,
         "neutral_item": neutral_item,
         "purchase_timeline": purchase_timeline,
         "skill_build": skill_build,
         "chat_log": chat_log,
-        "deaths_log": deaths_log
+        "deaths_log": deaths_log,
+        "benchmarks": benchmarks,
+        "wards_log": wards_log,
+        "teamfights": teamfights
     }
 
 def analyze_match_with_ai(match_info, client):
@@ -242,7 +298,7 @@ def analyze_match_with_ai(match_info, client):
     system_instruction = (
         "Ты - элитный киберспортивный аналитик и постироничный тренер Dota 2. "
         "Игрока зовут Данислон Зомбович-Ликвидонов. "
-        "Проведи глубокий разбор конкретного матча на основе статистики, предметов, скиллбилда, логов смертей и чата. "
+        "Проведи глубокий разбор конкретного матча на основе статистики, предметов, скиллбилда, логов смертей, вардов, тимфайтов и чата. "
         "Формат вывода: СТРОГО валидный JSON со следующими полями: "
         "{"
         "\"diagnosis\": \"краткий язвительный диагноз игры\","
@@ -349,7 +405,88 @@ def send_to_telegram(text):
         except Exception as e:
             print(f"Error sending message to Telegram: {e}")
 
+def save_to_neon(matches, account_summary, db_url):
+    if not psycopg2:
+        print("psycopg2 is not installed, skipping Neon database save.")
+        return
+
+    try:
+        conn = psycopg2.connect(db_url)
+        cur = conn.cursor()
+
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS matches (
+            match_id BIGINT PRIMARY KEY,
+            hero_id INT NOT NULL,
+            hero_name VARCHAR(64) NOT NULL,
+            hero_slug VARCHAR(64) NOT NULL,
+            won BOOLEAN NOT NULL,
+            duration INT NOT NULL,
+            kills INT NOT NULL,
+            deaths INT NOT NULL,
+            assists INT NOT NULL,
+            kda VARCHAR(16) NOT NULL,
+            gpm INT NOT NULL,
+            xpm INT NOT NULL,
+            net_worth INT NOT NULL,
+            hero_damage INT NOT NULL,
+            tower_damage INT NOT NULL,
+            apm VARCHAR(16),
+            lane_role VARCHAR(64),
+            start_time TIMESTAMP WITH TIME ZONE NOT NULL,
+            full_data JSONB NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS account_summary (
+            id INT PRIMARY KEY,
+            account_id VARCHAR(32) NOT NULL,
+            player_name VARCHAR(128) NOT NULL,
+            data JSONB NOT NULL,
+            updated_at TIMESTAMP WITH TIME ZONE NOT NULL
+        );
+        CREATE INDEX IF NOT EXISTS idx_matches_start_time ON matches (start_time DESC);
+        CREATE INDEX IF NOT EXISTS idx_matches_hero_slug ON matches (hero_slug);
+        CREATE INDEX IF NOT EXISTS idx_matches_won ON matches (won);
+        """)
+
+        cur.execute("""
+        INSERT INTO account_summary (id, account_id, player_name, data, updated_at)
+        VALUES (1, %s, %s, %s, NOW())
+        ON CONFLICT (id) DO UPDATE SET
+            data = EXCLUDED.data,
+            updated_at = NOW();
+        """, (str(DOTA_ACCOUNT_ID), "Данислон Зомбович-Ликвидонов", Json(account_summary)))
+
+        match_insert_sql = """
+        INSERT INTO matches (
+            match_id, hero_id, hero_name, hero_slug, won, duration,
+            kills, deaths, assists, kda, gpm, xpm, net_worth,
+            hero_damage, tower_damage, apm, lane_role,
+            start_time, full_data
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, to_timestamp(%s), %s)
+        ON CONFLICT (match_id) DO UPDATE SET
+            won = EXCLUDED.won,
+            full_data = EXCLUDED.full_data;
+        """
+
+        for m in matches:
+            cur.execute(match_insert_sql, (
+                m["match_id"], m["hero_id"], m["hero_name"], m["hero_slug"], m["won"], m["duration"],
+                m["kills"], m["deaths"], m["assists"], str(m["kda"]), m["gpm"], m["xpm"], m["net_worth"],
+                m.get("hero_damage", 0), m.get("tower_damage", 0), str(m.get("apm", "N/A")), m.get("lane_role", ""),
+                m["start_time"], Json(m)
+            ))
+
+        conn.commit()
+        cur.close()
+        conn.close()
+        print(f"Successfully saved {len(matches)} matches to Neon PostgreSQL!")
+    except Exception as e:
+        print(f"Error saving to Neon: {e}")
+
 def update_matches_storage(new_matches, account_summary):
+    if DATABASE_URL:
+        save_to_neon(new_matches, account_summary, DATABASE_URL)
+
     data_dir = os.path.join(os.path.dirname(__file__), "data")
     os.makedirs(data_dir, exist_ok=True)
     matches_file = os.path.join(data_dir, "matches.json")
@@ -398,7 +535,7 @@ def update_matches_storage(new_matches, account_summary):
     with open(web_matches_file, "w", encoding="utf-8") as f:
         json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
-    print(f"Saved {len(existing_matches)} matches to storage.")
+    print(f"Saved {len(existing_matches)} matches to local file storage.")
 
 def main():
     if not DOTA_ACCOUNT_ID:

@@ -38,7 +38,8 @@ jobs:
           TG_CHANNEL_ID: ${{ secrets.TG_CHANNEL_ID || vars.TG_CHANNEL_ID }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY || vars.GOOGLE_API_KEY }}
           DOTA_ACCOUNT_ID: ${{ secrets.DOTA_ACCOUNT_ID || vars.DOTA_ACCOUNT_ID }}
-          SITE_URL: "https://danislonzombovich.github.io/dota-tg-bot/"
+          DATABASE_URL: ${{ secrets.DATABASE_URL || vars.DATABASE_URL }}
+          SITE_URL: "https://dota-tg-bot.vercel.app"
         run: |
           python bot.py
 

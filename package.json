@@ -1,0 +1,12 @@
+{
+  "name": "dota-pro-tracker-danislon",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node -e 'console.log(\"Dota Pro Tracker API ready\")'"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@neondatabase/serverless": "^0.10.4"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "public": false,
+  "cleanUrls": true,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "web/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/matches",
+      "dest": "/api/matches.js"
+    },
+    {
+      "src": "/api/summary",
+      "dest": "/api/summary.js"
+    },
+    {
+      "src": "/api/coach",
+      "dest": "/api/coach.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/web/$1"
+    }
+  ]
+}
