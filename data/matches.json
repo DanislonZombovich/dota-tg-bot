@@ -1,15 +1,137 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-04T19:56:44.815124+00:00",
+  "last_updated": "2026-10-05T12:30:42.374787+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
-    "total_games": 1673,
+    "total_games": 1674,
     "wins": 853,
-    "losses": 820,
-    "winrate": 50.99
+    "losses": 821,
+    "winrate": 50.96
   },
   "matches": [
+    {
+      "match_id": 9029790777,
+      "hero_id": 71,
+      "hero_name": "Spirit Breaker",
+      "hero_slug": "spirit_breaker",
+      "won": false,
+      "duration": 1485,
+      "start_time": 1791143449,
+      "kills": 1,
+      "deaths": 6,
+      "assists": 4,
+      "kda": "0.83",
+      "gpm": 261,
+      "xpm": 355,
+      "net_worth": 6365,
+      "hero_damage": 9992,
+      "tower_damage": 180,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Завершен",
+      "final_items": [
+        "bottle",
+        "hand_of_midas",
+        "dust",
+        "wind_lace",
+        "claymore",
+        "boots"
+      ],
+      "neutral_item": "searing_signet",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "spirit_breaker_greater_bash",
+          "name": "Spirit Breaker Greater Bash"
+        },
+        {
+          "level": 2,
+          "ability": "spirit_breaker_charge_of_darkness",
+          "name": "Spirit Breaker Charge Of Darkness"
+        },
+        {
+          "level": 3,
+          "ability": "spirit_breaker_greater_bash",
+          "name": "Spirit Breaker Greater Bash"
+        },
+        {
+          "level": 4,
+          "ability": "spirit_breaker_bulldoze",
+          "name": "Spirit Breaker Bulldoze"
+        },
+        {
+          "level": 5,
+          "ability": "spirit_breaker_greater_bash",
+          "name": "Spirit Breaker Greater Bash"
+        },
+        {
+          "level": 6,
+          "ability": "spirit_breaker_nether_strike",
+          "name": "Spirit Breaker Nether Strike"
+        },
+        {
+          "level": 7,
+          "ability": "spirit_breaker_greater_bash",
+          "name": "Spirit Breaker Greater Bash"
+        },
+        {
+          "level": 8,
+          "ability": "spirit_breaker_charge_of_darkness",
+          "name": "Spirit Breaker Charge Of Darkness"
+        },
+        {
+          "level": 9,
+          "ability": "spirit_breaker_charge_of_darkness",
+          "name": "Spirit Breaker Charge Of Darkness"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_night_vision_500",
+          "name": "Special Bonus Night Vision 500"
+        },
+        {
+          "level": 11,
+          "ability": "spirit_breaker_charge_of_darkness",
+          "name": "Spirit Breaker Charge Of Darkness"
+        },
+        {
+          "level": 12,
+          "ability": "spirit_breaker_bulldoze",
+          "name": "Spirit Breaker Bulldoze"
+        },
+        {
+          "level": 13,
+          "ability": "spirit_breaker_nether_strike",
+          "name": "Spirit Breaker Nether Strike"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 9,
+        "xp_per_min": 9,
+        "kills_per_min": 6,
+        "hero_damage_per_min": 30,
+        "tower_damage": 41
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Парсинг без ответа нейросети",
+        "clown_rating": "500 / 1000",
+        "coach_verdict": "Игра на Spirit Breaker завершилась поражением. Статистика KDA: 0.83.",
+        "key_mistakes": [
+          "Требуется повторный анализ логов"
+        ],
+        "positioning_review": "Стандартная позиционка по карте.",
+        "build_review": "Сборка соответствовала стандартному паттерну.",
+        "chat_review": "Внутриигровой чат прошел без критических инцидентов.",
+        "advice": "Держи концентрацию до сноса вражеского трона."
+      }
+    },
     {
       "match_id": 9028244609,
       "hero_id": 26,
