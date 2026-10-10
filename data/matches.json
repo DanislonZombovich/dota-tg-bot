@@ -1,7 +1,7 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-09T21:30:20.160357+00:00",
+  "last_updated": "2026-10-10T20:30:57.118912+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
     "total_games": 1674,
@@ -10,6 +10,211 @@
     "winrate": 50.96
   },
   "matches": [
+    {
+      "match_id": 9038775244,
+      "hero_id": 26,
+      "hero_name": "Lion",
+      "hero_slug": "lion",
+      "won": false,
+      "duration": 1475,
+      "start_time": 1791659002,
+      "kills": 8,
+      "deaths": 7,
+      "assists": 10,
+      "kda": "2.57",
+      "gpm": 870,
+      "xpm": 1513,
+      "net_worth": 20919,
+      "hero_damage": 26970,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 75,
+            "hero_name": "Silencer",
+            "hero_slug": "silencer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 58,
+            "hero_name": "Enchantress",
+            "hero_slug": "enchantress",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 54,
+            "hero_name": "Lifestealer",
+            "hero_slug": "life_stealer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 22,
+            "hero_name": "Zeus",
+            "hero_slug": "zuus",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 64,
+            "hero_name": "Jakiro",
+            "hero_slug": "jakiro",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "invis_sword",
+        "blink",
+        "black_king_bar",
+        "power_treads",
+        "yasha_and_kaya",
+        "ultimate_scepter"
+      ],
+      "neutral_item": "partisans_brand",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 2,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 3,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 4,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 5,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 6,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 7,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 8,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 9,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 10,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_movement_speed_20",
+          "name": "Special Bonus Movement Speed 20"
+        },
+        {
+          "level": 12,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 13,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 14,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 15,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_lion_5",
+          "name": "Special Bonus Unique Lion 5"
+        },
+        {
+          "level": 17,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_lion_10",
+          "name": "Special Bonus Unique Lion 10"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_lion_2",
+          "name": "Special Bonus Unique Lion 2"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 64,
+        "xp_per_min": 33,
+        "kills_per_min": 84,
+        "hero_damage_per_min": 94,
+        "tower_damage": 30
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Керри-Лион в депрессивной стадии: 870 GPM, zero tower damage и слитый трон за 24 минуты.",
+        "clown_rating": "880 / 1000",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, твой перформанс на Лионе — это настоящее искусство пост-иронии. Ты нафармил 21000 нетворса за 24 минуты, набил 1513 XPM (что намекает на Турбо или лютый кач), купил себе сборку истинного гигачада из Лотара, БКБ и Яши-Каи, но нанес ровно 0 урона по строениям. Ты играл в Dota 2 как в рогалик: бегал, ультовал Пальцем Смерти по КД, фармил всё, что движется, и абсолютно проигнорировал тот факт, что вражеский Lifestealer и Zeus пришли и просто заломали твой трон, пока ты искал очередной килл в инвизе.",
+        "key_mistakes": [
+          "Полный абсолютный ноль (0) урона по строениям при нетворсе в 21000 золота.",
+          "Сборка Yasha and Kaya и Shadow Blade вместо командных или контрольных предметов против Silencer и Lifestealer.",
+          "Фарм ради фарма: имея 870 GPM, ты не смог конвертировать преимущество по золоту в выигранные обжективы."
+        ],
+        "positioning_review": "Имея в арсенале Blink Dagger, Shadow Blade и BKB, ты сумел умереть 7 раз за 24 минуты. Против Silencer и Zeus твоя позиционка в инвизе ломалась одной кнопкой Lightning Bolt или Глобалом. Варды в логах отсутствуют — ты играл без обзора, надеясь только на свой реактивный даггер и авось.",
+        "build_review": "Power Treads, Yasha and Kaya, Shadow Blade, BKB, Aghanim's Scepter. Это не Lion, это какой-то Shadow Fiend на минималках. Прокачка скиллов через ранний макс Impale и Voodoo без прокачки Mana Drain — классический 'билд на убивалку'. Сборка выглядит максимально кайфово для соло-киллов, но абсолютно бесполезна для победы в игре.",
+        "chat_review": "Чат чист как совесть человека, который забрал весь фарм у своего керри. Полное молчаливое погружение в соло-гейминг и астральный тильт.",
+        "advice": "Данислон, если ты берешься фармить 870 GPM на саппорт-герое, хотя бы билди автоатаку и битую башни, либо отдавай фарм тем, кто умеет бить Трон."
+      }
+    },
     {
       "match_id": 9029790777,
       "hero_id": 71,
