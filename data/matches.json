@@ -1,15 +1,394 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-11T20:50:22.273604+00:00",
+  "last_updated": "2026-10-12T23:34:09.591048+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
-    "total_games": 1674,
+    "total_games": 1676,
     "wins": 853,
-    "losses": 821,
-    "winrate": 50.96
+    "losses": 823,
+    "winrate": 50.89
   },
   "matches": [
+    {
+      "match_id": 9041934469,
+      "hero_id": 135,
+      "hero_name": "Dawnbreaker",
+      "hero_slug": "dawnbreaker",
+      "won": false,
+      "duration": 1923,
+      "start_time": 1791822262,
+      "kills": 4,
+      "deaths": 8,
+      "assists": 6,
+      "kda": "1.25",
+      "gpm": 396,
+      "xpm": 513,
+      "net_worth": 10672,
+      "hero_damage": 16680,
+      "tower_damage": 218,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 88,
+            "hero_name": "Nyx Assassin",
+            "hero_slug": "nyx_assassin",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 5,
+            "hero_name": "Crystal Maiden",
+            "hero_slug": "crystal_maiden",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 7,
+            "hero_name": "Earthshaker",
+            "hero_slug": "earthshaker",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 138,
+            "hero_name": "Muerta",
+            "hero_slug": "muerta",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 30,
+            "hero_name": "Witch Doctor",
+            "hero_slug": "witch_doctor",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "harpoon",
+        "magic_wand",
+        "bracer",
+        "soul_ring"
+      ],
+      "neutral_item": "jidi_pollen_bag",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "dawnbreaker_celestial_hammer",
+          "name": "Dawnbreaker Celestial Hammer"
+        },
+        {
+          "level": 2,
+          "ability": "dawnbreaker_fire_wreath",
+          "name": "Dawnbreaker Fire Wreath"
+        },
+        {
+          "level": 3,
+          "ability": "dawnbreaker_celestial_hammer",
+          "name": "Dawnbreaker Celestial Hammer"
+        },
+        {
+          "level": 4,
+          "ability": "dawnbreaker_luminosity",
+          "name": "Dawnbreaker Luminosity"
+        },
+        {
+          "level": 5,
+          "ability": "dawnbreaker_celestial_hammer",
+          "name": "Dawnbreaker Celestial Hammer"
+        },
+        {
+          "level": 6,
+          "ability": "dawnbreaker_solar_guardian",
+          "name": "Dawnbreaker Solar Guardian"
+        },
+        {
+          "level": 7,
+          "ability": "dawnbreaker_celestial_hammer",
+          "name": "Dawnbreaker Celestial Hammer"
+        },
+        {
+          "level": 8,
+          "ability": "dawnbreaker_fire_wreath",
+          "name": "Dawnbreaker Fire Wreath"
+        },
+        {
+          "level": 9,
+          "ability": "dawnbreaker_fire_wreath",
+          "name": "Dawnbreaker Fire Wreath"
+        },
+        {
+          "level": 10,
+          "ability": "dawnbreaker_fire_wreath",
+          "name": "Dawnbreaker Fire Wreath"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_dawnbreaker_luminosity_crit",
+          "name": "Special Bonus Unique Dawnbreaker Luminosity Crit"
+        },
+        {
+          "level": 12,
+          "ability": "dawnbreaker_luminosity",
+          "name": "Dawnbreaker Luminosity"
+        },
+        {
+          "level": 13,
+          "ability": "dawnbreaker_solar_guardian",
+          "name": "Dawnbreaker Solar Guardian"
+        },
+        {
+          "level": 14,
+          "ability": "dawnbreaker_luminosity",
+          "name": "Dawnbreaker Luminosity"
+        },
+        {
+          "level": 15,
+          "ability": "dawnbreaker_luminosity",
+          "name": "Dawnbreaker Luminosity"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_dawnbreaker_solar_guardian_cooldown",
+          "name": "Special Bonus Unique Dawnbreaker Solar Guardian Cooldown"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 15,
+        "xp_per_min": 16,
+        "kills_per_min": 28,
+        "hero_damage_per_min": 36,
+        "tower_damage": 22
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Синдром тактического метеорита: прилетел ультом в пять дизейблов, покрутил молотом в Spiked Carapace и отправился на фонтан.",
+        "clown_rating": "245 / 1000 клоунских искр",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, снимаю шляпу перед вашей способностью пикнуть Dawnbreaker во флекс/роум и за 32 минуты нанести 218 урона по вышкам. Это не игра, это артхаусный перформанс. Против вас играл квартет контроля (Nyx, Earthshaker, Witch Doctor, Crystal Maiden) под прикрытием Muerta. Ваша микроигра свелась к нажатию Celestial Hammer в туман войны и мгновенному наказанию себя любимого об шипы Никса. В макро вы просто бродили по карте со скромными 396 GPM, полностью проигнорировав базовый закон Доты: Dawnbreaker создана для того, чтобы пушить противоположный лайн и прилетать на Solar Guardian. Вы же предпочли не пушить вовсе, а камбэк остался лишь мечтой в протоколах поражения.",
+        "key_mistakes": [
+          "Хроническая аллергия на Black King Bar против драфта с пятью жесткими дизейблами и Maledict.",
+          "Катастрофический сплитпуш: 218 урона по строениям за 32 минуты игры на силовике с кливом.",
+          "Сборка Harpoon в ситуации тотального дефицита выживаемости и отсутствия базового темпа."
+        ],
+        "positioning_review": "8 смертей за 32 минуты на плотном герое первой-второй позиции — это стабильная отправка в таверну каждые 4 минуты. Вы раз за разом находили способ приземлиться ультом прямо в эпицентр Fissure и Death Ward. Обзора ноль, вардинг проигнорирован, а позиционка в драках напоминала одинокого мотылька, летящего на лампу накаливания имени Никса.",
+        "build_review": "Стартовый набор через Soul Ring и Phase Boots имел право на жизнь, но дальнейшее решение рашить Harpoon против тонны магического бёрста и контроля выглядит как чистое членовредительство. Вам жизненно необходим был ранний BKB или хотя бы Mage Slayer / Shard. По скиллбилду: максить молоток — нормально, но брать талант на криты Люминозити на 11-м уровне, когда вы даже дойти до врага под станами не можете, — пустая трата ресурсов.",
+        "chat_review": "Абсолютная тишина в эфире. Ни единого пинга, ни спама колесом чата. Данислон ушел в режим тихого созерцания собственной катастрофы. Никакого тильта на тиммейтов, только ледяное экзистенциальное смирение перед падающим троном.",
+        "advice": "В следующем матче на Dawnbreaker поставьте в быстрый закуп BKB сразу после сапога, научитесь нажимать правую кнопку мыши по вражеским вышкам и перестаньте лететь ультимейтом в драку, если у вражеского Никса не потрачен карапас."
+      }
+    },
+    {
+      "match_id": 9041866961,
+      "hero_id": 2,
+      "hero_name": "Axe",
+      "hero_slug": "axe",
+      "won": false,
+      "duration": 1767,
+      "start_time": 1791819883,
+      "kills": 2,
+      "deaths": 7,
+      "assists": 4,
+      "kda": "0.86",
+      "gpm": 405,
+      "xpm": 461,
+      "net_worth": 11362,
+      "hero_damage": 12270,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 76,
+            "hero_name": "Outworld Destroyer",
+            "hero_slug": "obsidian_destroyer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 135,
+            "hero_name": "Dawnbreaker",
+            "hero_slug": "dawnbreaker",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 101,
+            "hero_name": "Skywrath Mage",
+            "hero_slug": "skywrath_mage",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 87,
+            "hero_name": "Disruptor",
+            "hero_slug": "disruptor",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 12,
+            "hero_name": "Phantom Lancer",
+            "hero_slug": "phantom_lancer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "ogre_axe",
+        "blade_mail",
+        "mithril_hammer",
+        "vanguard"
+      ],
+      "neutral_item": "pogo_stick",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 2,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 3,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 4,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 5,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 6,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 7,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 8,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 9,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 10,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_axe_8",
+          "name": "Special Bonus Unique Axe 8"
+        },
+        {
+          "level": 12,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 13,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 14,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 15,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_axe",
+          "name": "Special Bonus Unique Axe"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 21,
+        "xp_per_min": 12,
+        "kills_per_min": 6,
+        "hero_damage_per_min": 13,
+        "tower_damage": 19
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Данислон, ты не Акс, ты — живой генератор золота для вражеского Фантом Лансера, который, вероятно, даже не заметил твоего присутствия в игре.",
+        "clown_rating": "888 / 1000, почти TI-финалист по метанию фекалий в монитор",
+        "coach_verdict": "Твой выбор роли 'Роум' на Аксе в 2024 году — это концептуальное искусство. В матче против OD и Скайраса ты бегал без конкретного плана, имея нулевой импакт по таверам и нищенский GPM. Акс требует контроля темпа через Blink, но ты потратил полчаса на сборку предметов, которые не синергируют друг с другом. Вместо создания давления ты занимался косплеем крипа, пока вражеский керри бесконтрольно фармил карту.",
+        "key_mistakes": [
+          "Отсутствие макро-игры: 0 урона по вышкам при наличии такого количества времени",
+          "Неправильная роль: Акс в роуме без фарма — это мертвый слот в команде",
+          "Игнорирование приоритетов: попытка дособирать неактуальные предметы вместо ключевых БКБ или Солара"
+        ],
+        "positioning_review": "Твои 7 смертей говорят о том, что ты прыгал в 'Call' прямо в эпицентр магии, не дождавшись КД ключевых скиллов противника. Ты позиционировал себя как мишень, а не как инициатор.",
+        "build_review": "Сборка через Blade Mail и Vanguard в 30-минутной катке — это билд для лобби с ботами. Ogre Axe и Mithril Hammer в инвентаре на 30-й минуте выглядят как крик отчаяния, а Pogo Stick — идеальное описание твоей мобильности в файтах.",
+        "chat_review": "Абсолютная тишина. Видимо, ты понял, что даже оправдания в чате не спасут твой КДА 0.86, и решил принять позор с достоинством немого киберспортсмена.",
+        "advice": "Удали Доту на три дня, посмотри реплеи Ceb'а, и запомни: Акс — это про тайминги Блинка, а не про сборку кусков мусора в инвентаре. В следующий раз попробуй хотя бы нажать кнопку телепорта на линию."
+      }
+    },
     {
       "match_id": 9038775244,
       "hero_id": 26,
