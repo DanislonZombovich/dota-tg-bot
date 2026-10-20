@@ -1,12 +1,12 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-18T19:17:50.326459+00:00",
+  "last_updated": "2026-10-20T20:19:29.447561+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
-    "total_games": 1681,
-    "wins": 855,
-    "losses": 826,
+    "total_games": 1685,
+    "wins": 857,
+    "losses": 828,
     "winrate": 50.86
   },
   "matches": [
