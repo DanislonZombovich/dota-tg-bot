@@ -1,15 +1,215 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-21T20:28:21.560250+00:00",
+  "last_updated": "2026-10-24T19:18:34.414664+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
-    "total_games": 1685,
-    "wins": 857,
-    "losses": 828,
-    "winrate": 50.86
+    "total_games": 1690,
+    "wins": 858,
+    "losses": 832,
+    "winrate": 50.77
   },
   "matches": [
+    {
+      "match_id": 9058570754,
+      "hero_id": 2,
+      "hero_name": "Axe",
+      "hero_slug": "axe",
+      "won": false,
+      "duration": 2692,
+      "start_time": 1792784151,
+      "kills": 12,
+      "deaths": 11,
+      "assists": 20,
+      "kda": "2.91",
+      "gpm": 526,
+      "xpm": 751,
+      "net_worth": 18767,
+      "hero_damage": 32745,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 14,
+            "hero_name": "Pudge",
+            "hero_slug": "pudge",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 35,
+            "hero_name": "Sniper",
+            "hero_slug": "sniper",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 128,
+            "hero_name": "Snapfire",
+            "hero_slug": "snapfire",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 70,
+            "hero_name": "Ursa",
+            "hero_slug": "ursa",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 86,
+            "hero_name": "Rubick",
+            "hero_slug": "rubick",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "black_king_bar",
+        "blade_mail",
+        "ultimate_scepter",
+        "kaya"
+      ],
+      "neutral_item": "prophets_pendulum",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 2,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 3,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 4,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 5,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 6,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 7,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 8,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 9,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 10,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_axe_8",
+          "name": "Special Bonus Unique Axe 8"
+        },
+        {
+          "level": 12,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 13,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 14,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 15,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_axe",
+          "name": "Special Bonus Unique Axe"
+        },
+        {
+          "level": 17,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_axe_4",
+          "name": "Special Bonus Unique Axe 4"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 65,
+        "xp_per_min": 60,
+        "kills_per_min": 60,
+        "hero_damage_per_min": 60,
+        "tower_damage": 19
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Магический Акс-мистик с Каей без урона по строениям",
+        "clown_rating": "750 / 1000 TI God",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов провел перформанс на уровне лучших роумящих Аксов 2014 года. Имея против себя Урсу и Снайпера, наш герой решил, что 0 урона по таверам за 45 минут — это идеальная стратегия для победы. Ты врывался, крутился, впитывал урона на миллион рублей, но совсем забыл, что цель игры в Dota 2 — снести древний энеми, а не просто крутиться в замесе как блейдбейдер. Проигранный патч и проигранный матч, хотя KDA выглядит как будто ты пытался победить.",
+        "key_mistakes": [
+          "Абсолютный игнор строений: 0 урона по таверам за 44 минуты игры.",
+          "Покупка Kaya на Axe без дальнейшего апгрейда — чистая астральная магия для ускорения регена маны.",
+          "Отсутствие Vanguard/Heart/Sange against Ursa — ты буквально умирал 11 раз, пока Урса набивала Fury Swipes."
+        ],
+        "positioning_review": "11 смертей намекают, что врывы с Блинка совершались с девизом 'Слабоумие и отвага'. Против Ursa и Sniper сближение без идеального контроля — это суицид. Ты часто оказывался один в окружении Рубика, Снайпера и Пуджа, пока твоя команда наблюдала за твоим сольным танцем смерти.",
+        "build_review": "Phase Boots, Blink и Blade Mail — классика базового под пиво. BKB и Аганим — солидно. Но Kaya на Аксе?! Данислон, ты планировал собирать Етернал Шрауд или Кая-Яша, или просто решил накачать магурон своего Culling Blade? Вместо Kaya тут просился Sange & Yasha, Overwhelming Blink или Shiva's Guard.",
+        "chat_review": "Гробовая тишина в чате. Данислон перенес весь свой тильт глубоко внутрь себя, молча наблюдая, как рушится его Трон.",
+        "advice": "Данислон, если видишь против себя Урсу и Снайпера — бери защитные артефакты на выживаемость, перестань покупать Kaya на силувиках и хотя бы один раз за игру пни вражескую башню!"
+      }
+    },
     {
       "match_id": 9041934469,
       "hero_id": 135,
