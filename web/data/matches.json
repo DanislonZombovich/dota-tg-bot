@@ -1,15 +1,1922 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-24T19:18:34.414664+00:00",
+  "last_updated": "2026-10-25T19:37:31.730414+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
-    "total_games": 1690,
-    "wins": 858,
-    "losses": 832,
+    "total_games": 1692,
+    "wins": 859,
+    "losses": 833,
     "winrate": 50.77
   },
   "matches": [
+    {
+      "match_id": 9061789286,
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "hero_slug": "sand_king",
+      "won": false,
+      "duration": 2081,
+      "start_time": 1792949566,
+      "kills": 4,
+      "deaths": 6,
+      "assists": 6,
+      "kda": "1.67",
+      "gpm": 411,
+      "xpm": 525,
+      "net_worth": 12836,
+      "hero_damage": 16762,
+      "tower_damage": 34,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 131,
+            "hero_name": "Ringmaster",
+            "hero_slug": "ringmaster",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 35,
+            "hero_name": "Sniper",
+            "hero_slug": "sniper",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 12,
+            "hero_name": "Phantom Lancer",
+            "hero_slug": "phantom_lancer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 14,
+            "hero_name": "Pudge",
+            "hero_slug": "pudge",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 86,
+            "hero_name": "Rubick",
+            "hero_slug": "rubick",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "platemail",
+        "bracer",
+        "ultimate_scepter",
+        "null_talisman"
+      ],
+      "neutral_item": "cloak_of_flames",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 2,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 3,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 4,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 5,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 6,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 7,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 8,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 9,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_unique_sand_king_3",
+          "name": "Special Bonus Unique Sand King 3"
+        },
+        {
+          "level": 11,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 12,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 13,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 14,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 15,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_sand_king_2",
+          "name": "Special Bonus Unique Sand King 2"
+        },
+        {
+          "level": 17,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 28,
+        "xp_per_min": 22,
+        "kills_per_min": 28,
+        "hero_damage_per_min": 22,
+        "tower_damage": 25
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Эпицентр бесполезности: 34 урона по строениям и фарм уровня крипа-мага.",
+        "clown_rating": "780 / 1000 Clown Major Champion",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, твоя игра на Sand King в роуминге больше напоминала попытку закопаться в песок и дождаться окончания матча. Против пика с Pudge, Rubick, Sniper и Phantom Lancer ты обязан был давать врыв и стирать иллюзии с саппортами. Вместо этого за 34 минуты ты нанес 34 урона по тауэрам (один случайный автоатакующий шлепок) и показал бенчмарки на уровне 22-28%. Команда играла 4v5, пока ты копил на незавершенный Platemail.",
+        "key_mistakes": [
+          "Полное отсутствие урона по строениям (34 damage): игнорирование макро-игры и пуша после победных стычек.",
+          "Критически низкий темп фарма для Sand King с Sand Storm и Cloak of Flames (GPM 411 и бенчмарки 22%).",
+          "Игнорирование защитных предметов (BKB / Eul / Force Staff) против ворующего скиллы Rubick и хуков Pudge."
+        ],
+        "positioning_review": "KDA 1.67 и 6 смертей показывают, что твои врывы с Blink Dagger происходили прямо под фокус Sniper и Rubick, который с радостью забирал твой Epicenter. Отсутствие контроля позиции и позитива в файтах превратило тебя в бесплатный фрагмент для вражеской команды.",
+        "build_review": "Phase Boots и Null Talisman на Sand King в 2026 году — это искусство пост-иронии. Blink Dagger и Aghanim's Scepter — это отлично, но зависший в инвентаре Platemail и отсутствие BKB/Lotus против контроля Pudge и Rubick полностью помножили твой импакт на ноль.",
+        "chat_review": "Полная радиотишина в чате. Данислон либо замутил весь сервер на 0-й минуте, либо находился в состоянии глубокого ментального тильта, молча наблюдая за падением своего трона.",
+        "advice": "Меняй Phase Boots на Arcane Boots, учись забирать стаки песком для поддержания 500+ GPM и покупай BKB до того, как Rubick украдет твой единственный полезный скилл."
+      }
+    },
+    {
+      "match_id": 9061675587,
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "hero_slug": "sand_king",
+      "won": true,
+      "duration": 3342,
+      "start_time": 1792945536,
+      "kills": 14,
+      "deaths": 10,
+      "assists": 21,
+      "kda": "3.50",
+      "gpm": 629,
+      "xpm": 955,
+      "net_worth": 31264,
+      "hero_damage": 44823,
+      "tower_damage": 3018,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 26,
+            "hero_name": "Lion",
+            "hero_slug": "lion",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 97,
+            "hero_name": "Magnus",
+            "hero_slug": "magnataur",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 48,
+            "hero_name": "Luna",
+            "hero_slug": "luna",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 128,
+            "hero_name": "Snapfire",
+            "hero_slug": "snapfire",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 105,
+            "hero_name": "Techies",
+            "hero_slug": "techies",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "black_king_bar",
+        "greater_crit",
+        "bloodstone",
+        "basher"
+      ],
+      "neutral_item": "enchanters_bauble",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 2,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 3,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 4,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 5,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 6,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 7,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 8,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 9,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 10,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_sand_king_3",
+          "name": "Special Bonus Unique Sand King 3"
+        },
+        {
+          "level": 12,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 13,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 14,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 15,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_sand_king_2",
+          "name": "Special Bonus Unique Sand King 2"
+        },
+        {
+          "level": 17,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_sand_king",
+          "name": "Special Bonus Unique Sand King"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_sand_king_scorpion_strike_damage",
+          "name": "Special Bonus Unique Sand King Scorpion Strike Damage"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_sand_king_caustic_finale_radius",
+          "name": "Special Bonus Unique Sand King Caustic Finale Radius"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_sand_king_8",
+          "name": "Special Bonus Unique Sand King 8"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 85,
+        "xp_per_min": 81,
+        "kills_per_min": 73,
+        "hero_damage_per_min": 66,
+        "tower_damage": 96
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Шизофренический right-click Скорпион: сборка Башера и Даедалуса вопреки здравому смыслу и законам физики Dota 2.",
+        "clown_rating": "734 / 1000 Цирковой Гладиатор",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, снимаю шляпу перед твоим упорством и вызываю санитаров к твоему билду. За 55 минут ты умудрился стать гибридом Сларка и мага воды, выдав 45к урона и забрав победу, умерев при этом 10 раз. Твой флекс-роум на SK против пика из Магнуса, Лиона, Луны, Снэпфайр и Течиса — это чистое минное поле, но ты решил ходить по нему пешком и бить врагов клешнями с критами. Твой импакт в пуше выше 96% игроков на SK, однако 10 смертей показывают, что каждый твой врыв был лотереей с вероятностью выживания 50/50.",
+        "key_mistakes": [
+          "Покупка Skull Basher и Daedalus на Sand King вместо классических Aghanim's Scepter, Shiva's Guard или Wind Waker в 55-минутном лейте.",
+          "Неапнутый базовый Blink Dagger на 55-й минуте при нетворсе свыше 31k золота — преступная халатность без Overwhelming или Arcane Blink.",
+          "Десять смертей при наличии BKB и Bloodstone: регулярные прыжки в эпицентр контроля без предварительного байта на RP Магнуса и Finger Лиона."
+        ],
+        "positioning_review": "Позиционирование истинного штурмовика: видишь цель — делаешь Burrowstrike, нажимаешь BKB и начинаешь автоатаковать. Против связки Magnus + Lion подобный стиль гарантировал регулярные 10 путевок на фонтан. Ты выживал исключительно за счет Bloodstone и суматохи, пренебрегая кайтингом и позиционной скрытностью в песке.",
+        "build_review": "Сборка предметов — памятник постиронии. Phase Boots, Bloodstone, BKB, Daedalus и Basher. Ты буквально собрался как семи-керри через Scorpion Strike, проигнорировав Aghanim's Scepter, который превращает SK в машину бесконечного контроля. Скиллбилд с упором на Sand Storm и Scorpion Strike понятен под этот дикий план, но за Башер на SK аналитики Team Liquid уже выехали по твоему адресу.",
+        "chat_review": "Гробовая тишина в чате. Либо ты был в глубоком муте за пропаганду керри-скорпиона, либо молча тащил этот цирк на морально-волевых, стиснув зубы.",
+        "advice": "В следующем матче отпусти фантазии о критующем скорпионе-боксёре: собери нормальный Aghanim's Scepter, улучши Blink до Overwhelming и дай команде контроль, а не шоу 'ударь Луну башером'."
+      }
+    },
+    {
+      "match_id": 9061363824,
+      "hero_id": 26,
+      "hero_name": "Lion",
+      "hero_slug": "lion",
+      "won": false,
+      "duration": 1292,
+      "start_time": 1792935211,
+      "kills": 4,
+      "deaths": 6,
+      "assists": 8,
+      "kda": "2.00",
+      "gpm": 635,
+      "xpm": 986,
+      "net_worth": 13968,
+      "hero_damage": 19287,
+      "tower_damage": 170,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 30,
+            "hero_name": "Witch Doctor",
+            "hero_slug": "witch_doctor",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 45,
+            "hero_name": "Pugna",
+            "hero_slug": "pugna",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 111,
+            "hero_name": "Oracle",
+            "hero_slug": "oracle",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 43,
+            "hero_name": "Death Prophet",
+            "hero_slug": "death_prophet",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 69,
+            "hero_name": "Doom",
+            "hero_slug": "doom_bringer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "power_treads",
+        "blink",
+        "yasha_and_kaya",
+        "ultimate_scepter",
+        "magic_wand",
+        "null_talisman"
+      ],
+      "neutral_item": "conjurers_catalyst",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 2,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 3,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 4,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 5,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 6,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 7,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 8,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 9,
+          "ability": "special_bonus_movement_speed_20",
+          "name": "Special Bonus Movement Speed 20"
+        },
+        {
+          "level": 10,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 11,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 12,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 13,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 14,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 15,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_lion_11",
+          "name": "Special Bonus Unique Lion 11"
+        },
+        {
+          "level": 17,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 22,
+        "xp_per_min": 4,
+        "kills_per_min": 53,
+        "hero_damage_per_min": 88,
+        "tower_damage": 43
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Парсинг без ответа нейросети",
+        "clown_rating": "500 / 1000",
+        "coach_verdict": "Игра на Lion завершилась поражением. Статистика KDA: 2.00.",
+        "key_mistakes": [
+          "Требуется повторный анализ логов"
+        ],
+        "positioning_review": "Стандартная позиционка по карте.",
+        "build_review": "Сборка соответствовала стандартному паттерну.",
+        "chat_review": "Внутриигровой чат прошел без критических инцидентов.",
+        "advice": "Держи концентрацию до сноса вражеского трона."
+      }
+    },
+    {
+      "match_id": 9061229685,
+      "hero_id": 51,
+      "hero_name": "Clockwerk",
+      "hero_slug": "rattletrap",
+      "won": true,
+      "duration": 4007,
+      "start_time": 1792930600,
+      "kills": 14,
+      "deaths": 3,
+      "assists": 35,
+      "kda": "16.33",
+      "gpm": 2130,
+      "xpm": 2158,
+      "net_worth": 144603,
+      "hero_damage": 121830,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 81,
+            "hero_name": "Chaos Knight",
+            "hero_slug": "chaos_knight",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 35,
+            "hero_name": "Sniper",
+            "hero_slug": "sniper",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 55,
+            "hero_name": "Dark Seer",
+            "hero_slug": "dark_seer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 131,
+            "hero_name": "Ringmaster",
+            "hero_slug": "ringmaster",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 40,
+            "hero_name": "Venomancer",
+            "hero_slug": "venomancer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "shivas_guard",
+        "helm_of_the_overlord",
+        "boots",
+        "radiance",
+        "octarine_core",
+        "yasha_and_kaya"
+      ],
+      "neutral_item": "enchanters_bauble",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 2,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 3,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 4,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 5,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 6,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 7,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 8,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 9,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_mp_regen_150",
+          "name": "Special Bonus Mp Regen 150"
+        },
+        {
+          "level": 11,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 12,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 13,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 14,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 15,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_clockwerk_5",
+          "name": "Special Bonus Unique Clockwerk 5"
+        },
+        {
+          "level": 17,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_clockwerk_4",
+          "name": "Special Bonus Unique Clockwerk 4"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_clockwerk_rocket_flare_charges",
+          "name": "Special Bonus Unique Clockwerk Rocket Flare Charges"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_clockwerk_hookshot_damage",
+          "name": "Special Bonus Unique Clockwerk Hookshot Damage"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_clockwerk_3",
+          "name": "Special Bonus Unique Clockwerk 3"
+        },
+        {
+          "level": 22,
+          "ability": "special_bonus_unique_clockwerk_2",
+          "name": "Special Bonus Unique Clockwerk 2"
+        },
+        {
+          "level": 23,
+          "ability": "special_bonus_unique_clockwerk",
+          "name": "Special Bonus Unique Clockwerk"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 100,
+        "xp_per_min": 81,
+        "kills_per_min": 66,
+        "hero_damage_per_min": 98,
+        "tower_damage": 33
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Классический случай 'я сошел с ума, пока титаны спали', где Clockwerk решил стать керри-монстром из горящего мусорного бака.",
+        "clown_rating": "888 / 1000 TI God of Chaos",
+        "coach_verdict": "Длительность матча в 66 минут — это не игра, это психологическая пытка. Ты сыграл роль 'Клокверка-пожирателя' с GPM, который заставляет потеть даже Алхимика с тремя мидасами. Ты полностью игнорировал концепцию 'саппорт/роум', превратив игру в бесконечную осаду с Radiance и Helm of the Overlord. Твое доминирование в киллах компенсировало полное отсутствие урона по таверам, что почти превратило твою победу в бесконечный фарм-симулятор.",
+        "key_mistakes": [
+          "Нулевой урон по вышкам при таком нетвортсе — ты явно любил 'поиграть' с врагами, вместо того чтобы закончить игру раньше.",
+          "Сборка Radiance на Клоке в лейте — это глубокое издевательство над канонами Dota 2, граничащее с гениальностью или шизофренией.",
+          "Полное отсутствие тактического фокуса на объектах в пользу бессмысленного стейт-чека врагов через Hookshot."
+        ],
+        "positioning_review": "Для персонажа с 3 смертями за 66 минут позиционка была идеальной. Ты либо находился за спинами своей армии из Helm of the Overlord, либо настолько задавил врагов золотом, что они просто боялись смотреть в твою сторону.",
+        "build_review": "Radiance, Octarine, Yasha and Kaya... Данислон, ты строишь Clockwerk или пытаешься собрать трансформера? Это худшая сборка для выживаемости, которая сработала только из-за твоего тотального превосходства в ресурсах.",
+        "chat_review": "Пустота в чате говорит о том, что ты либо играл с ботами, либо настолько запугал оппонентов, что они решили молча принять свою судьбу.",
+        "advice": "Если ты планируешь побеждать за 20 минут, а не за 66, купи Blade Mail или Аганим, а не Radiance. Твой нетвортс должен идти в пользу пуша, а не в пользу создания визуального шума на карте."
+      }
+    },
+    {
+      "match_id": 9061182879,
+      "hero_id": 51,
+      "hero_name": "Clockwerk",
+      "hero_slug": "rattletrap",
+      "won": false,
+      "duration": 1423,
+      "start_time": 1792928840,
+      "kills": 5,
+      "deaths": 7,
+      "assists": 17,
+      "kda": "3.14",
+      "gpm": 1185,
+      "xpm": 2271,
+      "net_worth": 23602,
+      "hero_damage": 31361,
+      "tower_damage": 21,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 59,
+            "hero_name": "Huskar",
+            "hero_slug": "huskar",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 64,
+            "hero_name": "Jakiro",
+            "hero_slug": "jakiro",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 50,
+            "hero_name": "Dazzle",
+            "hero_slug": "dazzle",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 35,
+            "hero_name": "Sniper",
+            "hero_slug": "sniper",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 104,
+            "hero_name": "Legion Commander",
+            "hero_slug": "legion_commander",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "wind_lace",
+        "shivas_guard",
+        "boots",
+        "octarine_core",
+        "ultimate_scepter",
+        "radiance"
+      ],
+      "neutral_item": "enchanters_bauble",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 2,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 3,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 4,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 5,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 6,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 7,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 8,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 9,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_mp_regen_150",
+          "name": "Special Bonus Mp Regen 150"
+        },
+        {
+          "level": 11,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 12,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 13,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 14,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 15,
+          "ability": "special_bonus_unique_clockwerk_5",
+          "name": "Special Bonus Unique Clockwerk 5"
+        },
+        {
+          "level": 16,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 17,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_clockwerk_4",
+          "name": "Special Bonus Unique Clockwerk 4"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_clockwerk_rocket_flare_charges",
+          "name": "Special Bonus Unique Clockwerk Rocket Flare Charges"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_clockwerk_hookshot_damage",
+          "name": "Special Bonus Unique Clockwerk Hookshot Damage"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_clockwerk_3",
+          "name": "Special Bonus Unique Clockwerk 3"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 90,
+        "xp_per_min": 88,
+        "kills_per_min": 66,
+        "hero_damage_per_min": 90,
+        "tower_damage": 33
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Синдром орбитальной микроволновки: коричневый сапог, Radiance и макс ракет против Хускара с Легионкой",
+        "clown_rating": "780 / 1000 (Калиброванный цирк в Турбо)",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, моё почтение. Иметь 1185 GPM и 23 600 нетворса за 23 минуты, но при этом нанести ровно 21 единицу урона по вышкам — это монументальный памятник пассивно-агрессивному геймингу. Ты играл против драфта мечты для классического Клокверка: Снайпер, Хускар, ЛК и тонкие саппорты Джакиро с Даззлом. Казалось бы: нажми Blade Mail, закрой Снайпера в когах, накинь дисарм с Алебарды на Хускара и забирай победу. Но Данислон выбрал путь самурая-аутиста: фармить Radiance, Shiva и Octarine, бегая в коричневом тапке и превращаясь в ходячую мишень для Дуэлей Легионки. В итоге команда играла 4 в 5 с автономной радиоуправляемой турелью.",
+        "key_mistakes": [
+          "21 урон по строениям за всю игру при космическом золотом потоке: полный игнор пуша и давления на строения после выигранных драк.",
+          "Сборка в керри-микроволновку (Radiance + Octarine) без защитных опций (BKB, Blade Mail, Lotus) против Huskar и Legion Commander.",
+          "Макс Rocket Flare к 7 уровню вместо Battery Assault: ты добровольно лишил себя урона в соло-таргет и сбивания кастов в ранних драках."
+        ],
+        "positioning_review": "Судя по 7 смертям за 23 минуты в турбо-режиме, твой единственный сценарий позиционирования выглядел так: запускаем ракету в туман, жмем Hookshot в центр толпы, понимаем, что забыли купить BKB или Blade Mail, и отдаем бесплатный урон в Дуэль Легионке или сгораем от стрел Хускара. При наличии виндлейса и обычного ботинка кайтить врагов было физически невозможно.",
+        "build_review": "Шедевр постироничной инженерной мысли: Radiance, Shiva's Guard, Octarine Core, Aghanim's Scepter... и Brown Boots с Wind Lace на 23-й минуте. Ты влил 23 тысячи золота в маг-билд, но зажал 1000 голды на апгрейд тапка до Phase Boots или Tranquil/Boots of Bearing. Прокачка скиллов 4-0-4-1 окончательно закрепила твою роль как споттера из World of Tanks, а не инициатора Dota 2.",
+        "chat_review": "Чат абсолютно пуст. Данислон Зомбович молча переваривал экзистенциальный ужас происходящего, запуская ракеты по КД и наблюдая за падением своего трона с лицом истинного стоика.",
+        "advice": "Данислон, сними с Клокверка костюм радиоактивного обогревателя. Против физического берст-урона и дуэлей покупай Blade Mail, BKB и апгрейди сапог, а ракетами сбивай вражеские Clarity, а не пытайся ими выиграть войну."
+      }
+    },
+    {
+      "match_id": 9060520581,
+      "hero_id": 26,
+      "hero_name": "Lion",
+      "hero_slug": "lion",
+      "won": false,
+      "duration": 1228,
+      "start_time": 1792886309,
+      "kills": 6,
+      "deaths": 7,
+      "assists": 7,
+      "kda": "1.86",
+      "gpm": 938,
+      "xpm": 2078,
+      "net_worth": 19532,
+      "hero_damage": 25221,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 86,
+            "hero_name": "Rubick",
+            "hero_slug": "rubick",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 1,
+            "hero_name": "Anti-Mage",
+            "hero_slug": "antimage",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 58,
+            "hero_name": "Enchantress",
+            "hero_slug": "enchantress",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 121,
+            "hero_name": "Grimstroke",
+            "hero_slug": "grimstroke",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 25,
+            "hero_name": "Lina",
+            "hero_slug": "lina",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "power_treads",
+        "blink",
+        "black_king_bar",
+        "null_talisman",
+        "ultimate_scepter",
+        "yasha_and_kaya"
+      ],
+      "neutral_item": "pogo_stick",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 2,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 3,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 4,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 5,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 6,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 7,
+          "ability": "lion_impale",
+          "name": "Lion Impale"
+        },
+        {
+          "level": 8,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 9,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_movement_speed_20",
+          "name": "Special Bonus Movement Speed 20"
+        },
+        {
+          "level": 11,
+          "ability": "lion_voodoo",
+          "name": "Lion Voodoo"
+        },
+        {
+          "level": 12,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 13,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 14,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 15,
+          "ability": "lion_mana_drain",
+          "name": "Lion Mana Drain"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_lion_5",
+          "name": "Special Bonus Unique Lion 5"
+        },
+        {
+          "level": 17,
+          "ability": "lion_finger_of_death",
+          "name": "Lion Finger Of Death"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_lion_10",
+          "name": "Special Bonus Unique Lion 10"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_lion_2",
+          "name": "Special Bonus Unique Lion 2"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 72,
+        "xp_per_min": 74,
+        "kills_per_min": 77,
+        "hero_damage_per_min": 95,
+        "tower_damage": 28
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Турбо-терроризм с синдромом керри-Лиона и абсолютным пацифизмом к вражеским вышкам",
+        "clown_rating": "720 / 1000 (Почти праймовый Solo на 322)",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов провел показательную 20-минутную скоростную экскурсию на дно матчмейкинга. Имея безумный приток золота (GPM 938, XPM 2078) в ультрабыстрой игре, наш маэстро возомнил себя первой позицией Team Liquid. Против пика с Anti-Mage, Rubick, Lina и Grimstroke Лион с 25к урона выглядит внушительно только на скриншоте в дискорде. Ровно 0 урона по строениям за 20 минут означает, что Данислон принципиально обходил вражеские вышки по широкой дуге, пока его собственный трон трещал по швам под натиском Антимага.",
+        "key_mistakes": [
+          "Патологический пацифизм к строениям: ровно 0 урона по вышкам за игру при темпе турбо-матча.",
+          "Сборка Yasha and Kaya на Лионе вместо командных утилит (Aeon Disk, Lotus Orb, Force Staff) против взрывного урона Лины и сайленса Гримстрока.",
+          "Фид на конвейере: 7 смертей за 20 минут — это смерть каждые 2.8 минуты, таймер возрождения Данислон наблюдал дольше, чем крипов на линии."
+        ],
+        "positioning_review": "Позиционка отсутствовала как концепция. Прыжки с Pogo Stick и Blink Dagger прямо в объятия Рубика и Лины приводили к мгновенной ликвидации. Логи вардов девственно чисты — карта оставалась темнее глубин ада, откуда Лион черпает свой палец.",
+        "build_review": "К скиллбилду вопросов минимум: классическая раскачка через макс стана и хекса с ранним поинтом в манадрейн. Но айтембилд — это крик души: Power Treads, BKB, Aghanim и... Yasha and Kaya на 20-й минуте. Попытка разогнать мувспид и спелл-амплифай на суппорте, когда у врагов прыгает голодный Anti-Mage, заслуживает номинации на премию Дарвина в Dota 2.",
+        "chat_review": "Полный штиль в чате. Это стадия тихого тильта 'Данислон в себе': ни байбека, ни слов оправдания, только молчаливое наблюдение за тем, как собственная база превращается в пыль.",
+        "advice": "Данислон, если так тянет жать BKB и бегать с Yasha and Kaya — выбери Лину. А если взял Лиона, вспомни, что ты дизейблер: купи Force Staff, сбей спеллшилд врагам и хоть раз за игру кликни правой кнопкой мыши по вражескому таверу."
+      }
+    },
+    {
+      "match_id": 9060478195,
+      "hero_id": 51,
+      "hero_name": "Clockwerk",
+      "hero_slug": "rattletrap",
+      "won": true,
+      "duration": 3245,
+      "start_time": 1792882789,
+      "kills": 13,
+      "deaths": 8,
+      "assists": 33,
+      "kda": "5.75",
+      "gpm": 1520,
+      "xpm": 2526,
+      "net_worth": 66317,
+      "hero_damage": 55250,
+      "tower_damage": 69,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 26,
+            "hero_name": "Lion",
+            "hero_slug": "lion",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 43,
+            "hero_name": "Death Prophet",
+            "hero_slug": "death_prophet",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 35,
+            "hero_name": "Sniper",
+            "hero_slug": "sniper",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 71,
+            "hero_name": "Spirit Breaker",
+            "hero_slug": "spirit_breaker",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 53,
+            "hero_name": "Nature's Prophet",
+            "hero_slug": "furion",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "glimmer_cape",
+        "rapier",
+        "helm_of_the_overlord",
+        "shivas_guard",
+        "yasha_and_kaya"
+      ],
+      "neutral_item": "enchanters_bauble",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 2,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 3,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 4,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 5,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 6,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 7,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 8,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 9,
+          "ability": "special_bonus_mp_regen_150",
+          "name": "Special Bonus Mp Regen 150"
+        },
+        {
+          "level": 10,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 11,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 12,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 13,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 14,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 15,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_clockwerk_5",
+          "name": "Special Bonus Unique Clockwerk 5"
+        },
+        {
+          "level": 17,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_clockwerk_4",
+          "name": "Special Bonus Unique Clockwerk 4"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_clockwerk_rocket_flare_charges",
+          "name": "Special Bonus Unique Clockwerk Rocket Flare Charges"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_clockwerk_hookshot_damage",
+          "name": "Special Bonus Unique Clockwerk Hookshot Damage"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_clockwerk_3",
+          "name": "Special Bonus Unique Clockwerk 3"
+        },
+        {
+          "level": 22,
+          "ability": "special_bonus_unique_clockwerk_2",
+          "name": "Special Bonus Unique Clockwerk 2"
+        },
+        {
+          "level": 23,
+          "ability": "special_bonus_unique_clockwerk",
+          "name": "Special Bonus Unique Clockwerk"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 98,
+        "xp_per_min": 95,
+        "kills_per_min": 73,
+        "hero_damage_per_min": 71,
+        "tower_damage": 40
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Парсинг без ответа нейросети",
+        "clown_rating": "500 / 1000",
+        "coach_verdict": "Игра на Clockwerk завершилась победой. Статистика KDA: 5.75.",
+        "key_mistakes": [
+          "Требуется повторный анализ логов"
+        ],
+        "positioning_review": "Стандартная позиционка по карте.",
+        "build_review": "Сборка соответствовала стандартному паттерну.",
+        "chat_review": "Внутриигровой чат прошел без критических инцидентов.",
+        "advice": "Держи концентрацию до сноса вражеского трона."
+      }
+    },
+    {
+      "match_id": 9060446300,
+      "hero_id": 51,
+      "hero_name": "Clockwerk",
+      "hero_slug": "rattletrap",
+      "won": true,
+      "duration": 2020,
+      "start_time": 1792880579,
+      "kills": 1,
+      "deaths": 3,
+      "assists": 17,
+      "kda": "6.00",
+      "gpm": 1341,
+      "xpm": 1804,
+      "net_worth": 45217,
+      "hero_damage": 16729,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 67,
+            "hero_name": "Spectre",
+            "hero_slug": "spectre",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 40,
+            "hero_name": "Venomancer",
+            "hero_slug": "venomancer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 7,
+            "hero_name": "Earthshaker",
+            "hero_slug": "earthshaker",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 109,
+            "hero_name": "Terrorblade",
+            "hero_slug": "terrorblade",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 76,
+            "hero_name": "Outworld Destroyer",
+            "hero_slug": "obsidian_destroyer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "shivas_guard",
+        "rapier",
+        "rapier",
+        "octarine_core",
+        "ultimate_scepter",
+        "radiance"
+      ],
+      "neutral_item": "dezun_bloodrite",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 2,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 3,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 4,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 5,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 6,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 7,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 8,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 9,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_mp_regen_150",
+          "name": "Special Bonus Mp Regen 150"
+        },
+        {
+          "level": 11,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 12,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 13,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 14,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 15,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_clockwerk_5",
+          "name": "Special Bonus Unique Clockwerk 5"
+        },
+        {
+          "level": 17,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_clockwerk_4",
+          "name": "Special Bonus Unique Clockwerk 4"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_clockwerk_rocket_flare_charges",
+          "name": "Special Bonus Unique Clockwerk Rocket Flare Charges"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_clockwerk_hookshot_damage",
+          "name": "Special Bonus Unique Clockwerk Hookshot Damage"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_clockwerk_3",
+          "name": "Special Bonus Unique Clockwerk 3"
+        },
+        {
+          "level": 22,
+          "ability": "special_bonus_unique_clockwerk_2",
+          "name": "Special Bonus Unique Clockwerk 2"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 97,
+        "xp_per_min": 56,
+        "kills_per_min": 8,
+        "hero_damage_per_min": 13,
+        "tower_damage": 33
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Парсинг без ответа нейросети",
+        "clown_rating": "500 / 1000",
+        "coach_verdict": "Игра на Clockwerk завершилась победой. Статистика KDA: 6.00.",
+        "key_mistakes": [
+          "Требуется повторный анализ логов"
+        ],
+        "positioning_review": "Стандартная позиционка по карте.",
+        "build_review": "Сборка соответствовала стандартному паттерну.",
+        "chat_review": "Внутриигровой чат прошел без критических инцидентов.",
+        "advice": "Держи концентрацию до сноса вражеского трона."
+      }
+    },
+    {
+      "match_id": 9060388488,
+      "hero_id": 51,
+      "hero_name": "Clockwerk",
+      "hero_slug": "rattletrap",
+      "won": false,
+      "duration": 2953,
+      "start_time": 1792877254,
+      "kills": 18,
+      "deaths": 6,
+      "assists": 28,
+      "kda": "7.67",
+      "gpm": 2138,
+      "xpm": 2604,
+      "net_worth": 53823,
+      "hero_damage": 115103,
+      "tower_damage": 100,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 25,
+            "hero_name": "Lina",
+            "hero_slug": "lina",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 6,
+            "hero_name": "Drow Ranger",
+            "hero_slug": "drow_ranger",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 14,
+            "hero_name": "Pudge",
+            "hero_slug": "pudge",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 84,
+            "hero_name": "Ogre Magi",
+            "hero_slug": "ogre_magi",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 11,
+            "hero_name": "Shadow Fiend",
+            "hero_slug": "nevermore",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "shivas_guard",
+        "octarine_core"
+      ],
+      "neutral_item": "enchanters_bauble",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 2,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 3,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 4,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 5,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 6,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 7,
+          "ability": "rattletrap_battery_assault",
+          "name": "Rattletrap Battery Assault"
+        },
+        {
+          "level": 8,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 9,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_mp_regen_150",
+          "name": "Special Bonus Mp Regen 150"
+        },
+        {
+          "level": 11,
+          "ability": "rattletrap_rocket_flare",
+          "name": "Rattletrap Rocket Flare"
+        },
+        {
+          "level": 12,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 13,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 14,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 15,
+          "ability": "rattletrap_power_cogs",
+          "name": "Rattletrap Power Cogs"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_clockwerk_5",
+          "name": "Special Bonus Unique Clockwerk 5"
+        },
+        {
+          "level": 17,
+          "ability": "rattletrap_hookshot",
+          "name": "Rattletrap Hookshot"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_clockwerk_4",
+          "name": "Special Bonus Unique Clockwerk 4"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_clockwerk_rocket_flare_charges",
+          "name": "Special Bonus Unique Clockwerk Rocket Flare Charges"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_clockwerk_hookshot_damage",
+          "name": "Special Bonus Unique Clockwerk Hookshot Damage"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_clockwerk_3",
+          "name": "Special Bonus Unique Clockwerk 3"
+        },
+        {
+          "level": 22,
+          "ability": "special_bonus_unique_clockwerk_2",
+          "name": "Special Bonus Unique Clockwerk 2"
+        },
+        {
+          "level": 23,
+          "ability": "special_bonus_unique_clockwerk",
+          "name": "Special Bonus Unique Clockwerk"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 100,
+        "xp_per_min": 96,
+        "kills_per_min": 91,
+        "hero_damage_per_min": 100,
+        "tower_damage": 43
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Парсинг без ответа нейросети",
+        "clown_rating": "500 / 1000",
+        "coach_verdict": "Игра на Clockwerk завершилась поражением. Статистика KDA: 7.67.",
+        "key_mistakes": [
+          "Требуется повторный анализ логов"
+        ],
+        "positioning_review": "Стандартная позиционка по карте.",
+        "build_review": "Сборка соответствовала стандартному паттерну.",
+        "chat_review": "Внутриигровой чат прошел без критических инцидентов.",
+        "advice": "Держи концентрацию до сноса вражеского трона."
+      }
+    },
     {
       "match_id": 9058570754,
       "hero_id": 2,
