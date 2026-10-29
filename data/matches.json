@@ -1,15 +1,215 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-10-27T21:18:04.979428+00:00",
+  "last_updated": "2026-10-29T21:38:28.735889+00:00",
   "site_url": "https://danislonzombovich.github.io/dota-tg-bot/",
   "summary": {
-    "total_games": 1705,
+    "total_games": 1706,
     "wins": 867,
-    "losses": 838,
-    "winrate": 50.85
+    "losses": 839,
+    "winrate": 50.82
   },
   "matches": [
+    {
+      "match_id": 9066389154,
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "hero_slug": "sand_king",
+      "won": false,
+      "duration": 2285,
+      "start_time": 1793226996,
+      "kills": 9,
+      "deaths": 8,
+      "assists": 10,
+      "kda": "2.38",
+      "gpm": 530,
+      "xpm": 847,
+      "net_worth": 16741,
+      "hero_damage": 42638,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 62,
+            "hero_name": "Bounty Hunter",
+            "hero_slug": "bounty_hunter",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 7,
+            "hero_name": "Earthshaker",
+            "hero_slug": "earthshaker",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 43,
+            "hero_name": "Death Prophet",
+            "hero_slug": "death_prophet",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 8,
+            "hero_name": "Juggernaut",
+            "hero_slug": "juggernaut",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 14,
+            "hero_name": "Pudge",
+            "hero_slug": "pudge",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "lotus_orb",
+        "bracer",
+        "ultimate_scepter",
+        "lesser_crit"
+      ],
+      "neutral_item": "gunpowder_gauntlets",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 2,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 3,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 4,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 5,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 6,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 7,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 8,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 9,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 10,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_sand_king_3",
+          "name": "Special Bonus Unique Sand King 3"
+        },
+        {
+          "level": 12,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 13,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 14,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 15,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_sand_king_2",
+          "name": "Special Bonus Unique Sand King 2"
+        },
+        {
+          "level": 17,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_sand_king",
+          "name": "Special Bonus Unique Sand King"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 59,
+        "xp_per_min": 68,
+        "kills_per_min": 68,
+        "hero_damage_per_min": 91,
+        "tower_damage": 22
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Данислон Зомбович-Ликвидонов решил поиграть в RPG внутри Dota 2, пока его трон превращался в пыль.",
+        "clown_rating": "412 / 1000",
+        "coach_verdict": "Твое микро — это попытка переиграть оппонента на чистой харизме, но макро-игра отсутствует как класс. Ты играл на 'роумящем' Сэнд Кинге, у которого урона по вышкам меньше, чем у курьера, при этом ты умудрился собрать билд для керри, который не может закрыть игру. Твой вклад в файты сводился к прыжку в толпу под БХ и Шейкера — классический суицид ради KDA, который в итоге всё равно не спас.",
+        "key_mistakes": [
+          "Нулевой урон по вышкам: игра длилась почти 40 минут, а ты не нажал ни одной тычки по строениям.",
+          "Отсутствие макро-фокуса: ты бегал по карте как неприкаянный, вместо того чтобы создавать пространство или давить линии.",
+          "Неправильная роль: если берешься роумить, то покупай ауры и сейв, а не недоделанный крит."
+        ],
+        "positioning_review": "Ты прыгаешь в эпицентр событий с душой поэта и телом картонного скорпиона. Без вижена заходишь в каждый куст, где тебя с радостью встречает вся команда врага. Твоя позиционка — это 'прыгнул, умер, в чате написал что-то невнятное'.",
+        "build_review": "Сборка — винегрет из хотелок. Phase Boots и Lotus Orb — это база, но зачем тебе Lesser Crit на Сэнд Кинга в текущем патче? Это попытка компенсировать отсутствие мозга размером крита, который ты всё равно не успеваешь нанести, пока тебя контрит любой стан.",
+        "chat_review": "Полное молчание в чате. Видимо, ты либо был в глубоком тильте, либо пытался скрыть свои мысли от истории матчей. Молчание — золото, но не в этом случае, когда тимейтам нужен был колл.",
+        "advice": "В следующей катке попробуй нажать кнопку 'Атаковать здание' хотя бы раз. И смени билд на Aghanim's Shard + Blink + ауры, если хочешь играть в команду, а не в симулятор ходьбы по лесу."
+      }
+    },
     {
       "match_id": 9064764402,
       "hero_id": 2,
