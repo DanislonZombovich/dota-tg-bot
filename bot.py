@@ -19,7 +19,19 @@ TG_CHANNEL_ID = os.environ.get("TG_CHANNEL_ID")
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 DOTA_ACCOUNT_ID = os.environ.get("DOTA_ACCOUNT_ID")
 DATABASE_URL = os.environ.get("DATABASE_URL")
-SITE_URL = os.environ.get("SITE_URL", "https://dota-tg-bot.vercel.app")
+
+# ==========================================================
+# Customizable Parameters (can also be overridden via ENV)
+# ==========================================================
+PLAYER_NAME = os.environ.get("PLAYER_NAME", "Данислон Зомбович-Ликвидонов")
+# Temperature / Creativity (0.0 = deterministic, 1.0 = balanced, 2.0 = maximal creativity)
+AI_TEMPERATURE = float(os.environ.get("AI_TEMPERATURE", "1.0"))
+# Model priority ladder (Gemini 3.8 Flash is primary)
+DEFAULT_MODELS = [
+    os.environ.get("PRIMARY_MODEL", "gemini-3.8-flash"),
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite"
+]
 
 REQ_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -343,10 +355,10 @@ def parse_deep_match(match_id, constants):
     }
 
 def analyze_match_with_ai(match_info, client):
-    models = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"]
+    models = DEFAULT_MODELS
     system_instruction = (
         "Ты - элитный киберспортивный аналитик и постироничный тренер Dota 2. "
-        "Игрока зовут Данислон Зомбович-Ликвидонов. "
+        f"Игрока зовут {PLAYER_NAME}. "
         "Проведи глубокий разбор конкретного матча на основе статистики, лейнинга против врага на линии, предметов, скиллбилда, логов смертей, вардов, тимфайтов, графика преимущества по золоту и чата. "
         "Формат вывода: СТРОГО валидный JSON со следующими полями: "
         "{"
@@ -367,6 +379,7 @@ def analyze_match_with_ai(match_info, client):
         try:
             config = types.GenerateContentConfig(
                 system_instruction=system_instruction,
+                temperature=AI_TEMPERATURE,
                 response_mime_type="application/json"
             )
             resp = client.models.generate_content(
@@ -391,15 +404,14 @@ def analyze_match_with_ai(match_info, client):
     }
 
 def generate_daily_telegram_post(matches, account_summary, client):
-    models = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"]
+    models = DEFAULT_MODELS
     system_instruction = (
         "Ты - элитный киберспортивный аналитик для Telegram-канала. "
-        "Пользователя зовут Данислон Зомбович-Ликвидонов. "
+        f"Пользователя зовут {PLAYER_NAME}. "
         "Твой стиль: глубокая аналитика, приправленная постиронией и метаиронией. "
         "Похвали за гениальные моменты и высокий KDA/урон, и жестко, но смешно простеби за фид, низкий урон по зданиям и странные решения. "
-        "Обязательно упомяни общую статистику (винрейт), разбери каждую игру за день. "
-        "В конце поста ОБЯЗАТЕЛЬНО добавь строку с ссылкой на сайт с интерактивным разбором билдов, чата и позиционки: "
-        f"🌐 Подробный разбор билдов, чата и позиционки на сайте: {SITE_URL}"
+        "Обязательно упомяни общую статистику (винрейт), подробно разбери каждую игру за день с яркими выводами. "
+        "Используй выразительное форматирование Telegram (жирный шрифт, списки, эмодзи)."
     )
 
     summary_payload = {
@@ -410,9 +422,14 @@ def generate_daily_telegram_post(matches, account_summary, client):
 
     for model_name in models:
         try:
+            config = types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                temperature=AI_TEMPERATURE
+            )
             resp = client.models.generate_content(
                 model=model_name,
-                contents=f"{system_instruction}\n\n{prompt}"
+                contents=f"{system_instruction}\n\n{prompt}",
+                config=config
             )
             if resp and resp.text:
                 return resp.text
@@ -420,11 +437,9 @@ def generate_daily_telegram_post(matches, account_summary, client):
             print(f"Telegram post generation failed with {model_name}: {e}")
 
     lines = [
-        "🏆 Итоги дня Данислона Зомбовича-Ликвидонова:",
+        f"🏆 Итоги дня {PLAYER_NAME}:",
         f"Игр за сегодня: {len(matches)}",
-        f"Винрейт аккаунта: {account_summary.get('winrate', 50):.2f}%",
-        "",
-        f"🌐 Подробный разбор билдов, чата и позиционки на сайте: {SITE_URL}"
+        f"Винрейт аккаунта: {account_summary.get('winrate', 50):.2f}%"
     ]
     return "\n".join(lines)
 
@@ -542,9 +557,8 @@ def update_matches_storage(new_matches, account_summary):
 
     existing_data = {
         "account_id": str(DOTA_ACCOUNT_ID),
-        "player_name": "Данислон Зомбович-Ликвидонов",
+        "player_name": PLAYER_NAME,
         "last_updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "site_url": SITE_URL,
         "summary": account_summary,
         "matches": []
     }
@@ -576,12 +590,6 @@ def update_matches_storage(new_matches, account_summary):
     existing_data["matches"] = existing_matches
 
     with open(matches_file, "w", encoding="utf-8") as f:
-        json.dump(existing_data, f, ensure_ascii=False, indent=2)
-
-    web_data_dir = os.path.join(os.path.dirname(__file__), "web", "data")
-    os.makedirs(web_data_dir, exist_ok=True)
-    web_matches_file = os.path.join(web_data_dir, "matches.json")
-    with open(web_matches_file, "w", encoding="utf-8") as f:
         json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
     print(f"Saved {len(existing_matches)} matches to local file storage.")
@@ -668,9 +676,8 @@ def main():
         send_to_telegram(tg_post)
     elif parsed_matches:
         simple_text = (
-            f"🏆 Итоги дня Данислона ({len(parsed_matches)} игр):\n"
-            f"Винрейт: {account_summary['winrate']}%\n"
-            f"🌐 Интерактивный разбор доступен на сайте: {SITE_URL}"
+            f"🏆 Итоги дня {PLAYER_NAME} ({len(parsed_matches)} игр):\n"
+            f"Винрейт: {account_summary['winrate']}%"
         )
         send_to_telegram(simple_text)
 

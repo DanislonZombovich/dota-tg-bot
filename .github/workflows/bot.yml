@@ -1,4 +1,4 @@
-name: Daily Dota 2 Bot and Analytics
+name: Daily Dota 2 Analysis & Telegram Bot
 
 on:
   schedule:
@@ -7,12 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   run-bot:
@@ -39,30 +33,14 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY || vars.GOOGLE_API_KEY }}
           DOTA_ACCOUNT_ID: ${{ secrets.DOTA_ACCOUNT_ID || vars.DOTA_ACCOUNT_ID }}
           DATABASE_URL: ${{ secrets.DATABASE_URL || vars.DATABASE_URL }}
-          SITE_URL: "https://dota-tg-bot.vercel.app"
+          PRIMARY_MODEL: "gemini-3.8-flash"
         run: |
           python bot.py
 
-      - name: Commit Updated Match Data
+      - name: Commit Updated Match Data Backup
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/matches.json web/data/matches.json
-          git diff --staged --quiet || git commit -m "data: update matches database and analytics"
+          git add data/matches.json
+          git diff --staged --quiet || git commit -m "data: update matches backup"
           git push origin main || true
-
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: web
-
-  deploy-pages:
-    needs: run-bot
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
