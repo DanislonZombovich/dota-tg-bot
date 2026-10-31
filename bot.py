@@ -200,7 +200,7 @@ def parse_deep_match(match_id, constants):
         sender_info = slot_to_hero.get(c_slot, {"name": "Player", "slug": "hero"})
         sender_is_user = str(c_slot) == str(player_slot)
         sender_hero_name = sender_info["name"]
-        sender_label = f"Данислон ({sender_hero_name})" if sender_is_user else sender_hero_name
+        sender_label = f"{PLAYER_NAME} ({sender_hero_name})" if sender_is_user else sender_hero_name
 
         channel = "All"
         if c_type == "chatwheel":
@@ -518,7 +518,7 @@ def save_to_neon(matches, account_summary, db_url):
         ON CONFLICT (id) DO UPDATE SET
             data = EXCLUDED.data,
             updated_at = NOW();
-        """, (str(DOTA_ACCOUNT_ID), "Данислон Зомбович-Ликвидонов", Json(account_summary)))
+        """, (str(DOTA_ACCOUNT_ID), PLAYER_NAME, Json(account_summary)))
 
         match_insert_sql = """
         INSERT INTO matches (
