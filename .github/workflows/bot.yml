@@ -1,0 +1,46 @@
+name: Daily Dota 2 Analysis & Telegram Bot
+
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Bot and AI Analytics
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN || vars.TG_BOT_TOKEN }}
+          TG_CHANNEL_ID: ${{ secrets.TG_CHANNEL_ID || vars.TG_CHANNEL_ID }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY || vars.GOOGLE_API_KEY }}
+          DOTA_ACCOUNT_ID: ${{ secrets.DOTA_ACCOUNT_ID || vars.DOTA_ACCOUNT_ID }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL || vars.DATABASE_URL }}
+          PRIMARY_MODEL: "gemini-3.8-flash"
+        run: |
+          python bot.py
+
+      - name: Commit Updated Match Data Backup
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/matches.json
+          git diff --staged --quiet || git commit -m "data: update matches backup"
+          git push origin main || true
