@@ -1,14 +1,1025 @@
 {
   "account_id": "1577649",
   "player_name": "Данислон Зомбович-Ликвидонов",
-  "last_updated": "2026-11-14T21:08:49.482170+00:00",
+  "last_updated": "2026-11-15T21:39:24.136297+00:00",
   "summary": {
-    "total_games": 1719,
-    "wins": 871,
-    "losses": 848,
-    "winrate": 50.67
+    "total_games": 1727,
+    "wins": 877,
+    "losses": 850,
+    "winrate": 50.78
   },
   "matches": [
+    {
+      "match_id": 9091949561,
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "hero_slug": "sand_king",
+      "won": true,
+      "duration": 2327,
+      "start_time": 1794768721,
+      "kills": 12,
+      "deaths": 5,
+      "assists": 14,
+      "kda": "5.20",
+      "gpm": 587,
+      "xpm": 761,
+      "net_worth": 21832,
+      "hero_damage": 29455,
+      "tower_damage": 882,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 76,
+            "hero_name": "Outworld Destroyer",
+            "hero_slug": "obsidian_destroyer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 41,
+            "hero_name": "Faceless Void",
+            "hero_slug": "faceless_void",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 40,
+            "hero_name": "Venomancer",
+            "hero_slug": "venomancer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 86,
+            "hero_name": "Rubick",
+            "hero_slug": "rubick",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 14,
+            "hero_name": "Pudge",
+            "hero_slug": "pudge",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "black_king_bar",
+        "basher",
+        "shivas_guard",
+        "ultimate_scepter"
+      ],
+      "neutral_item": "conjurers_catalyst",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 2,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 3,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 4,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 5,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 6,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 7,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 8,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 9,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 10,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_sand_king_3",
+          "name": "Special Bonus Unique Sand King 3"
+        },
+        {
+          "level": 12,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 13,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 14,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 15,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_sand_king_2",
+          "name": "Special Bonus Unique Sand King 2"
+        },
+        {
+          "level": 17,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_sand_king",
+          "name": "Special Bonus Unique Sand King"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 74,
+        "xp_per_min": 53,
+        "kills_per_min": 82,
+        "hero_damage_per_min": 58,
+        "tower_damage": 65
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Синдром боевого скорпиона с Башером: победил не благодаря, а вопреки законам Доты.",
+        "clown_rating": "790 / 1000 TI God на клешнях",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов провел матч на Sand King в лучших традициях матчмейкинга: закончил 12/5/14, набил 29.5k урона и внес колоссальный импакт вопреки драфту врага. Играть против связки Void, OD, Rubick, Venomancer и Pudge — это ад для SK: чумные варды сбивают Blink, OD прячет цели из Эпицентра, Рубик ворует Burrowstrike, а Войд ставит Хроно. Тем не менее, макро-позиционка и своевременный выход в BKB со Shiva's Guard решили исход встречи. Единственная загадка вселенной — полное игнорирование пуша (всего 882 урона по вышкам за 39 минут) и таинственный Башер в инвентаре.",
+        "key_mistakes": [
+          "Покупка Skull Basher на герое дальнего каста с двумя врожденными станами и черепашьей скоростью атаки.",
+          "Тотальное игнорирование сноса вышек при доминирующем счете (882 урона за почти 40 минут игры).",
+          "Задержка второго уровня ультимейта до 13 уровня при наличии всех возможностей реализовать прокаст раньше."
+        ],
+        "positioning_review": "5 смертей против хроносферы Войда и хуков Пуджа — солидный показатель хладнокровия. Данислон грамотно терпел, врывался вторым темпом и не подставлял спину под астралы OD. Единственный нюанс: позиционирование в Sand Storm против Venomancer и Pudge всегда на грани руина, но своевременный BKB и мобильность от Blink исправили позиционные помарки.",
+        "build_review": "Стандартная часть сборки (Phase Boots, Blink Dagger, BKB, Aghanim's Scepter, Shiva's Guard) выглядит как учебник победы. Скиллбилд через раннюю максимизацию Sand Storm и Burrowstrike обеспечил фарм и контроль. Однако покупка Basher вызывает фантомные боли у любого тренера: вместо закрывающего игру Refresher Orb, Octarine Core или Scythe of Vyse игрок решил косплеить Антимага на скорпионе.",
+        "chat_review": "Абсолютная тишина в чате. Данислон либо постиг дзен и мьютит всю команду с нулевой секунды, либо был настолько сосредоточен на микроконтроле своего Башера, что пальцы не дотянулись до кнопки Enter.",
+        "advice": "Данислон, если вам в следующий раз захочется контроля на Sand King, продайте идею рукопашного боя и купите Scythe of Vyse или Refresher Orb — ваши 12/5/14 станут легчайшими 20/0/20 без лишнего цирка в инвентаре."
+      }
+    },
+    {
+      "match_id": 9091882416,
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "hero_slug": "sand_king",
+      "won": true,
+      "duration": 2496,
+      "start_time": 1794765881,
+      "kills": 12,
+      "deaths": 6,
+      "assists": 24,
+      "kda": "6.00",
+      "gpm": 696,
+      "xpm": 1176,
+      "net_worth": 27360,
+      "hero_damage": 36256,
+      "tower_damage": 2643,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 30,
+            "hero_name": "Witch Doctor",
+            "hero_slug": "witch_doctor",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 98,
+            "hero_name": "Timbersaw",
+            "hero_slug": "shredder",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 145,
+            "hero_name": "Kez",
+            "hero_slug": "kez",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 106,
+            "hero_name": "Ember Spirit",
+            "hero_slug": "ember_spirit",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 86,
+            "hero_name": "Rubick",
+            "hero_slug": "rubick",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "black_king_bar",
+        "abyssal_blade",
+        "shivas_guard",
+        "ultimate_scepter"
+      ],
+      "neutral_item": "conjurers_catalyst",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 2,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 3,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 4,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 5,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 6,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 7,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 8,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 9,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_unique_sand_king_3",
+          "name": "Special Bonus Unique Sand King 3"
+        },
+        {
+          "level": 11,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 12,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 13,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 14,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 15,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_sand_king_2",
+          "name": "Special Bonus Unique Sand King 2"
+        },
+        {
+          "level": 17,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_sand_king",
+          "name": "Special Bonus Unique Sand King"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_sand_king_scorpion_strike_damage",
+          "name": "Special Bonus Unique Sand King Scorpion Strike Damage"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_sand_king_caustic_finale_radius",
+          "name": "Special Bonus Unique Sand King Caustic Finale Radius"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 95,
+        "xp_per_min": 96,
+        "kills_per_min": 78,
+        "hero_damage_per_min": 72,
+        "tower_damage": 92
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Абузер песчаных бурь и тайный амбассадор Abyssal Blade на силовиках-мастерах.",
+        "clown_rating": "780 / 1000 TI Clown God",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов выдал матч жизни на Sand King с KDA 6.00 (12/6/24) и запредельным XPM 1176. Несмотря на то, что стадия лейнинга зафиксирована как фантомная зона без крипов, выход в мидгейм оказался сокрушительным для вражеского пика (Ember, Kez, Timbersaw, Rubick, WD). Данислон полностью переехал тимфайты за счет раннего Аганима и Шивы, превратив вражескую команду в статистов, хотя сборка в лейте отдает явным запахом 322-экспериментов.",
+        "key_mistakes": [
+          "Покупка Abyssal Blade вместо Overwhelming Blink / Refresher / Octarine — ловить Эмбера с руки на Скорпионе смешно, но неэффективно по золоту.",
+          "Неулучшенный базовый Blink Dagger на 41-й минуте при нетворсе свыше 27к.",
+          "Отсутствие раннего контроля над Рубиком: отдавать Burrowstrike и Epicenter против вора скиллов без постоянного сбития линзы или мгновенного фокуса — игра с огнем."
+        ],
+        "positioning_review": "Всего 6 смертей за 42 минуты против пика с тонной мобильности и взрывного урона (Kez, Ember, Timbersaw). BKB и Aghanim позволили комфортно стоять в эпицентре замесов. Тем не менее, против Rubick и Witch Doctor приходилось полагаться на прямолинейный врыв, жертвуя сейвом тиммейтов.",
+        "build_review": "Скиллбилд классический: 1 уровень Scorpion Strike для тычки, затем упор в Sand Storm и Burrowstrike. По предметам: Aghanim's Scepter и Shiva's Guard — абсолютная база и имба. Но вот Phase Boots и Abyssal Blade на 40+ минуте вместо Arcane Blink / Wind Waker вызывают нервный тик у любого аналитика.",
+        "chat_review": "В чате царила гробовая тишина. Данислон играл на полной фокусировке без токсичности и типсов, давя врага исключительно песчаным градом и молчаливым присутствием.",
+        "advice": "В следующий раз вместо Башера апни Blink в Overwhelming Blink и докупи Refresher — тогда вражеский Тимбер и Эмбер удалят Доту еще быстрее, а Team Liquid подпишут контракт сразу после лобби."
+      }
+    },
+    {
+      "match_id": 9091488662,
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "hero_slug": "sand_king",
+      "won": true,
+      "duration": 3145,
+      "start_time": 1794751137,
+      "kills": 15,
+      "deaths": 5,
+      "assists": 18,
+      "kda": "6.60",
+      "gpm": 661,
+      "xpm": 1129,
+      "net_worth": 32378,
+      "hero_damage": 52819,
+      "tower_damage": 1140,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 105,
+            "hero_name": "Techies",
+            "hero_slug": "techies",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 85,
+            "hero_name": "Undying",
+            "hero_slug": "undying",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 18,
+            "hero_name": "Sven",
+            "hero_slug": "sven",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 68,
+            "hero_name": "Ancient Apparition",
+            "hero_slug": "ancient_apparition",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 90,
+            "hero_name": "Keeper of the Light",
+            "hero_slug": "keeper_of_the_light",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "overwhelming_blink",
+        "shivas_guard",
+        "ultimate_scepter",
+        "black_king_bar",
+        "greater_crit"
+      ],
+      "neutral_item": "giant_maul",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 2,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 3,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 4,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 5,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 6,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 7,
+          "ability": "sandking_sand_storm",
+          "name": "Sandking Sand Storm"
+        },
+        {
+          "level": 8,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 9,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 10,
+          "ability": "sandking_burrowstrike",
+          "name": "Sandking Burrowstrike"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_sand_king_3",
+          "name": "Special Bonus Unique Sand King 3"
+        },
+        {
+          "level": 12,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 13,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 14,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 15,
+          "ability": "sandking_scorpion_strike",
+          "name": "Sandking Scorpion Strike"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_sand_king_2",
+          "name": "Special Bonus Unique Sand King 2"
+        },
+        {
+          "level": 17,
+          "ability": "sandking_epicenter",
+          "name": "Sandking Epicenter"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_sand_king",
+          "name": "Special Bonus Unique Sand King"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_sand_king_scorpion_strike_damage",
+          "name": "Special Bonus Unique Sand King Scorpion Strike Damage"
+        },
+        {
+          "level": 20,
+          "ability": "special_bonus_unique_sand_king_caustic_finale_radius",
+          "name": "Special Bonus Unique Sand King Caustic Finale Radius"
+        },
+        {
+          "level": 21,
+          "ability": "special_bonus_unique_sand_king_8",
+          "name": "Special Bonus Unique Sand King 8"
+        },
+        {
+          "level": 22,
+          "ability": "special_bonus_unique_sand_king_7",
+          "name": "Special Bonus Unique Sand King 7"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 90,
+        "xp_per_min": 94,
+        "kills_per_min": 78,
+        "hero_damage_per_min": 84,
+        "tower_damage": 72
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Скрытый керри-скорпион с синдромом критования в песке под пиво.",
+        "clown_rating": "820 / 1000 TI God",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, снимаю шляпу перед твоим макро-гением: ты умудрился за 52 минуты оформить 15/5/18 и влить 52.8k урона, играя на 'Flex / Roam' Сэнд Кинге против дикого коктейля из Свена, Андаинга, Течиса, ААшки и Котла. Вражеский пик буквально кричал о желании задушить тебя замедлениями и взрывами, но в лейте ты просто растоптал их базу. Правда, 1140 урона по строениям намекают, что вышки бил кто угодно, только не наш царь скорпионов, занятый нарезкой критов из невидимости.",
+        "key_mistakes": [
+          "Хроническая боязнь вражеских вышек: 1140 урона по строениям за 52 минуты при наличии Даедалуса и Овервелминг Блинка — это преступная халатность.",
+          "Сборка Daedalus (Greater Crit) на Сэнд Кинге вместо Aghanim's Shard или утилити-контроля выглядит как манифест безумия, хоть и сработавший.",
+          "Пассивный пуш линий в мидгейме: судя по таймингу матча (почти час), игра затянулась исключительно из-за нежелания форсировать хайграунд после выигранных драк."
+        ],
+        "positioning_review": "Всего 5 смертей против Sven под божьим благословением и AA с Ice Blast — это показатель гроссмейстерского тайминга врывов. Ты грамотно ждал, пока враги потратят фокус, влетал на Overwhelming Blink, прожимал BKB и превращал драку в фарш. Однако Giant Maul и ближний бой без байбэка на 50-й минуте пахли валидолом для всей команды.",
+        "build_review": "Скиллбилд образцово-показательный: максим Sand Storm и Burrowstrike, берем ульту по таймингам, таланты на дамаг Scorpion Strike. А вот итембилд вызывает эстетический шок и трепет: Overwhelming Blink, Shiva's Guard, BKB и Аганим — эталонная классика оффлейнера, но Greater Crit поверх этого превращает тебя в мемного джаггернаута под прикрытием. Почему не Рефрешер или Октарин?",
+        "chat_review": "В чате царила гробовая тишина хладнокровного убийцы. Либо чат был отключен превентивно для сохранения рассудка, либо ты молча раздавал пинги по лицу вражеского Свена, позволяя критам говорить за себя.",
+        "advice": "Если уж покупаешь Daedalus на СК в лейте, не забывай хотя бы пару раз ударить вражеский трон между врывами в пачку саппортов."
+      }
+    },
+    {
+      "match_id": 9091388057,
+      "hero_id": 2,
+      "hero_name": "Axe",
+      "hero_slug": "axe",
+      "won": true,
+      "duration": 2869,
+      "start_time": 1794747546,
+      "kills": 15,
+      "deaths": 6,
+      "assists": 8,
+      "kda": "3.83",
+      "gpm": 564,
+      "xpm": 859,
+      "net_worth": 25223,
+      "hero_damage": 32986,
+      "tower_damage": 602,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 4,
+            "hero_name": "Bloodseeker",
+            "hero_slug": "bloodseeker",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 40,
+            "hero_name": "Venomancer",
+            "hero_slug": "venomancer",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 36,
+            "hero_name": "Necrophos",
+            "hero_slug": "necrolyte",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 105,
+            "hero_name": "Techies",
+            "hero_slug": "techies",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 29,
+            "hero_name": "Tidehunter",
+            "hero_slug": "tidehunter",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "black_king_bar",
+        "blade_mail",
+        "kaya_and_sange",
+        "ultimate_scepter"
+      ],
+      "neutral_item": "conjurers_catalyst",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 2,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 3,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 4,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 5,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 6,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 7,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 8,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 9,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 10,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 11,
+          "ability": "special_bonus_unique_axe_8",
+          "name": "Special Bonus Unique Axe 8"
+        },
+        {
+          "level": 12,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 13,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 14,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 15,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 16,
+          "ability": "special_bonus_unique_axe",
+          "name": "Special Bonus Unique Axe"
+        },
+        {
+          "level": 17,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 18,
+          "ability": "special_bonus_unique_axe_4",
+          "name": "Special Bonus Unique Axe 4"
+        },
+        {
+          "level": 19,
+          "ability": "special_bonus_unique_axe_2",
+          "name": "Special Bonus Unique Axe 2"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 76,
+        "xp_per_min": 75,
+        "kills_per_min": 69,
+        "hero_damage_per_min": 51,
+        "tower_damage": 47
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Смертоносный вертолет с синдромом неприязни к строениям и подозрительной тягой к магии.",
+        "clown_rating": "260 / 1000 (Близко к гигачаду, но с нотками клоунады)",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, снимаю шляпу перед твоим упорством: закончить игру со счетом 15/6/8 против такого мерзкого зоопарка (Necrophos, Venomancer, Techies, Bloodseeker) — это солидно. Ты вгрызался в драки и рубил врагов в фарш. Однако лейнинг в роли «Flex / Roam» с нулевой зарегистрированной активностью на линии намекает, что ты либо чистил лесной массив, либо искал смысл жизни. К 48-й минуте настрелять 33к урона неплохо, но 602 урона по вышкам — это плевок в лицо архитекторам Dota 2. Ты выиграл файты, но крипы пушили карту вместо тебя.",
+        "key_mistakes": [
+          "Хроническая аллергия на пуш: 602 урона по постройкам за 48 минут игры на силовике с Phase Boots и лопастями правосудия.",
+          "Сомнительный выбор Kaya and Sange вместо классической Тараски, Шивы или апгрейда Блинка против прокастеров и яда.",
+          "Экипировка нейтралки Conjurers Catalyst: ты инициатор Axe, а не саппорт-энигма, которому не хватает манапула.",
+          "Затягивание игры почти до 48 минут против пика с Techies и Necrophos, где один миссклик в лейте отправляет тебя в таверну на две минуты без байбека."
+        ],
+        "positioning_review": "Для игры против тонны замедлений и контроля от Veno и Necro, умереть всего 6 раз — признак наличия серого вещества. Ты вовремя нажимал BKB и находил прыжки с блинка, но позиционирование после инициации иногда хромало: без сейва от команды ты рисковал ловить ульту Некра лицом в середине замеса.",
+        "build_review": "Раскачка скиллов правильная: замаксил Counter Helix через единичку в горелку, затем докачал Berserker's Call. Но айтембилд вызывает немой вопрос. База (Phase, Blink, BM, BKB) безупречна. Но Kaya and Sange на Axe? Данислон, ты решил разогнать вампиризм заклинаний и урон от ульты? С Аганимом синергия есть, но Heart of Tarrasque или Overwhelming Blink дали бы в три раза больше импакта.",
+        "chat_review": "В логах чата абсолютный вакуум. Либо ты познал дзен и молча нарезал врагов под фонк, либо системный мут за токсичность спас твоих тиммейтов от экспертного мнения по поводу их родословной. В любом случае, отсутствие нытья пошло на пользу.",
+        "advice": "Помни, Данислон: игра заканчивается падением Трона, а не счетчиком твоих фрагов на Бладсикере. Бей вышки после выигранных тимфайтов и собирай Overwhelming Blink вместо экспериментальных Кай."
+      }
+    },
+    {
+      "match_id": 9091294564,
+      "hero_id": 2,
+      "hero_name": "Axe",
+      "hero_slug": "axe",
+      "won": false,
+      "duration": 1310,
+      "start_time": 1794743912,
+      "kills": 3,
+      "deaths": 4,
+      "assists": 6,
+      "kda": "2.25",
+      "gpm": 365,
+      "xpm": 404,
+      "net_worth": 7502,
+      "hero_damage": 8773,
+      "tower_damage": 0,
+      "apm": "N/A",
+      "lane_role": "Flex / Roam",
+      "lane_efficiency_pct": 0,
+      "lane_outcome": "Равная линия",
+      "lane_stats": {
+        "user_lh_at_10": 0,
+        "user_dn_at_10": 0,
+        "user_gold_at_10": 0,
+        "opponents": [
+          {
+            "hero_id": 136,
+            "hero_name": "Marci",
+            "hero_slug": "marci",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 37,
+            "hero_name": "Warlock",
+            "hero_slug": "warlock",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 48,
+            "hero_name": "Luna",
+            "hero_slug": "luna",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 86,
+            "hero_name": "Rubick",
+            "hero_slug": "rubick",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          },
+          {
+            "hero_id": 92,
+            "hero_name": "Visage",
+            "hero_slug": "visage",
+            "lh_at_10": 0,
+            "dn_at_10": 0,
+            "gold_at_10": 0
+          }
+        ],
+        "gold_diff_at_10": 0,
+        "outcome": "Равная линия"
+      },
+      "radiant_gold_adv": [],
+      "radiant_xp_adv": [],
+      "final_items": [
+        "phase_boots",
+        "blink",
+        "ward_sentry",
+        "blade_mail",
+        "magic_wand",
+        "bracer"
+      ],
+      "neutral_item": "poor_mans_shield",
+      "purchase_timeline": [],
+      "skill_build": [
+        {
+          "level": 1,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 2,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 3,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 4,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 5,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 6,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        },
+        {
+          "level": 7,
+          "ability": "axe_counter_helix",
+          "name": "Axe Counter Helix"
+        },
+        {
+          "level": 8,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 9,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 10,
+          "ability": "special_bonus_unique_axe_8",
+          "name": "Special Bonus Unique Axe 8"
+        },
+        {
+          "level": 11,
+          "ability": "axe_berserkers_call",
+          "name": "Axe Berserkers Call"
+        },
+        {
+          "level": 12,
+          "ability": "axe_battle_hunger",
+          "name": "Axe Battle Hunger"
+        },
+        {
+          "level": 13,
+          "ability": "axe_culling_blade",
+          "name": "Axe Culling Blade"
+        }
+      ],
+      "chat_log": [],
+      "deaths_log": [],
+      "benchmarks": {
+        "gold_per_min": 11,
+        "xp_per_min": 7,
+        "kills_per_min": 19,
+        "hero_damage_per_min": 10,
+        "tower_damage": 19
+      },
+      "wards_log": [],
+      "teamfights": [],
+      "ai_analysis": {
+        "diagnosis": "Острая роуминг-атрофия топора с полным отторжением вражеских вышек и крипов за 21 минуту позора.",
+        "clown_rating": "780 / 1000 Кандидат в цирк шапито имени Ликвидов",
+        "coach_verdict": "Данислон Зомбович-Ликвидонов, моё почтение. Сыграть на Аске как 'Flex / Roam' и закончить 21-минутный спидран с 7.5k нетворса и 365 GPM — это заявка на зачисление в состав Team Liquid образца худших времён. Против связки с Luna, Visage и Marci ты должен был быть мобильным кошмаром и инициатором, режущим вражеский пуш, а вместо этого превратился в туристический аттракцион. Враги снесли вам трон за 21 минуту, пока ты аккуратно обходил стороной вышки (0 урона по строениям — священное табу, видимо). Просадка по экспe (7-й перцентиль) и золоту (11-й перцентиль) говорит о том, что большую часть короткой игры ты просто медитировал на спавн нейтралов.",
+        "key_mistakes": [
+          "Пацифизм к вражеским объектам: 0 урона по строениям за всю игру, будто за снос башен накладывают штраф от Valve.",
+          "Полный провал экономики: 365 GPM на герое с Counter Helix, способном чистить стаки за секунды, это феноменальный антирекорд.",
+          "Бессимптомный роуминг: взяв роль флекс/роумера, ты не создал давления на Луну и Визажа, позволив оппонентам закопать твою команду за 21 минуту."
+        ],
+        "positioning_review": "Судя по 4 смертям за 21 минуту при общей безнадеге, ты умирал не в героических врывах на пятерых, а просто отставал от темпа и отваливался куском мяса под фокусом птиц Visage и ульты Luna. Ношение с собой одинокого Sentry Ward выглядит как немая мольба о помощи от игрока, который забыл, что вардить — это не только купить, но и поставить до того, как тебе сломают трон.",
+        "build_review": "Сборка дефолтная до зубного скрежета (Phase, Blink, BM), но тайминги из-за нищенского GPM улетели в стратосферу: когда ты наконец наскреб на Блинк и Блейдмейл, вражеская Луна уже стучала глефами по вашему эншенту. Раскачка скиллов через ранний макс крутилки и агра адекватна, но абсолютно бесполезна, если ты не стоишь на линии и не выфармливаешь ключевые слоты вовремя.",
+        "chat_review": "Чат чист, как совесть человека, который сдался еще на 10-й минуте. Ни единого пинга, ни 'gg end', молчаливое принятие неминуемого разгрома с каменным лицом истинного Зомбовича.",
+        "advice": "Завязывай с экспериментами 'Axe-роумер'. Либо иди на сложную линию фармить Blink к 11-12 минуте через отводы крипов за т1, либо удаляй топор и пересаживайся на саппортов с кнопками спасения, чтобы не быть бесполезным красным манекеном."
+      }
+    },
     {
       "match_id": 9066389154,
       "hero_id": 16,
